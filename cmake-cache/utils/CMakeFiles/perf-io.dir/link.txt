@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/perf-io.dir/perf/perf-io.cc.o -o ../../build/utils/perf/ns3.36.1-perf-io-default  -Wl,-rpath,/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/lib ../../build/lib/libns3.36.1-core-default.so -Wl,--no-as-needed /usr/lib/x86_64-linux-gnu/libgsl.so /usr/lib/x86_64-linux-gnu/libgslcblas.so /usr/lib/x86_64-linux-gnu/librt.a -Wl,--as-needed 

@@ -1,0 +1,81 @@
+src/core/examples/CMakeFiles/empirical-random-variable-example.dir/empirical-random-variable-example.cc.o: \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/core/examples/empirical-random-variable-example.cc \
+ /usr/include/stdc-predef.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/simulator.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/event-id.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/ptr.h \
+ /usr/include/c++/11/iostream \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/assert.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/fatal-error.h \
+ /usr/include/c++/11/exception /usr/include/c++/11/cstdlib \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/fatal-impl.h \
+ /usr/include/c++/11/ostream \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/log.h \
+ /usr/include/c++/11/string /usr/include/c++/11/map \
+ /usr/include/c++/11/vector \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/node-printer.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/time-printer.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/log-macros-enabled.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/log-macros-disabled.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/event-impl.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/simple-ref-count.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/empty.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/default-deleter.h \
+ /usr/include/c++/11/limits \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/make-event.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/type-traits.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/nstime.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/attribute.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/attribute-helper.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/attribute-accessor-helper.h \
+ /usr/include/c++/11/sstream \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/abort.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/int64x64.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/core-config.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/int64x64-128.h \
+ /usr/include/c++/11/cmath /usr/include/c++/11/bits/cpp_type_traits.h \
+ /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \
+ /usr/include/c++/11/bits/std_abs.h /usr/include/c++/11/set \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/object-factory.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/attribute-construction-list.h \
+ /usr/include/c++/11/list \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/object.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/object-base.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/type-id.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/trace-source-accessor.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/callback.h \
+ /usr/include/c++/11/typeinfo \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/deprecated.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-function.h \
+ /usr/include/c++/11/cstring /usr/include/string.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/nstime.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/command-line.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/random-variable-stream.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/histogram.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/ptr.h \
+ /usr/include/c++/11/iomanip /usr/include/c++/11/iosfwd \
+ /usr/include/c++/11/bits/ios_base.h /usr/include/c++/11/locale \
+ /usr/include/c++/11/bits/localefwd.h \
+ /usr/include/c++/11/bits/locale_classes.h \
+ /usr/include/c++/11/bits/locale_facets.h \
+ /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
+ /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/features.h \
+ /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/11/bits/locale_conv.h /usr/include/c++/11/streambuf \
+ /usr/include/c++/11/bits/stringfwd.h \
+ /usr/include/c++/11/bits/allocator.h \
+ /usr/include/c++/11/bits/unique_ptr.h \
+ /usr/include/c++/11/debug/assertions.h /usr/include/c++/11/type_traits \
+ /usr/include/c++/11/utility /usr/include/c++/11/tuple \
+ /usr/include/c++/11/bits/stl_function.h \
+ /usr/include/c++/11/bits/functional_hash.h \
+ /usr/include/c++/11/bits/quoted_string.h
