@@ -169,11 +169,11 @@ int main (int argc, char** argv)
 
   OnOffHelper onoff ("ns3::PacketSocketFactory", Address (socket));
   onoff.SetConstantRate (DataRate ("0.5Mbps"));
-  onoff.SetAttribute ("PacketSize", UintegerValue (125));
+  onoff.SetAttribute ("PacketSize", UintegerValue (50));
 
   ApplicationContainer apps = onoff.Install (c.Get (0));
   apps.Start (Seconds (0.1));
-  apps.Stop (Seconds (0.104));
+  apps.Stop (Seconds (0.11));
 
   Ptr<Socket> recvSink = SetupPacketReceive (c.Get (1));
 
