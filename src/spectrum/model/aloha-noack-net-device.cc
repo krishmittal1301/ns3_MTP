@@ -348,7 +348,7 @@ bool
 AlohaNoackNetDevice::SendFrom (Ptr<Packet> packet, const Address& src, const Address& dest, uint16_t protocolNumber)
 {
   NS_LOG_FUNCTION (packet << src << dest << protocolNumber);
-
+  // std::cout<<"send from called"<<Simulator::Now()<<std::endl;
   LlcSnapHeader llc;
   llc.SetType (protocolNumber);
   packet->AddHeader (llc);
@@ -367,33 +367,48 @@ AlohaNoackNetDevice::SendFrom (Ptr<Packet> packet, const Address& src, const Add
   // the transmission will be started by NotifyTransmissionEnd
   //
   NS_LOG_LOGIC (this << " state=" << m_state);
-  if (m_state == IDLE)
+  // if (m_state == IDLE)
+  //   {
+  //     if (m_queue->IsEmpty ())
+  //       {
+  //         NS_LOG_LOGIC ("new packet is head of queue, starting TX immediately");
+  //         m_currentPkt = packet;
+  //         StartTransmission ();
+  //       }
+  //     else
+  //       {
+  //         NS_LOG_LOGIC ("enqueueing new packet");
+  //         if (m_queue->Enqueue (packet) == false)
+  //           {
+  //             m_macTxDropTrace (packet);
+  //             sendOk = false;
+  //           }
+  //       }
+  //   }
+  // else
+  //   {
+  //     NS_LOG_LOGIC ("deferring TX, enqueueing new packet");
+  //     NS_ASSERT (m_queue);
+  //     if (m_queue->Enqueue (packet) == false)
+  //       {
+  //         m_macTxDropTrace (packet);
+  //         sendOk = false;
+  //       }
+  //   }
+  //
+  NS_LOG_LOGIC ("deferring TX, enqueueing new packet");
+  NS_ASSERT (m_queue);
+  if(m_queue->IsEmpty()){
+      Time now = Simulator::Now();
+      Time slotDuration =  MilliSeconds(4); // Slot Time
+      Time nextSlot = Seconds (std::ceil (now.GetSeconds() / slotDuration.GetSeconds()) * slotDuration.GetSeconds());
+      Simulator::Schedule (nextSlot - now, &AlohaNoackNetDevice::StartTransmission, this);
+      // std::cout<<"scheduled for"<<nextSlot<<std::endl;
+  }
+  if (m_queue->Enqueue (packet) == false)
     {
-      if (m_queue->IsEmpty ())
-        {
-          NS_LOG_LOGIC ("new packet is head of queue, starting TX immediately");
-          m_currentPkt = packet;
-          StartTransmission ();
-        }
-      else
-        {
-          NS_LOG_LOGIC ("enqueueing new packet");
-          if (m_queue->Enqueue (packet) == false)
-            {
-              m_macTxDropTrace (packet);
-              sendOk = false;
-            }
-        }
-    }
-  else
-    {
-      NS_LOG_LOGIC ("deferring TX, enqueueing new packet");
-      NS_ASSERT (m_queue);
-      if (m_queue->Enqueue (packet) == false)
-        {
-          m_macTxDropTrace (packet);
-          sendOk = false;
-        }
+      m_macTxDropTrace (packet);
+      sendOk = false;
     }
   return sendOk;
 }
@@ -408,19 +423,33 @@ AlohaNoackNetDevice::SetGenericPhyTxStartCallback (GenericPhyTxStartCallback c)
 void
 AlohaNoackNetDevice::StartTransmission ()
 {
+  // std::cout<<"starting ttansmission at"<<Simulator::Now()<<std::endl;
   NS_LOG_FUNCTION (this);
 
-  NS_ASSERT (m_currentPkt != 0);
+  // NS_ASSERT (m_currentPkt == 0);
   NS_ASSERT (m_state == IDLE);
 
-  if (m_phyMacTxStartCallback (m_currentPkt))
+  if (m_queue->IsEmpty () == false)
     {
-      NS_LOG_WARN ("PHY refused to start TX");
+      Ptr<Packet> p = m_queue->Dequeue ();
+      NS_ASSERT (p);
+      m_currentPkt = p;
+      NS_LOG_LOGIC ("scheduling transmission now");
+      if (m_phyMacTxStartCallback (m_currentPkt))
+        {
+          NS_LOG_WARN ("PHY refused to start TX");
+        }
+      else
+        {
+          m_state = TX;
+        }
+      Time now = Simulator::Now();
+      Time slotDuration =  MilliSeconds(4); // Slot Time
+      Time nextSlot = Seconds (std::ceil (now.GetSeconds() / slotDuration.GetSeconds()+NanoSeconds(1).GetSeconds()) * slotDuration.GetSeconds());
+      Simulator::Schedule (nextSlot - now, &AlohaNoackNetDevice::StartTransmission, this);
+      // std::cout<<"scheduled for"<<nextSlot<<std::endl;
     }
-  else
-    {
-      m_state = TX;
-    }
+
 }
 
 
@@ -428,18 +457,19 @@ AlohaNoackNetDevice::StartTransmission ()
 void
 AlohaNoackNetDevice::NotifyTransmissionEnd (Ptr<const Packet>)
 {
+  // std::cout<<"notify trans end"<<std::endl;
   NS_LOG_FUNCTION (this);
   NS_ASSERT_MSG (m_state == TX, "TX end notified while state != TX");
   m_state = IDLE;
   NS_ASSERT (m_queue);
-  if (m_queue->IsEmpty () == false)
-    {
-      Ptr<Packet> p = m_queue->Dequeue ();
-      NS_ASSERT (p);
-      m_currentPkt = p;
-      NS_LOG_LOGIC ("scheduling transmission now");
-      Simulator::ScheduleNow (&AlohaNoackNetDevice::StartTransmission, this);
-    }
+  // if (m_queue->IsEmpty () == false)
+  //   {
+  //     Ptr<Packet> p = m_queue->Dequeue ();
+  //     NS_ASSERT (p);
+  //     m_currentPkt = p;
+  //     NS_LOG_LOGIC ("scheduling transmission now");
+  //     Simulator::ScheduleNow (&AlohaNoackNetDevice::StartTransmission, this);
+  //   }
 }
 
 
