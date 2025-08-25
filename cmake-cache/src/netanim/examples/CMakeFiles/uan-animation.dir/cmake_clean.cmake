@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/netanim/examples/ns3.36.1-uan-animation-default"
-  "../../../../build/src/netanim/examples/ns3.36.1-uan-animation-default.pdb"
+  "../../../../build/src/netanim/examples/ns3.36.1-uan-animation-debug"
+  "../../../../build/src/netanim/examples/ns3.36.1-uan-animation-debug.pdb"
   "CMakeFiles/uan-animation.dir/uan-animation.cc.o"
   "CMakeFiles/uan-animation.dir/uan-animation.cc.o.d"
 )

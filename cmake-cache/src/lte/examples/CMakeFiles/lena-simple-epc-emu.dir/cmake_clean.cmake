@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lte/examples/ns3.36.1-lena-simple-epc-emu-default"
-  "../../../../build/src/lte/examples/ns3.36.1-lena-simple-epc-emu-default.pdb"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-simple-epc-emu-debug"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-simple-epc-emu-debug.pdb"
   "CMakeFiles/lena-simple-epc-emu.dir/lena-simple-epc-emu.cc.o"
   "CMakeFiles/lena-simple-epc-emu.dir/lena-simple-epc-emu.cc.o.d"
 )

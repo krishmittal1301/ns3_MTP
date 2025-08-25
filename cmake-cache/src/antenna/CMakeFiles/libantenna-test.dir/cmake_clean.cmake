@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-antenna-test-default.pdb"
-  "../../../build/lib/libns3.36.1-antenna-test-default.so"
+  "../../../build/lib/libns3.36.1-antenna-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-antenna-test-debug.so"
   "CMakeFiles/libantenna-test.dir/test/test-angles.cc.o"
   "CMakeFiles/libantenna-test.dir/test/test-angles.cc.o.d"
   "CMakeFiles/libantenna-test.dir/test/test-cosine-antenna.cc.o"

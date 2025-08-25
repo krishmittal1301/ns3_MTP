@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-wave-test-default.pdb"
-  "../../../build/lib/libns3.36.1-wave-test-default.so"
+  "../../../build/lib/libns3.36.1-wave-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-wave-test-debug.so"
   "CMakeFiles/libwave-test.dir/test/mac-extension-test-suite.cc.o"
   "CMakeFiles/libwave-test.dir/test/mac-extension-test-suite.cc.o.d"
   "CMakeFiles/libwave-test.dir/test/ocb-test-suite.cc.o"

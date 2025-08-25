@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-hidden-terminal-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-hidden-terminal-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-hidden-terminal-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-hidden-terminal-debug.pdb"
   "CMakeFiles/wifi-hidden-terminal.dir/wifi-hidden-terminal.cc.o"
   "CMakeFiles/wifi-hidden-terminal.dir/wifi-hidden-terminal.cc.o.d"
 )

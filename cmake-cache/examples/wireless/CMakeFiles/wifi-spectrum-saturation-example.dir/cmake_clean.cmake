@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-spectrum-saturation-example-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-spectrum-saturation-example-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-spectrum-saturation-example-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-spectrum-saturation-example-debug.pdb"
   "CMakeFiles/wifi-spectrum-saturation-example.dir/wifi-spectrum-saturation-example.cc.o"
   "CMakeFiles/wifi-spectrum-saturation-example.dir/wifi-spectrum-saturation-example.cc.o.d"
 )

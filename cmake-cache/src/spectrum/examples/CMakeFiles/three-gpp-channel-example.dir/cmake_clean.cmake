@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/spectrum/examples/ns3.36.1-three-gpp-channel-example-default"
-  "../../../../build/src/spectrum/examples/ns3.36.1-three-gpp-channel-example-default.pdb"
+  "../../../../build/src/spectrum/examples/ns3.36.1-three-gpp-channel-example-debug"
+  "../../../../build/src/spectrum/examples/ns3.36.1-three-gpp-channel-example-debug.pdb"
   "CMakeFiles/three-gpp-channel-example.dir/three-gpp-channel-example.cc.o"
   "CMakeFiles/three-gpp-channel-example.dir/three-gpp-channel-example.cc.o.d"
 )

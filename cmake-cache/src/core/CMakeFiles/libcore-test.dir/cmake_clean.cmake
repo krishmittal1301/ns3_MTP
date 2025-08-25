@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-core-test-default.pdb"
-  "../../../build/lib/libns3.36.1-core-test-default.so"
+  "../../../build/lib/libns3.36.1-core-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-core-test-debug.so"
   "CMakeFiles/libcore-test.dir/test/attribute-container-test-suite.cc.o"
   "CMakeFiles/libcore-test.dir/test/attribute-container-test-suite.cc.o.d"
   "CMakeFiles/libcore-test.dir/test/attribute-test-suite.cc.o"

@@ -61,7 +61,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/channel-condition-model.
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -135,11 +134,8 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/channel-condition-model.
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -148,8 +144,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/channel-condition-model.
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -237,8 +231,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/channel-condition-model.
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   ../build/include/ns3/hash-murmur3.h \
   ../build/include/ns3/hash-fnv.h \
   /usr/include/c++/11/list \
@@ -390,7 +382,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/cost231-propagation-loss
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -464,11 +455,8 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/cost231-propagation-loss
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -477,8 +465,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/cost231-propagation-loss
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -566,8 +552,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/cost231-propagation-loss
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   ../build/include/ns3/hash-murmur3.h \
   ../build/include/ns3/hash-fnv.h \
   /usr/include/c++/11/list \
@@ -671,7 +655,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/itu-r-1411-los-propagati
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
@@ -752,11 +735,8 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/itu-r-1411-los-propagati
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -765,8 +745,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/itu-r-1411-los-propagati
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -864,8 +842,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/itu-r-1411-los-propagati
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   ../build/include/ns3/hash-murmur3.h \
   ../build/include/ns3/hash-fnv.h \
   ../build/include/ns3/attribute-construction-list.h \
@@ -951,7 +927,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/itu-r-1411-nlos-over-roo
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
@@ -1032,11 +1007,8 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/itu-r-1411-nlos-over-roo
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -1045,8 +1017,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/itu-r-1411-nlos-over-roo
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1144,8 +1114,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/itu-r-1411-nlos-over-roo
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   ../build/include/ns3/hash-murmur3.h \
   ../build/include/ns3/hash-fnv.h \
   ../build/include/ns3/attribute-construction-list.h \
@@ -1240,7 +1208,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/jakes-process.cc.o: ../s
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -1314,11 +1281,8 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/jakes-process.cc.o: ../s
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -1327,8 +1291,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/jakes-process.cc.o: ../s
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1416,8 +1378,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/jakes-process.cc.o: ../s
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   ../build/include/ns3/hash-murmur3.h \
   ../build/include/ns3/hash-fnv.h \
   /usr/include/c++/11/list \
@@ -1539,7 +1499,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/jakes-propagation-loss-m
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -1613,11 +1572,8 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/jakes-propagation-loss-m
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -1626,8 +1582,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/jakes-propagation-loss-m
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1715,8 +1669,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/jakes-propagation-loss-m
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   ../build/include/ns3/hash-murmur3.h \
   ../build/include/ns3/hash-fnv.h \
   /usr/include/c++/11/list \
@@ -1821,7 +1773,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/kun-2600-mhz-propagation
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
@@ -1902,11 +1853,8 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/kun-2600-mhz-propagation
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -1915,8 +1863,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/kun-2600-mhz-propagation
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -2014,8 +1960,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/kun-2600-mhz-propagation
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   ../build/include/ns3/hash-murmur3.h \
   ../build/include/ns3/hash-fnv.h \
   ../build/include/ns3/attribute-construction-list.h \
@@ -2101,7 +2045,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/okumura-hata-propagation
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
@@ -2182,11 +2125,8 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/okumura-hata-propagation
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -2195,8 +2135,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/okumura-hata-propagation
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -2294,8 +2232,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/okumura-hata-propagation
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   ../build/include/ns3/hash-murmur3.h \
   ../build/include/ns3/hash-fnv.h \
   ../build/include/ns3/attribute-construction-list.h \
@@ -2391,7 +2327,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/probabilistic-v2v-channe
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -2465,11 +2400,8 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/probabilistic-v2v-channe
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -2478,8 +2410,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/probabilistic-v2v-channe
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -2567,8 +2497,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/probabilistic-v2v-channe
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   ../build/include/ns3/hash-murmur3.h \
   ../build/include/ns3/hash-fnv.h \
   /usr/include/c++/11/list \
@@ -2661,7 +2589,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/propagation-delay-model.
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -2767,11 +2694,8 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/propagation-delay-model.
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -2780,8 +2704,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/propagation-delay-model.
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -2860,8 +2782,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/propagation-delay-model.
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   ../build/include/ns3/hash-murmur3.h \
   ../build/include/ns3/hash-fnv.h \
   /usr/include/c++/11/list \
@@ -2972,7 +2892,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/propagation-loss-model.c
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -3046,11 +2965,8 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/propagation-loss-model.c
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -3059,8 +2975,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/propagation-loss-model.c
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -3148,8 +3062,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/propagation-loss-model.c
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   ../build/include/ns3/hash-murmur3.h \
   ../build/include/ns3/hash-fnv.h \
   /usr/include/c++/11/list \
@@ -3254,7 +3166,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-propagation-lo
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -3328,11 +3239,8 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-propagation-lo
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -3341,8 +3249,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-propagation-lo
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -3430,8 +3336,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-propagation-lo
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   ../build/include/ns3/hash-murmur3.h \
   ../build/include/ns3/hash-fnv.h \
   /usr/include/c++/11/list \
@@ -3587,7 +3491,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -3661,11 +3564,8 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -3674,8 +3574,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -3763,8 +3661,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   ../build/include/ns3/hash-murmur3.h \
   ../build/include/ns3/hash-fnv.h \
   /usr/include/c++/11/list \
@@ -3825,6 +3721,8 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 ../src/propagation/model/three-gpp-propagation-loss-model.h:
 
 ../src/propagation/model/three-gpp-propagation-loss-model.cc:
+
+../src/propagation/model/propagation-loss-model.cc:
 
 ../src/propagation/model/propagation-delay-model.h:
 
@@ -3932,14 +3830,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 
 /usr/include/c++/11/tr1/special_function_util.h:
 
-/usr/include/c++/11/bits/specfun.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
 /usr/include/stdlib.h:
 
 ../build/include/ns3/int64x64-128.h:
@@ -3996,6 +3886,10 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
+/usr/include/c++/11/backward/binders.h:
+
+../build/include/ns3/hash-function.h:
+
 ../build/include/ns3/channel-condition-model.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
@@ -4015,14 +3909,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/c++/11/backward/binders.h:
-
-../build/include/ns3/hash-function.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -4062,12 +3948,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 
 ../build/include/ns3/attribute-helper.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/c++/11/iostream:
-
-/usr/include/c++/11/bits/node_handle.h:
-
 /usr/include/c++/11/cctype:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
@@ -4079,8 +3959,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 /usr/include/c++/11/bits/stl_tree.h:
 
 /usr/include/c++/11/tuple:
-
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
@@ -4110,13 +3988,11 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
+/usr/include/c++/11/cwchar:
+
 ../src/propagation/model/itu-r-1411-nlos-over-rooftop-propagation-loss-model.cc:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-../src/propagation/model/propagation-loss-model.cc:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
@@ -4163,10 +4039,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/c++/11/bits/invoke.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/c++/11/bits/postypes.h:
 
 /usr/include/c++/11/cstdint:
 
@@ -4278,8 +4150,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 
 ../build/include/ns3/type-traits.h:
 
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/c++/11/ext/aligned_buffer.h:
@@ -4292,19 +4162,7 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/c++/11/cwchar:
-
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
 /usr/include/alloca.h:
-
-../build/include/ns3/abort.h:
-
-/usr/include/c++/11/cwctype:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-../build/include/ns3/log.h:
 
 /usr/include/c++/11/bits/std_abs.h:
 
@@ -4315,14 +4173,6 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 ../build/include/ns3/fatal-error.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
@@ -4350,6 +4200,8 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
 /usr/include/c++/11/bits/charconv.h:
 
 ../build/include/ns3/tag.h:
@@ -4368,13 +4220,13 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
 /usr/include/c++/11/bits/stl_bvector.h:
 
 /usr/include/c++/11/bits/vector.tcc:
 
 ../build/include/ns3/ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/c++/11/ostream:
 
@@ -4390,9 +4242,17 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 
 /usr/include/c++/11/bits/ios_base.h:
 
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
+
+/usr/include/c++/11/iostream:
+
+/usr/include/c++/11/bits/node_handle.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
 /usr/include/c++/11/ios:
 
@@ -4402,21 +4262,29 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 
 /usr/include/c++/11/stdexcept:
 
-/usr/include/string.h:
-
-/usr/include/c++/11/bits/streambuf.tcc:
-
 /usr/include/c++/11/bits/basic_ios.h:
 
 /usr/include/c++/11/bits/exception.h:
 
 /usr/include/c++/11/bits/locale_facets.h:
 
+../build/include/ns3/abort.h:
+
+/usr/include/c++/11/cwctype:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+../build/include/ns3/log.h:
+
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/bits/list.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/include/c++/11/bits/enable_special_members.h:
 
@@ -4476,6 +4344,10 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 
 ../build/include/ns3/event-impl.h:
 
+/usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/include/string.h:
+
 ../build/include/ns3/hash-murmur3.h:
 
 ../build/include/ns3/hash-fnv.h:
@@ -4509,3 +4381,11 @@ src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagatio
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/c++/11/bits/postypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/c++/11/bits/specfun.h:

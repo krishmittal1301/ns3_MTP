@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/netanim/examples/ns3.36.1-wireless-animation-default"
-  "../../../../build/src/netanim/examples/ns3.36.1-wireless-animation-default.pdb"
+  "../../../../build/src/netanim/examples/ns3.36.1-wireless-animation-debug"
+  "../../../../build/src/netanim/examples/ns3.36.1-wireless-animation-debug.pdb"
   "CMakeFiles/wireless-animation.dir/wireless-animation.cc.o"
   "CMakeFiles/wireless-animation.dir/wireless-animation.cc.o.d"
 )

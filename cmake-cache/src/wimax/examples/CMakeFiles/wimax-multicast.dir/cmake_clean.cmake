@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/wimax/examples/ns3.36.1-wimax-multicast-default"
-  "../../../../build/src/wimax/examples/ns3.36.1-wimax-multicast-default.pdb"
+  "../../../../build/src/wimax/examples/ns3.36.1-wimax-multicast-debug"
+  "../../../../build/src/wimax/examples/ns3.36.1-wimax-multicast-debug.pdb"
   "CMakeFiles/wimax-multicast.dir/wimax-multicast.cc.o"
   "CMakeFiles/wimax-multicast.dir/wimax-multicast.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/core/examples/ns3.36.1-empirical-random-variable-example-default"
-  "../../../../build/src/core/examples/ns3.36.1-empirical-random-variable-example-default.pdb"
+  "../../../../build/src/core/examples/ns3.36.1-empirical-random-variable-example-debug"
+  "../../../../build/src/core/examples/ns3.36.1-empirical-random-variable-example-debug.pdb"
   "CMakeFiles/empirical-random-variable-example.dir/empirical-random-variable-example.cc.o"
   "CMakeFiles/empirical-random-variable-example.dir/empirical-random-variable-example.cc.o.d"
 )

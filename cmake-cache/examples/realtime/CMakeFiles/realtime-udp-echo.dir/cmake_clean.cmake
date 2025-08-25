@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/realtime/ns3.36.1-realtime-udp-echo-default"
-  "../../../build/examples/realtime/ns3.36.1-realtime-udp-echo-default.pdb"
+  "../../../build/examples/realtime/ns3.36.1-realtime-udp-echo-debug"
+  "../../../build/examples/realtime/ns3.36.1-realtime-udp-echo-debug.pdb"
   "CMakeFiles/realtime-udp-echo.dir/realtime-udp-echo.cc.o"
   "CMakeFiles/realtime-udp-echo.dir/realtime-udp-echo.cc.o.d"
 )

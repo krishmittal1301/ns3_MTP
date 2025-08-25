@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/sixlowpan/examples/ns3.36.1-example-ping-lr-wpan-mesh-under-default"
-  "../../../../build/src/sixlowpan/examples/ns3.36.1-example-ping-lr-wpan-mesh-under-default.pdb"
+  "../../../../build/src/sixlowpan/examples/ns3.36.1-example-ping-lr-wpan-mesh-under-debug"
+  "../../../../build/src/sixlowpan/examples/ns3.36.1-example-ping-lr-wpan-mesh-under-debug.pdb"
   "CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.o"
   "CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-ping-lr-wpan-mesh-under.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/stats/examples/ns3.36.1-double-probe-example-default"
-  "../../../../build/src/stats/examples/ns3.36.1-double-probe-example-default.pdb"
+  "../../../../build/src/stats/examples/ns3.36.1-double-probe-example-debug"
+  "../../../../build/src/stats/examples/ns3.36.1-double-probe-example-debug.pdb"
   "CMakeFiles/double-probe-example.dir/double-probe-example.cc.o"
   "CMakeFiles/double-probe-example.dir/double-probe-example.cc.o.d"
 )

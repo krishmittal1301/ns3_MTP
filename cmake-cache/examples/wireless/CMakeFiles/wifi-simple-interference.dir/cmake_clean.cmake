@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-simple-interference-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-simple-interference-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-simple-interference-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-simple-interference-debug.pdb"
   "CMakeFiles/wifi-simple-interference.dir/wifi-simple-interference.cc.o"
   "CMakeFiles/wifi-simple-interference.dir/wifi-simple-interference.cc.o.d"
 )

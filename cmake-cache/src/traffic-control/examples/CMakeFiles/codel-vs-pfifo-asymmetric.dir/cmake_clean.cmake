@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/traffic-control/examples/ns3.36.1-codel-vs-pfifo-asymmetric-default"
-  "../../../../build/src/traffic-control/examples/ns3.36.1-codel-vs-pfifo-asymmetric-default.pdb"
+  "../../../../build/src/traffic-control/examples/ns3.36.1-codel-vs-pfifo-asymmetric-debug"
+  "../../../../build/src/traffic-control/examples/ns3.36.1-codel-vs-pfifo-asymmetric-debug.pdb"
   "CMakeFiles/codel-vs-pfifo-asymmetric.dir/codel-vs-pfifo-asymmetric.cc.o"
   "CMakeFiles/codel-vs-pfifo-asymmetric.dir/codel-vs-pfifo-asymmetric.cc.o.d"
 )

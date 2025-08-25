@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/wave/examples/ns3.36.1-vanet-routing-compare-default"
-  "../../../../build/src/wave/examples/ns3.36.1-vanet-routing-compare-default.pdb"
+  "../../../../build/src/wave/examples/ns3.36.1-vanet-routing-compare-debug"
+  "../../../../build/src/wave/examples/ns3.36.1-vanet-routing-compare-debug.pdb"
   "CMakeFiles/vanet-routing-compare.dir/vanet-routing-compare.cc.o"
   "CMakeFiles/vanet-routing-compare.dir/vanet-routing-compare.cc.o.d"
 )

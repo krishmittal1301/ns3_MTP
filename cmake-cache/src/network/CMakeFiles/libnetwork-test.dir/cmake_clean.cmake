@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-network-test-default.pdb"
-  "../../../build/lib/libns3.36.1-network-test-default.so"
+  "../../../build/lib/libns3.36.1-network-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-network-test-debug.so"
   "CMakeFiles/libnetwork-test.dir/test/bit-serializer-test.cc.o"
   "CMakeFiles/libnetwork-test.dir/test/bit-serializer-test.cc.o.d"
   "CMakeFiles/libnetwork-test.dir/test/buffer-test.cc.o"

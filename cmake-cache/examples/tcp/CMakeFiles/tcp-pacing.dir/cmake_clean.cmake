@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/tcp/ns3.36.1-tcp-pacing-default"
-  "../../../build/examples/tcp/ns3.36.1-tcp-pacing-default.pdb"
+  "../../../build/examples/tcp/ns3.36.1-tcp-pacing-debug"
+  "../../../build/examples/tcp/ns3.36.1-tcp-pacing-debug.pdb"
   "CMakeFiles/tcp-pacing.dir/tcp-pacing.cc.o"
   "CMakeFiles/tcp-pacing.dir/tcp-pacing.cc.o.d"
 )

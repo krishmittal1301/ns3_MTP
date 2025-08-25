@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/socket/ns3.36.1-socket-bound-static-routing-default"
-  "../../../build/examples/socket/ns3.36.1-socket-bound-static-routing-default.pdb"
+  "../../../build/examples/socket/ns3.36.1-socket-bound-static-routing-debug"
+  "../../../build/examples/socket/ns3.36.1-socket-bound-static-routing-debug.pdb"
   "CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.o"
   "CMakeFiles/socket-bound-static-routing.dir/socket-bound-static-routing.cc.o.d"
 )

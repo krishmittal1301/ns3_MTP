@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/csma/examples/ns3.36.1-csma-broadcast-default"
-  "../../../../build/src/csma/examples/ns3.36.1-csma-broadcast-default.pdb"
+  "../../../../build/src/csma/examples/ns3.36.1-csma-broadcast-debug"
+  "../../../../build/src/csma/examples/ns3.36.1-csma-broadcast-debug.pdb"
   "CMakeFiles/csma-broadcast.dir/csma-broadcast.cc.o"
   "CMakeFiles/csma-broadcast.dir/csma-broadcast.cc.o.d"
 )

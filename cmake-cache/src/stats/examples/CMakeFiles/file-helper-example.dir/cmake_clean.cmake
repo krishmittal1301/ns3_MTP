@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/stats/examples/ns3.36.1-file-helper-example-default"
-  "../../../../build/src/stats/examples/ns3.36.1-file-helper-example-default.pdb"
+  "../../../../build/src/stats/examples/ns3.36.1-file-helper-example-debug"
+  "../../../../build/src/stats/examples/ns3.36.1-file-helper-example-debug.pdb"
   "CMakeFiles/file-helper-example.dir/file-helper-example.cc.o"
   "CMakeFiles/file-helper-example.dir/file-helper-example.cc.o.d"
 )

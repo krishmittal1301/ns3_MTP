@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/csma/examples/ns3.36.1-csma-one-subnet-default"
-  "../../../../build/src/csma/examples/ns3.36.1-csma-one-subnet-default.pdb"
+  "../../../../build/src/csma/examples/ns3.36.1-csma-one-subnet-debug"
+  "../../../../build/src/csma/examples/ns3.36.1-csma-one-subnet-debug.pdb"
   "CMakeFiles/csma-one-subnet.dir/csma-one-subnet.cc.o"
   "CMakeFiles/csma-one-subnet.dir/csma-one-subnet.cc.o.d"
 )

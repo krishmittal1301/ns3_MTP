@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/applications/examples/ns3.36.1-three-gpp-http-example-default"
-  "../../../../build/src/applications/examples/ns3.36.1-three-gpp-http-example-default.pdb"
+  "../../../../build/src/applications/examples/ns3.36.1-three-gpp-http-example-debug"
+  "../../../../build/src/applications/examples/ns3.36.1-three-gpp-http-example-debug.pdb"
   "CMakeFiles/three-gpp-http-example.dir/three-gpp-http-example.cc.o"
   "CMakeFiles/three-gpp-http-example.dir/three-gpp-http-example.cc.o.d"
 )

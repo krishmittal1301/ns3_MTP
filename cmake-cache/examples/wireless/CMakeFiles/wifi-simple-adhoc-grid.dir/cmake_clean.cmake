@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-simple-adhoc-grid-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-simple-adhoc-grid-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-simple-adhoc-grid-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-simple-adhoc-grid-debug.pdb"
   "CMakeFiles/wifi-simple-adhoc-grid.dir/wifi-simple-adhoc-grid.cc.o"
   "CMakeFiles/wifi-simple-adhoc-grid.dir/wifi-simple-adhoc-grid.cc.o.d"
 )

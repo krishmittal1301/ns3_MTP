@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../build/utils/ns3.36.1-test-runner-default"
-  "../../build/utils/ns3.36.1-test-runner-default.pdb"
+  "../../build/utils/ns3.36.1-test-runner-debug"
+  "../../build/utils/ns3.36.1-test-runner-debug.pdb"
   "CMakeFiles/test-runner.dir/test-runner.cc.o"
   "CMakeFiles/test-runner.dir/test-runner.cc.o.d"
 )

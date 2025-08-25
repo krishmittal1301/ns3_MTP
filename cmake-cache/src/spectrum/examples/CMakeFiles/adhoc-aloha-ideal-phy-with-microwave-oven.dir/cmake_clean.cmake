@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/spectrum/examples/ns3.36.1-adhoc-aloha-ideal-phy-with-microwave-oven-default"
-  "../../../../build/src/spectrum/examples/ns3.36.1-adhoc-aloha-ideal-phy-with-microwave-oven-default.pdb"
+  "../../../../build/src/spectrum/examples/ns3.36.1-adhoc-aloha-ideal-phy-with-microwave-oven-debug"
+  "../../../../build/src/spectrum/examples/ns3.36.1-adhoc-aloha-ideal-phy-with-microwave-oven-debug.pdb"
   "CMakeFiles/adhoc-aloha-ideal-phy-with-microwave-oven.dir/adhoc-aloha-ideal-phy-with-microwave-oven.cc.o"
   "CMakeFiles/adhoc-aloha-ideal-phy-with-microwave-oven.dir/adhoc-aloha-ideal-phy-with-microwave-oven.cc.o.d"
 )

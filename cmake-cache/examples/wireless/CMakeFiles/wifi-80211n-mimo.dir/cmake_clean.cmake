@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-80211n-mimo-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-80211n-mimo-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-80211n-mimo-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-80211n-mimo-debug.pdb"
   "CMakeFiles/wifi-80211n-mimo.dir/wifi-80211n-mimo.cc.o"
   "CMakeFiles/wifi-80211n-mimo.dir/wifi-80211n-mimo.cc.o.d"
 )

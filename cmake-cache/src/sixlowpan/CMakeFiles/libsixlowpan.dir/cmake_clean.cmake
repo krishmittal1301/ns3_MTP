@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-sixlowpan-default.pdb"
-  "../../../build/lib/libns3.36.1-sixlowpan-default.so"
+  "../../../build/lib/libns3.36.1-sixlowpan-debug.pdb"
+  "../../../build/lib/libns3.36.1-sixlowpan-debug.so"
 )
 
 # Per-language clean rules from dependency scanning.

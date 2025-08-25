@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-spectrum-test-default.pdb"
-  "../../../build/lib/libns3.36.1-spectrum-test-default.so"
+  "../../../build/lib/libns3.36.1-spectrum-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-spectrum-test-debug.so"
   "CMakeFiles/libspectrum-test.dir/test/spectrum-ideal-phy-test.cc.o"
   "CMakeFiles/libspectrum-test.dir/test/spectrum-ideal-phy-test.cc.o.d"
   "CMakeFiles/libspectrum-test.dir/test/spectrum-interference-test.cc.o"

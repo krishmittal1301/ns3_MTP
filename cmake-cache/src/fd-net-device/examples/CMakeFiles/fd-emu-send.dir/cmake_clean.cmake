@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd-emu-send-default"
-  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd-emu-send-default.pdb"
+  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd-emu-send-debug"
+  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd-emu-send-debug.pdb"
   "CMakeFiles/fd-emu-send.dir/fd-emu-send.cc.o"
   "CMakeFiles/fd-emu-send.dir/fd-emu-send.cc.o.d"
 )

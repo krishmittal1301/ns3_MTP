@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/ipv6/ns3.36.1-test-ipv6-default"
-  "../../../build/examples/ipv6/ns3.36.1-test-ipv6-default.pdb"
+  "../../../build/examples/ipv6/ns3.36.1-test-ipv6-debug"
+  "../../../build/examples/ipv6/ns3.36.1-test-ipv6-debug.pdb"
   "CMakeFiles/test-ipv6.dir/test-ipv6.cc.o"
   "CMakeFiles/test-ipv6.dir/test-ipv6.cc.o.d"
 )

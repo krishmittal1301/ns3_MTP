@@ -89,32 +89,32 @@ libdsr_EXTERNAL_OBJECTS = \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-rreq-table.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-rsendbuff.cc.o"
 
-../build/lib/libns3.36.1-dsr-default.so: src/dsr/CMakeFiles/libdsr-obj.dir/helper/dsr-helper.cc.o
-../build/lib/libns3.36.1-dsr-default.so: src/dsr/CMakeFiles/libdsr-obj.dir/helper/dsr-main-helper.cc.o
-../build/lib/libns3.36.1-dsr-default.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-errorbuff.cc.o
-../build/lib/libns3.36.1-dsr-default.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-fs-header.cc.o
-../build/lib/libns3.36.1-dsr-default.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-gratuitous-reply-table.cc.o
-../build/lib/libns3.36.1-dsr-default.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-maintain-buff.cc.o
-../build/lib/libns3.36.1-dsr-default.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-network-queue.cc.o
-../build/lib/libns3.36.1-dsr-default.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-option-header.cc.o
-../build/lib/libns3.36.1-dsr-default.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-options.cc.o
-../build/lib/libns3.36.1-dsr-default.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-passive-buff.cc.o
-../build/lib/libns3.36.1-dsr-default.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-rcache.cc.o
-../build/lib/libns3.36.1-dsr-default.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-routing.cc.o
-../build/lib/libns3.36.1-dsr-default.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-rreq-table.cc.o
-../build/lib/libns3.36.1-dsr-default.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-rsendbuff.cc.o
-../build/lib/libns3.36.1-dsr-default.so: src/dsr/CMakeFiles/libdsr.dir/build.make
-../build/lib/libns3.36.1-dsr-default.so: /usr/lib/x86_64-linux-gnu/libxml2.so
-../build/lib/libns3.36.1-dsr-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-dsr-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/lib/libns3.36.1-dsr-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-dsr-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-dsr-default.so: src/dsr/CMakeFiles/libdsr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-dsr-default.so"
+../build/lib/libns3.36.1-dsr-debug.so: src/dsr/CMakeFiles/libdsr-obj.dir/helper/dsr-helper.cc.o
+../build/lib/libns3.36.1-dsr-debug.so: src/dsr/CMakeFiles/libdsr-obj.dir/helper/dsr-main-helper.cc.o
+../build/lib/libns3.36.1-dsr-debug.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-errorbuff.cc.o
+../build/lib/libns3.36.1-dsr-debug.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-fs-header.cc.o
+../build/lib/libns3.36.1-dsr-debug.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-gratuitous-reply-table.cc.o
+../build/lib/libns3.36.1-dsr-debug.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-maintain-buff.cc.o
+../build/lib/libns3.36.1-dsr-debug.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-network-queue.cc.o
+../build/lib/libns3.36.1-dsr-debug.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-option-header.cc.o
+../build/lib/libns3.36.1-dsr-debug.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-options.cc.o
+../build/lib/libns3.36.1-dsr-debug.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-passive-buff.cc.o
+../build/lib/libns3.36.1-dsr-debug.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-rcache.cc.o
+../build/lib/libns3.36.1-dsr-debug.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-routing.cc.o
+../build/lib/libns3.36.1-dsr-debug.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-rreq-table.cc.o
+../build/lib/libns3.36.1-dsr-debug.so: src/dsr/CMakeFiles/libdsr-obj.dir/model/dsr-rsendbuff.cc.o
+../build/lib/libns3.36.1-dsr-debug.so: src/dsr/CMakeFiles/libdsr.dir/build.make
+../build/lib/libns3.36.1-dsr-debug.so: /usr/lib/x86_64-linux-gnu/libxml2.so
+../build/lib/libns3.36.1-dsr-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-dsr-debug.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/lib/libns3.36.1-dsr-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-dsr-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-dsr-debug.so: src/dsr/CMakeFiles/libdsr.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-dsr-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/dsr && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libdsr.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/dsr/CMakeFiles/libdsr.dir/build: ../build/lib/libns3.36.1-dsr-default.so
+src/dsr/CMakeFiles/libdsr.dir/build: ../build/lib/libns3.36.1-dsr-debug.so
 .PHONY : src/dsr/CMakeFiles/libdsr.dir/build
 
 src/dsr/CMakeFiles/libdsr.dir/clean:

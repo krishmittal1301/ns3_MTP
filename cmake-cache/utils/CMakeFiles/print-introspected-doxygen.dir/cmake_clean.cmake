@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../build/utils/ns3.36.1-print-introspected-doxygen-default"
-  "../../build/utils/ns3.36.1-print-introspected-doxygen-default.pdb"
+  "../../build/utils/ns3.36.1-print-introspected-doxygen-debug"
+  "../../build/utils/ns3.36.1-print-introspected-doxygen-debug.pdb"
   "CMakeFiles/print-introspected-doxygen.dir/print-introspected-doxygen.cc.o"
   "CMakeFiles/print-introspected-doxygen.dir/print-introspected-doxygen.cc.o.d"
 )

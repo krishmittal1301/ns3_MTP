@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/traffic-control/examples/ns3.36.1-pfifo-vs-red-default"
-  "../../../../build/src/traffic-control/examples/ns3.36.1-pfifo-vs-red-default.pdb"
+  "../../../../build/src/traffic-control/examples/ns3.36.1-pfifo-vs-red-debug"
+  "../../../../build/src/traffic-control/examples/ns3.36.1-pfifo-vs-red-debug.pdb"
   "CMakeFiles/pfifo-vs-red.dir/pfifo-vs-red.cc.o"
   "CMakeFiles/pfifo-vs-red.dir/pfifo-vs-red.cc.o.d"
 )

@@ -40,7 +40,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-h
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/exception
  /usr/include/c++/11/bits/exception.h
  /usr/include/c++/11/bits/exception_ptr.h
@@ -146,11 +145,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-h
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -159,8 +155,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -239,8 +233,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-h
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -360,6 +352,15 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/queue-size.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/abort.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/queue-item.h
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/trace-helper.h
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/pcap-file-wrapper.h
+ /usr/include/c++/11/fstream
+ /usr/include/c++/11/bits/codecvt.h
+ /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h
+ /usr/include/c++/11/bits/fstream.tcc
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/pcap-file.h
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/output-stream-wrapper.h
 
 src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/helper/spectrum-analyzer-helper.cc
@@ -400,7 +401,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/exception
  /usr/include/c++/11/bits/exception.h
  /usr/include/c++/11/bits/exception_ptr.h
@@ -506,11 +506,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -519,8 +516,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -599,8 +594,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -779,7 +772,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -860,11 +852,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -873,8 +862,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -970,8 +957,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.o
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/node-container.h
@@ -1128,7 +1113,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helpe
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -1209,11 +1193,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helpe
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -1222,8 +1203,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helpe
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -1344,8 +1323,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helpe
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/attribute-construction-list.h
@@ -1465,7 +1442,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/exception
  /usr/include/c++/11/bits/exception.h
  /usr/include/c++/11/bits/exception_ptr.h
@@ -1571,11 +1547,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -1584,8 +1557,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -1664,8 +1635,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -1837,7 +1806,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -1918,11 +1886,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -1931,8 +1896,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -2023,8 +1986,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.o
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -2102,7 +2063,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -2183,11 +2143,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -2196,8 +2153,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -2269,8 +2224,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.o
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/header.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/chunk.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/object-base.h
@@ -2453,7 +2406,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
@@ -2461,9 +2413,7 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/specfun.h
  /usr/include/c++/11/bits/stl_algobase.h
  /usr/include/c++/11/bits/functexcept.h
@@ -2508,7 +2458,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -2567,8 +2516,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -2658,8 +2605,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -2732,7 +2677,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-los
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -2813,11 +2757,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-los
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -2826,8 +2767,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-los
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -2915,8 +2854,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-los
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -3009,7 +2946,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-p
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -3090,11 +3026,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-p
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -3103,8 +3036,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-p
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -3175,8 +3106,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-p
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/header.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/chunk.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/object-base.h
@@ -3318,7 +3247,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -3399,11 +3327,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -3412,8 +3337,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -3505,8 +3428,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.o
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/log.h
@@ -3670,7 +3591,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
@@ -3678,9 +3598,7 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/specfun.h
  /usr/include/c++/11/bits/stl_algobase.h
  /usr/include/c++/11/bits/functexcept.h
@@ -3726,7 +3644,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/exception
  /usr/include/c++/11/bits/exception.h
  /usr/include/c++/11/bits/exception_ptr.h
@@ -3793,8 +3710,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -3875,8 +3790,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -3951,7 +3864,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/microwave-oven-spectrum-value-
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -4032,11 +3944,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/microwave-oven-spectrum-value-
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -4045,8 +3954,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/microwave-oven-spectrum-value-
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -4188,7 +4095,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.c
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
@@ -4196,9 +4102,7 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.c
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/bits/algorithmfwd.h
  /usr/include/c++/11/bits/stl_heap.h
@@ -4256,7 +4160,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.c
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/exception
  /usr/include/c++/11/bits/exception_ptr.h
  /usr/include/c++/11/bits/cxxabi_init_exception.h
@@ -4307,8 +4210,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.c
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -4373,8 +4274,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.c
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -4531,7 +4430,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.c
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -4612,11 +4510,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.c
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -4625,8 +4520,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.c
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -4756,8 +4649,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.c
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/enum.h
@@ -4864,7 +4755,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagat
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/include/c++/11/bits/allocator.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h
@@ -4938,11 +4828,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagat
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -4951,8 +4838,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagat
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -5040,8 +4925,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagat
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -5146,7 +5029,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/include/c++/11/bits/allocator.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h
@@ -5220,11 +5102,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -5233,8 +5112,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -5322,8 +5199,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -5497,7 +5372,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -5578,11 +5452,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -5591,8 +5462,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -5684,8 +5553,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.o
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/log.h
@@ -5840,7 +5707,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -5921,11 +5787,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -5934,8 +5797,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -6027,8 +5888,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.o
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -6131,7 +5990,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-converter.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/exception
  /usr/include/c++/11/bits/exception.h
  /usr/include/c++/11/bits/exception_ptr.h
@@ -6237,11 +6095,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-converter.cc.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -6250,8 +6105,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-converter.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -6371,7 +6224,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-error-model.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/exception
  /usr/include/c++/11/bits/exception.h
  /usr/include/c++/11/bits/exception_ptr.h
@@ -6477,11 +6329,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-error-model.cc.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -6490,8 +6339,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-error-model.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -6558,8 +6405,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-error-model.cc.o
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/header.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/chunk.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/object-base.h
@@ -6703,7 +6548,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-interference.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/include/c++/11/bits/allocator.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h
@@ -6777,11 +6621,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-interference.cc.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -6790,8 +6631,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-interference.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -6879,8 +6718,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-interference.cc.o
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -6999,7 +6836,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-300kHz-300GHz-l
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/exception
  /usr/include/c++/11/bits/exception.h
  /usr/include/c++/11/bits/exception_ptr.h
@@ -7105,11 +6941,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-300kHz-300GHz-l
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -7118,8 +6951,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-300kHz-300GHz-l
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -7221,7 +7052,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-ism2400MHz-res1
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/exception
  /usr/include/c++/11/bits/exception.h
  /usr/include/c++/11/bits/exception_ptr.h
@@ -7327,11 +7157,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-ism2400MHz-res1
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -7340,8 +7167,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-ism2400MHz-res1
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -7461,7 +7286,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
@@ -7469,9 +7293,7 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model.cc.o
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/specfun.h
  /usr/include/c++/11/bits/stl_algobase.h
  /usr/include/c++/11/bits/functexcept.h
@@ -7523,7 +7345,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/exception
  /usr/include/c++/11/bits/exception.h
  /usr/include/c++/11/bits/exception_ptr.h
@@ -7590,8 +7411,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -7710,7 +7529,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/include/c++/11/bits/allocator.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h
@@ -7784,11 +7602,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -7797,8 +7612,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -7886,8 +7699,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.o
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -8041,7 +7852,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-mode
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/include/c++/11/bits/allocator.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h
@@ -8115,11 +7925,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-mode
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -8128,8 +7935,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-mode
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -8217,8 +8022,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-mode
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -8277,7 +8080,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-signal-parameters.cc.
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/exception
  /usr/include/c++/11/bits/exception.h
  /usr/include/c++/11/bits/exception_ptr.h
@@ -8383,11 +8185,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-signal-parameters.cc.
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -8396,8 +8195,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-signal-parameters.cc.
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -8508,8 +8305,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-signal-parameters.cc.
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -8563,7 +8358,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-value.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/exception
  /usr/include/c++/11/bits/exception.h
  /usr/include/c++/11/bits/exception_ptr.h
@@ -8669,11 +8463,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-value.cc.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -8682,8 +8473,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-value.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -8833,7 +8622,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
@@ -8841,9 +8629,7 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.o
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/specfun.h
  /usr/include/c++/11/bits/stl_algobase.h
  /usr/include/c++/11/bits/functexcept.h
@@ -8889,7 +8675,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/exception
  /usr/include/c++/11/bits/exception.h
  /usr/include/c++/11/bits/exception_ptr.h
@@ -8956,8 +8741,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -9040,8 +8823,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.o
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -9187,7 +8968,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -9268,11 +9048,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -9281,8 +9058,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -9404,8 +9179,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -9542,7 +9315,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/include/c++/11/bits/allocator.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h
@@ -9616,11 +9388,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -9629,8 +9398,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -9718,8 +9485,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.o
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /usr/include/c++/11/list
@@ -9838,7 +9603,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -9919,11 +9683,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -9932,8 +9693,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -10063,8 +9822,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.o
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/enum.h
@@ -10183,7 +9940,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/cstdint
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h
  /usr/include/stdint.h
@@ -10264,11 +10020,8 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o
  /usr/include/x86_64-linux-gnu/sys/select.h
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/std_abs.h
  /usr/include/c++/11/cstdio
  /usr/include/stdio.h
@@ -10277,8 +10030,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h
@@ -10370,8 +10121,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-murmur3.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/hash-fnv.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/log.h
@@ -10569,7 +10318,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/wifi-spectrum-value-helper.cc.
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
- /usr/include/x86_64-linux-gnu/bits/select2.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
@@ -10577,9 +10325,7 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/wifi-spectrum-value-helper.cc.
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/alloca.h
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /usr/include/x86_64-linux-gnu/bits/stdlib.h
  /usr/include/c++/11/bits/specfun.h
  /usr/include/c++/11/limits
  /usr/include/c++/11/tr1/gamma.tcc
@@ -10612,7 +10358,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/wifi-spectrum-value-helper.cc.
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h
- /usr/include/x86_64-linux-gnu/bits/wchar2.h
  /usr/include/c++/11/exception
  /usr/include/c++/11/bits/exception_ptr.h
  /usr/include/c++/11/bits/cxxabi_init_exception.h
@@ -10667,8 +10412,6 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/wifi-spectrum-value-helper.cc.
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
- /usr/include/x86_64-linux-gnu/bits/stdio.h
- /usr/include/x86_64-linux-gnu/bits/stdio2.h
  /usr/include/c++/11/cerrno
  /usr/include/errno.h
  /usr/include/x86_64-linux-gnu/bits/errno.h

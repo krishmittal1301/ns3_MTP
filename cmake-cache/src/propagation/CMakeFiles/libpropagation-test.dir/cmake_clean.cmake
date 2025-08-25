@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-propagation-test-default.pdb"
-  "../../../build/lib/libns3.36.1-propagation-test-default.so"
+  "../../../build/lib/libns3.36.1-propagation-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-propagation-test-debug.so"
   "CMakeFiles/libpropagation-test.dir/test/channel-condition-model-test-suite.cc.o"
   "CMakeFiles/libpropagation-test.dir/test/channel-condition-model-test-suite.cc.o.d"
   "CMakeFiles/libpropagation-test.dir/test/itu-r-1411-los-test-suite.cc.o"

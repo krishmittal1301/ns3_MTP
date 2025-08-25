@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-vht-network-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-vht-network-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-vht-network-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-vht-network-debug.pdb"
   "CMakeFiles/wifi-vht-network.dir/wifi-vht-network.cc.o"
   "CMakeFiles/wifi-vht-network.dir/wifi-vht-network.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/error-model/ns3.36.1-simple-error-model-default"
-  "../../../build/examples/error-model/ns3.36.1-simple-error-model-default.pdb"
+  "../../../build/examples/error-model/ns3.36.1-simple-error-model-debug"
+  "../../../build/examples/error-model/ns3.36.1-simple-error-model-debug.pdb"
   "CMakeFiles/simple-error-model.dir/simple-error-model.cc.o"
   "CMakeFiles/simple-error-model.dir/simple-error-model.cc.o.d"
 )

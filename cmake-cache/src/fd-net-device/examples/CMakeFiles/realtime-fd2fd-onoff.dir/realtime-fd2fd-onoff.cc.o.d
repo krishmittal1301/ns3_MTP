@@ -20,7 +20,7 @@ src/fd-net-device/examples/CMakeFiles/realtime-fd2fd-onoff.dir/realtime-fd2fd-on
  /usr/include/x86_64-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
- /usr/include/x86_64-linux-gnu/bits/socket2.h /usr/include/errno.h \
+ /usr/include/errno.h \
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/core-module.h \
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/realtime-simulator-impl.h \
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/simulator-impl.h \

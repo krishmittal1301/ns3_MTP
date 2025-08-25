@@ -270,30 +270,30 @@ libnetwork__test_OBJECTS = \
 # External object files for target libnetwork-test
 libnetwork__test_EXTERNAL_OBJECTS =
 
-../build/lib/libns3.36.1-network-test-default.so: src/network/CMakeFiles/libnetwork-test.dir/test/bit-serializer-test.cc.o
-../build/lib/libns3.36.1-network-test-default.so: src/network/CMakeFiles/libnetwork-test.dir/test/buffer-test.cc.o
-../build/lib/libns3.36.1-network-test-default.so: src/network/CMakeFiles/libnetwork-test.dir/test/drop-tail-queue-test-suite.cc.o
-../build/lib/libns3.36.1-network-test-default.so: src/network/CMakeFiles/libnetwork-test.dir/test/error-model-test-suite.cc.o
-../build/lib/libns3.36.1-network-test-default.so: src/network/CMakeFiles/libnetwork-test.dir/test/ipv6-address-test-suite.cc.o
-../build/lib/libns3.36.1-network-test-default.so: src/network/CMakeFiles/libnetwork-test.dir/test/lollipop-counter-test.cc.o
-../build/lib/libns3.36.1-network-test-default.so: src/network/CMakeFiles/libnetwork-test.dir/test/packet-metadata-test.cc.o
-../build/lib/libns3.36.1-network-test-default.so: src/network/CMakeFiles/libnetwork-test.dir/test/packet-socket-apps-test-suite.cc.o
-../build/lib/libns3.36.1-network-test-default.so: src/network/CMakeFiles/libnetwork-test.dir/test/packet-test-suite.cc.o
-../build/lib/libns3.36.1-network-test-default.so: src/network/CMakeFiles/libnetwork-test.dir/test/packetbb-test-suite.cc.o
-../build/lib/libns3.36.1-network-test-default.so: src/network/CMakeFiles/libnetwork-test.dir/test/pcap-file-test-suite.cc.o
-../build/lib/libns3.36.1-network-test-default.so: src/network/CMakeFiles/libnetwork-test.dir/test/sequence-number-test-suite.cc.o
-../build/lib/libns3.36.1-network-test-default.so: src/network/CMakeFiles/libnetwork-test.dir/test/test-data-rate.cc.o
-../build/lib/libns3.36.1-network-test-default.so: src/network/CMakeFiles/libnetwork-test.dir/build.make
-../build/lib/libns3.36.1-network-test-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-network-test-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-network-test-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-network-test-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/lib/libns3.36.1-network-test-default.so: src/network/CMakeFiles/libnetwork-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX shared library ../../../build/lib/libns3.36.1-network-test-default.so"
+../build/lib/libns3.36.1-network-test-debug.so: src/network/CMakeFiles/libnetwork-test.dir/test/bit-serializer-test.cc.o
+../build/lib/libns3.36.1-network-test-debug.so: src/network/CMakeFiles/libnetwork-test.dir/test/buffer-test.cc.o
+../build/lib/libns3.36.1-network-test-debug.so: src/network/CMakeFiles/libnetwork-test.dir/test/drop-tail-queue-test-suite.cc.o
+../build/lib/libns3.36.1-network-test-debug.so: src/network/CMakeFiles/libnetwork-test.dir/test/error-model-test-suite.cc.o
+../build/lib/libns3.36.1-network-test-debug.so: src/network/CMakeFiles/libnetwork-test.dir/test/ipv6-address-test-suite.cc.o
+../build/lib/libns3.36.1-network-test-debug.so: src/network/CMakeFiles/libnetwork-test.dir/test/lollipop-counter-test.cc.o
+../build/lib/libns3.36.1-network-test-debug.so: src/network/CMakeFiles/libnetwork-test.dir/test/packet-metadata-test.cc.o
+../build/lib/libns3.36.1-network-test-debug.so: src/network/CMakeFiles/libnetwork-test.dir/test/packet-socket-apps-test-suite.cc.o
+../build/lib/libns3.36.1-network-test-debug.so: src/network/CMakeFiles/libnetwork-test.dir/test/packet-test-suite.cc.o
+../build/lib/libns3.36.1-network-test-debug.so: src/network/CMakeFiles/libnetwork-test.dir/test/packetbb-test-suite.cc.o
+../build/lib/libns3.36.1-network-test-debug.so: src/network/CMakeFiles/libnetwork-test.dir/test/pcap-file-test-suite.cc.o
+../build/lib/libns3.36.1-network-test-debug.so: src/network/CMakeFiles/libnetwork-test.dir/test/sequence-number-test-suite.cc.o
+../build/lib/libns3.36.1-network-test-debug.so: src/network/CMakeFiles/libnetwork-test.dir/test/test-data-rate.cc.o
+../build/lib/libns3.36.1-network-test-debug.so: src/network/CMakeFiles/libnetwork-test.dir/build.make
+../build/lib/libns3.36.1-network-test-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-network-test-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-network-test-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-network-test-debug.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/lib/libns3.36.1-network-test-debug.so: src/network/CMakeFiles/libnetwork-test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX shared library ../../../build/lib/libns3.36.1-network-test-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/network && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libnetwork-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/network/CMakeFiles/libnetwork-test.dir/build: ../build/lib/libns3.36.1-network-test-default.so
+src/network/CMakeFiles/libnetwork-test.dir/build: ../build/lib/libns3.36.1-network-test-debug.so
 .PHONY : src/network/CMakeFiles/libnetwork-test.dir/build
 
 src/network/CMakeFiles/libnetwork-test.dir/clean:

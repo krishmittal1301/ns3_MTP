@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-lte-default.pdb"
-  "../../../build/lib/libns3.36.1-lte-default.so"
+  "../../../build/lib/libns3.36.1-lte-debug.pdb"
+  "../../../build/lib/libns3.36.1-lte-debug.so"
 )
 
 # Per-language clean rules from dependency scanning.

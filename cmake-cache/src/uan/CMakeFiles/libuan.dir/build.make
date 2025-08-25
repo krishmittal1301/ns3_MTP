@@ -98,40 +98,40 @@ libuan_EXTERNAL_OBJECTS = \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/uan/CMakeFiles/libuan-obj.dir/model/uan-transducer.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/uan/CMakeFiles/libuan-obj.dir/model/uan-tx-mode.cc.o"
 
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/helper/acoustic-modem-energy-model-helper.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/helper/uan-helper.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/acoustic-modem-energy-model.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-channel.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-header-common.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-header-rc.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-mac-aloha.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-mac-cw.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-mac-rc-gw.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-mac-rc.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-mac.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-net-device.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-noise-model-default.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-noise-model.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-phy-dual.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-phy-gen.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-phy.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-prop-model-ideal.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-prop-model-thorp.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-prop-model.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-transducer-hd.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-transducer.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-tx-mode.cc.o
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan.dir/build.make
-../build/lib/libns3.36.1-uan-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-uan-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-uan-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-uan-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/lib/libns3.36.1-uan-default.so: src/uan/CMakeFiles/libuan.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-uan-default.so"
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/helper/acoustic-modem-energy-model-helper.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/helper/uan-helper.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/acoustic-modem-energy-model.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-channel.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-header-common.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-header-rc.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-mac-aloha.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-mac-cw.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-mac-rc-gw.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-mac-rc.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-mac.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-net-device.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-noise-model-default.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-noise-model.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-phy-dual.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-phy-gen.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-phy.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-prop-model-ideal.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-prop-model-thorp.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-prop-model.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-transducer-hd.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-transducer.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan-obj.dir/model/uan-tx-mode.cc.o
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan.dir/build.make
+../build/lib/libns3.36.1-uan-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-uan-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-uan-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-uan-debug.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/lib/libns3.36.1-uan-debug.so: src/uan/CMakeFiles/libuan.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-uan-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/uan && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libuan.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/uan/CMakeFiles/libuan.dir/build: ../build/lib/libns3.36.1-uan-default.so
+src/uan/CMakeFiles/libuan.dir/build: ../build/lib/libns3.36.1-uan-debug.so
 .PHONY : src/uan/CMakeFiles/libuan.dir/build
 
 src/uan/CMakeFiles/libuan.dir/clean:

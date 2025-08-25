@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/src/fd-net-device/ns3.36.1-tap-device-creator-default"
-  "../../../build/src/fd-net-device/ns3.36.1-tap-device-creator-default.pdb"
+  "../../../build/src/fd-net-device/ns3.36.1-tap-device-creator-debug"
+  "../../../build/src/fd-net-device/ns3.36.1-tap-device-creator-debug.pdb"
   "CMakeFiles/tap-device-creator.dir/helper/creator-utils.cc.o"
   "CMakeFiles/tap-device-creator.dir/helper/creator-utils.cc.o.d"
   "CMakeFiles/tap-device-creator.dir/helper/encode-decode.cc.o"

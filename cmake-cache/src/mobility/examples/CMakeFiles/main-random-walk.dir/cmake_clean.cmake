@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/mobility/examples/ns3.36.1-main-random-walk-default"
-  "../../../../build/src/mobility/examples/ns3.36.1-main-random-walk-default.pdb"
+  "../../../../build/src/mobility/examples/ns3.36.1-main-random-walk-debug"
+  "../../../../build/src/mobility/examples/ns3.36.1-main-random-walk-debug.pdb"
   "CMakeFiles/main-random-walk.dir/main-random-walk.cc.o"
   "CMakeFiles/main-random-walk.dir/main-random-walk.cc.o.d"
 )

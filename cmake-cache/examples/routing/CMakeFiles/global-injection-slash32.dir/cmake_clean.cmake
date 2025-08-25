@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/routing/ns3.36.1-global-injection-slash32-default"
-  "../../../build/examples/routing/ns3.36.1-global-injection-slash32-default.pdb"
+  "../../../build/examples/routing/ns3.36.1-global-injection-slash32-debug"
+  "../../../build/examples/routing/ns3.36.1-global-injection-slash32-debug.pdb"
   "CMakeFiles/global-injection-slash32.dir/global-injection-slash32.cc.o"
   "CMakeFiles/global-injection-slash32.dir/global-injection-slash32.cc.o.d"
 )

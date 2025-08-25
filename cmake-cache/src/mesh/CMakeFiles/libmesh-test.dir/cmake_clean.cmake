@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-mesh-test-default.pdb"
-  "../../../build/lib/libns3.36.1-mesh-test-default.so"
+  "../../../build/lib/libns3.36.1-mesh-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-mesh-test-debug.so"
   "CMakeFiles/libmesh-test.dir/test/dot11s/dot11s-test-suite.cc.o"
   "CMakeFiles/libmesh-test.dir/test/dot11s/dot11s-test-suite.cc.o.d"
   "CMakeFiles/libmesh-test.dir/test/dot11s/hwmp-proactive-regression.cc.o"

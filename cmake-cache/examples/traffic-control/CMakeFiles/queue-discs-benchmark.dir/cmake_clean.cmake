@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/traffic-control/ns3.36.1-queue-discs-benchmark-default"
-  "../../../build/examples/traffic-control/ns3.36.1-queue-discs-benchmark-default.pdb"
+  "../../../build/examples/traffic-control/ns3.36.1-queue-discs-benchmark-debug"
+  "../../../build/examples/traffic-control/ns3.36.1-queue-discs-benchmark-debug.pdb"
   "CMakeFiles/queue-discs-benchmark.dir/queue-discs-benchmark.cc.o"
   "CMakeFiles/queue-discs-benchmark.dir/queue-discs-benchmark.cc.o.d"
 )

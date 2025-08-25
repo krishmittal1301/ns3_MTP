@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/mobility/examples/ns3.36.1-bonnmotion-ns2-example-default"
-  "../../../../build/src/mobility/examples/ns3.36.1-bonnmotion-ns2-example-default.pdb"
+  "../../../../build/src/mobility/examples/ns3.36.1-bonnmotion-ns2-example-debug"
+  "../../../../build/src/mobility/examples/ns3.36.1-bonnmotion-ns2-example-debug.pdb"
   "CMakeFiles/bonnmotion-ns2-example.dir/bonnmotion-ns2-example.cc.o"
   "CMakeFiles/bonnmotion-ns2-example.dir/bonnmotion-ns2-example.cc.o.d"
 )

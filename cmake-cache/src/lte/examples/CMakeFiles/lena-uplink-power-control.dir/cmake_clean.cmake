@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lte/examples/ns3.36.1-lena-uplink-power-control-default"
-  "../../../../build/src/lte/examples/ns3.36.1-lena-uplink-power-control-default.pdb"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-uplink-power-control-debug"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-uplink-power-control-debug.pdb"
   "CMakeFiles/lena-uplink-power-control.dir/lena-uplink-power-control.cc.o"
   "CMakeFiles/lena-uplink-power-control.dir/lena-uplink-power-control.cc.o.d"
 )

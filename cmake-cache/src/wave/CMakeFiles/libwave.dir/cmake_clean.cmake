@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-wave-default.pdb"
-  "../../../build/lib/libns3.36.1-wave-default.so"
+  "../../../build/lib/libns3.36.1-wave-debug.pdb"
+  "../../../build/lib/libns3.36.1-wave-debug.so"
 )
 
 # Per-language clean rules from dependency scanning.

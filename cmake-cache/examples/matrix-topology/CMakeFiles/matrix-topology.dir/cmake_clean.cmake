@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/matrix-topology/ns3.36.1-matrix-topology-default"
-  "../../../build/examples/matrix-topology/ns3.36.1-matrix-topology-default.pdb"
+  "../../../build/examples/matrix-topology/ns3.36.1-matrix-topology-debug"
+  "../../../build/examples/matrix-topology/ns3.36.1-matrix-topology-debug.pdb"
   "CMakeFiles/matrix-topology.dir/matrix-topology.cc.o"
   "CMakeFiles/matrix-topology.dir/matrix-topology.cc.o.d"
 )

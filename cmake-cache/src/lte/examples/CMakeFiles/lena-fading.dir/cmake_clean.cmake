@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lte/examples/ns3.36.1-lena-fading-default"
-  "../../../../build/src/lte/examples/ns3.36.1-lena-fading-default.pdb"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-fading-debug"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-fading-debug.pdb"
   "CMakeFiles/lena-fading.dir/lena-fading.cc.o"
   "CMakeFiles/lena-fading.dir/lena-fading.cc.o.d"
 )

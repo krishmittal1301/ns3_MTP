@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/tap-bridge/examples/ns3.36.1-tap-wifi-dumbbell-default"
-  "../../../../build/src/tap-bridge/examples/ns3.36.1-tap-wifi-dumbbell-default.pdb"
+  "../../../../build/src/tap-bridge/examples/ns3.36.1-tap-wifi-dumbbell-debug"
+  "../../../../build/src/tap-bridge/examples/ns3.36.1-tap-wifi-dumbbell-debug.pdb"
   "CMakeFiles/tap-wifi-dumbbell.dir/tap-wifi-dumbbell.cc.o"
   "CMakeFiles/tap-wifi-dumbbell.dir/tap-wifi-dumbbell.cc.o.d"
 )

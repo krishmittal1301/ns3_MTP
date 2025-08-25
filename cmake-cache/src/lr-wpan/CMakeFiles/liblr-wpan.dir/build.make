@@ -89,31 +89,31 @@ liblr__wpan_EXTERNAL_OBJECTS = \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-spectrum-signal-parameters.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-spectrum-value-helper.cc.o"
 
-../build/lib/libns3.36.1-lr-wpan-default.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/helper/lr-wpan-helper.cc.o
-../build/lib/libns3.36.1-lr-wpan-default.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-csmaca.cc.o
-../build/lib/libns3.36.1-lr-wpan-default.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-error-model.cc.o
-../build/lib/libns3.36.1-lr-wpan-default.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-fields.cc.o
-../build/lib/libns3.36.1-lr-wpan-default.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-interference-helper.cc.o
-../build/lib/libns3.36.1-lr-wpan-default.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-lqi-tag.cc.o
-../build/lib/libns3.36.1-lr-wpan-default.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-mac-header.cc.o
-../build/lib/libns3.36.1-lr-wpan-default.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-mac-pl-headers.cc.o
-../build/lib/libns3.36.1-lr-wpan-default.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-mac-trailer.cc.o
-../build/lib/libns3.36.1-lr-wpan-default.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-mac.cc.o
-../build/lib/libns3.36.1-lr-wpan-default.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-net-device.cc.o
-../build/lib/libns3.36.1-lr-wpan-default.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-phy.cc.o
-../build/lib/libns3.36.1-lr-wpan-default.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-spectrum-signal-parameters.cc.o
-../build/lib/libns3.36.1-lr-wpan-default.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-spectrum-value-helper.cc.o
-../build/lib/libns3.36.1-lr-wpan-default.so: src/lr-wpan/CMakeFiles/liblr-wpan.dir/build.make
-../build/lib/libns3.36.1-lr-wpan-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/lib/libns3.36.1-lr-wpan-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-lr-wpan-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-lr-wpan-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-lr-wpan-default.so: src/lr-wpan/CMakeFiles/liblr-wpan.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-lr-wpan-default.so"
+../build/lib/libns3.36.1-lr-wpan-debug.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/helper/lr-wpan-helper.cc.o
+../build/lib/libns3.36.1-lr-wpan-debug.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-csmaca.cc.o
+../build/lib/libns3.36.1-lr-wpan-debug.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-error-model.cc.o
+../build/lib/libns3.36.1-lr-wpan-debug.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-fields.cc.o
+../build/lib/libns3.36.1-lr-wpan-debug.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-interference-helper.cc.o
+../build/lib/libns3.36.1-lr-wpan-debug.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-lqi-tag.cc.o
+../build/lib/libns3.36.1-lr-wpan-debug.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-mac-header.cc.o
+../build/lib/libns3.36.1-lr-wpan-debug.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-mac-pl-headers.cc.o
+../build/lib/libns3.36.1-lr-wpan-debug.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-mac-trailer.cc.o
+../build/lib/libns3.36.1-lr-wpan-debug.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-mac.cc.o
+../build/lib/libns3.36.1-lr-wpan-debug.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-net-device.cc.o
+../build/lib/libns3.36.1-lr-wpan-debug.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-phy.cc.o
+../build/lib/libns3.36.1-lr-wpan-debug.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-spectrum-signal-parameters.cc.o
+../build/lib/libns3.36.1-lr-wpan-debug.so: src/lr-wpan/CMakeFiles/liblr-wpan-obj.dir/model/lr-wpan-spectrum-value-helper.cc.o
+../build/lib/libns3.36.1-lr-wpan-debug.so: src/lr-wpan/CMakeFiles/liblr-wpan.dir/build.make
+../build/lib/libns3.36.1-lr-wpan-debug.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/lib/libns3.36.1-lr-wpan-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-lr-wpan-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-lr-wpan-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-lr-wpan-debug.so: src/lr-wpan/CMakeFiles/liblr-wpan.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-lr-wpan-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/lr-wpan && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/liblr-wpan.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/lr-wpan/CMakeFiles/liblr-wpan.dir/build: ../build/lib/libns3.36.1-lr-wpan-default.so
+src/lr-wpan/CMakeFiles/liblr-wpan.dir/build: ../build/lib/libns3.36.1-lr-wpan-debug.so
 .PHONY : src/lr-wpan/CMakeFiles/liblr-wpan.dir/build
 
 src/lr-wpan/CMakeFiles/liblr-wpan.dir/clean:

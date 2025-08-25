@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/energy/ns3.36.1-energy-model-with-harvesting-example-default"
-  "../../../build/examples/energy/ns3.36.1-energy-model-with-harvesting-example-default.pdb"
+  "../../../build/examples/energy/ns3.36.1-energy-model-with-harvesting-example-debug"
+  "../../../build/examples/energy/ns3.36.1-energy-model-with-harvesting-example-debug.pdb"
   "CMakeFiles/energy-model-with-harvesting-example.dir/energy-model-with-harvesting-example.cc.o"
   "CMakeFiles/energy-model-with-harvesting-example.dir/energy-model-with-harvesting-example.cc.o.d"
 )

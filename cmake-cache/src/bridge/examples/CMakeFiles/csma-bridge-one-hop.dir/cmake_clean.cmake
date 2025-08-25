@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/bridge/examples/ns3.36.1-csma-bridge-one-hop-default"
-  "../../../../build/src/bridge/examples/ns3.36.1-csma-bridge-one-hop-default.pdb"
+  "../../../../build/src/bridge/examples/ns3.36.1-csma-bridge-one-hop-debug"
+  "../../../../build/src/bridge/examples/ns3.36.1-csma-bridge-one-hop-debug.pdb"
   "CMakeFiles/csma-bridge-one-hop.dir/csma-bridge-one-hop.cc.o"
   "CMakeFiles/csma-bridge-one-hop.dir/csma-bridge-one-hop.cc.o.d"
 )

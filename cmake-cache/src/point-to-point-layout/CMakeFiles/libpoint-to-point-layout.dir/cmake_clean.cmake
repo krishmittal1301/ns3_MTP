@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-point-to-point-layout-default.pdb"
-  "../../../build/lib/libns3.36.1-point-to-point-layout-default.so"
+  "../../../build/lib/libns3.36.1-point-to-point-layout-debug.pdb"
+  "../../../build/lib/libns3.36.1-point-to-point-layout-debug.so"
 )
 
 # Per-language clean rules from dependency scanning.

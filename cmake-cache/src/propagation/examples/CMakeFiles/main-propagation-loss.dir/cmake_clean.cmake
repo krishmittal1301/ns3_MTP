@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/propagation/examples/ns3.36.1-main-propagation-loss-default"
-  "../../../../build/src/propagation/examples/ns3.36.1-main-propagation-loss-default.pdb"
+  "../../../../build/src/propagation/examples/ns3.36.1-main-propagation-loss-debug"
+  "../../../../build/src/propagation/examples/ns3.36.1-main-propagation-loss-debug.pdb"
   "CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.o"
   "CMakeFiles/main-propagation-loss.dir/main-propagation-loss.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/routing/ns3.36.1-manet-routing-compare-default"
-  "../../../build/examples/routing/ns3.36.1-manet-routing-compare-default.pdb"
+  "../../../build/examples/routing/ns3.36.1-manet-routing-compare-debug"
+  "../../../build/examples/routing/ns3.36.1-manet-routing-compare-debug.pdb"
   "CMakeFiles/manet-routing-compare.dir/manet-routing-compare.cc.o"
   "CMakeFiles/manet-routing-compare.dir/manet-routing-compare.cc.o.d"
 )

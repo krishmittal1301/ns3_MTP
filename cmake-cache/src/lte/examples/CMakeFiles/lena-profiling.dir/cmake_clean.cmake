@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lte/examples/ns3.36.1-lena-profiling-default"
-  "../../../../build/src/lte/examples/ns3.36.1-lena-profiling-default.pdb"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-profiling-debug"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-profiling-debug.pdb"
   "CMakeFiles/lena-profiling.dir/lena-profiling.cc.o"
   "CMakeFiles/lena-profiling.dir/lena-profiling.cc.o.d"
 )

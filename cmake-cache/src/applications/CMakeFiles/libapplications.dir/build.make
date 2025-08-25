@@ -98,41 +98,41 @@ libapplications_EXTERNAL_OBJECTS = \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/applications/CMakeFiles/libapplications-obj.dir/model/udp-server.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/applications/CMakeFiles/libapplications-obj.dir/model/udp-trace-client.cc.o"
 
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/helper/bulk-send-helper.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/helper/on-off-helper.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/helper/packet-sink-helper.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/helper/three-gpp-http-helper.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/helper/udp-client-server-helper.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/helper/udp-echo-helper.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/application-packet-probe.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/bulk-send-application.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/onoff-application.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/packet-loss-counter.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/packet-sink.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/seq-ts-echo-header.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/seq-ts-header.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/seq-ts-size-header.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/three-gpp-http-client.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/three-gpp-http-header.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/three-gpp-http-server.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/three-gpp-http-variables.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/udp-client.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/udp-echo-client.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/udp-echo-server.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/udp-server.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications-obj.dir/model/udp-trace-client.cc.o
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications.dir/build.make
-../build/lib/libns3.36.1-applications-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/lib/libns3.36.1-applications-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-applications-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-applications-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-applications-default.so: /usr/lib/x86_64-linux-gnu/libxml2.so
-../build/lib/libns3.36.1-applications-default.so: src/applications/CMakeFiles/libapplications.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-applications-default.so"
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/helper/bulk-send-helper.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/helper/on-off-helper.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/helper/packet-sink-helper.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/helper/three-gpp-http-helper.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/helper/udp-client-server-helper.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/helper/udp-echo-helper.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/application-packet-probe.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/bulk-send-application.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/onoff-application.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/packet-loss-counter.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/packet-sink.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/seq-ts-echo-header.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/seq-ts-header.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/seq-ts-size-header.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/three-gpp-http-client.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/three-gpp-http-header.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/three-gpp-http-server.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/three-gpp-http-variables.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/udp-client.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/udp-echo-client.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/udp-echo-server.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/udp-server.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications-obj.dir/model/udp-trace-client.cc.o
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications.dir/build.make
+../build/lib/libns3.36.1-applications-debug.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/lib/libns3.36.1-applications-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-applications-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-applications-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-applications-debug.so: /usr/lib/x86_64-linux-gnu/libxml2.so
+../build/lib/libns3.36.1-applications-debug.so: src/applications/CMakeFiles/libapplications.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-applications-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/applications && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libapplications.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/applications/CMakeFiles/libapplications.dir/build: ../build/lib/libns3.36.1-applications-default.so
+src/applications/CMakeFiles/libapplications.dir/build: ../build/lib/libns3.36.1-applications-debug.so
 .PHONY : src/applications/CMakeFiles/libapplications.dir/build
 
 src/applications/CMakeFiles/libapplications.dir/clean:

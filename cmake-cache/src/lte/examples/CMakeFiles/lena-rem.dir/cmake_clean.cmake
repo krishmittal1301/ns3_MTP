@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lte/examples/ns3.36.1-lena-rem-default"
-  "../../../../build/src/lte/examples/ns3.36.1-lena-rem-default.pdb"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-rem-debug"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-rem-debug.pdb"
   "CMakeFiles/lena-rem.dir/lena-rem.cc.o"
   "CMakeFiles/lena-rem.dir/lena-rem.cc.o.d"
 )

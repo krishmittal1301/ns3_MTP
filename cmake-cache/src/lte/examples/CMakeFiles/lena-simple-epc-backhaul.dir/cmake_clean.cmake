@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lte/examples/ns3.36.1-lena-simple-epc-backhaul-default"
-  "../../../../build/src/lte/examples/ns3.36.1-lena-simple-epc-backhaul-default.pdb"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-simple-epc-backhaul-debug"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-simple-epc-backhaul-debug.pdb"
   "CMakeFiles/lena-simple-epc-backhaul.dir/lena-simple-epc-backhaul.cc.o"
   "CMakeFiles/lena-simple-epc-backhaul.dir/lena-simple-epc-backhaul.cc.o.d"
 )

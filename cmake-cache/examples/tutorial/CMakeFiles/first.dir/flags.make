@@ -6,7 +6,7 @@ CXX_DEFINES = -DCMAKE_EXAMPLE_AS_TEST -DHAVE_GSL -DHAVE_LIBXML2 -DHAVE_SQLITE3 -
 
 CXX_INCLUDES = -I/usr -I/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include -I/usr/include/libxml2 -I/usr/include/python3.10
 
-CXX_FLAGS = -O2 -g -DNDEBUG -fPIE   -fno-semantic-interposition -fdiagnostics-color=always -Wall -std=gnu++17
+CXX_FLAGS = -g -fPIE   -fno-semantic-interposition -fdiagnostics-color=always -Wall -Werror -Wno-error=deprecated-declarations -std=gnu++17
 
 # PCH options: examples/tutorial/CMakeFiles/first.dir/first.cc.o_OPTIONS = -Winvalid-pch;-include;/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles/stdlib_pch_exec.dir/cmake_pch.hxx
 

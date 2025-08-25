@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lte/examples/ns3.36.1-lena-ipv6-ue-ue-default"
-  "../../../../build/src/lte/examples/ns3.36.1-lena-ipv6-ue-ue-default.pdb"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-ipv6-ue-ue-debug"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-ipv6-ue-ue-debug.pdb"
   "CMakeFiles/lena-ipv6-ue-ue.dir/lena-ipv6-ue-ue.cc.o"
   "CMakeFiles/lena-ipv6-ue-ue.dir/lena-ipv6-ue-ue.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-csma-default.pdb"
-  "../../../build/lib/libns3.36.1-csma-default.so"
+  "../../../build/lib/libns3.36.1-csma-debug.pdb"
+  "../../../build/lib/libns3.36.1-csma-debug.so"
 )
 
 # Per-language clean rules from dependency scanning.

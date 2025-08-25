@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/core/examples/ns3.36.1-command-line-example-default"
-  "../../../../build/src/core/examples/ns3.36.1-command-line-example-default.pdb"
+  "../../../../build/src/core/examples/ns3.36.1-command-line-example-debug"
+  "../../../../build/src/core/examples/ns3.36.1-command-line-example-debug.pdb"
   "CMakeFiles/command-line-example.dir/command-line-example.cc.o"
   "CMakeFiles/command-line-example.dir/command-line-example.cc.o.d"
 )

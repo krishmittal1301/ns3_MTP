@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-multi-tos-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-multi-tos-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-multi-tos-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-multi-tos-debug.pdb"
   "CMakeFiles/wifi-multi-tos.dir/wifi-multi-tos.cc.o"
   "CMakeFiles/wifi-multi-tos.dir/wifi-multi-tos.cc.o.d"
 )

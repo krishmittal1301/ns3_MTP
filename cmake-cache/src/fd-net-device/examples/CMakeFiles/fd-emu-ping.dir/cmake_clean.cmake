@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd-emu-ping-default"
-  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd-emu-ping-default.pdb"
+  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd-emu-ping-debug"
+  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd-emu-ping-debug.pdb"
   "CMakeFiles/fd-emu-ping.dir/fd-emu-ping.cc.o"
   "CMakeFiles/fd-emu-ping.dir/fd-emu-ping.cc.o.d"
 )

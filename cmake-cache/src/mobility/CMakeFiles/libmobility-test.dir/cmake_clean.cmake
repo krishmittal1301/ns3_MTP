@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-mobility-test-default.pdb"
-  "../../../build/lib/libns3.36.1-mobility-test-default.so"
+  "../../../build/lib/libns3.36.1-mobility-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-mobility-test-debug.so"
   "CMakeFiles/libmobility-test.dir/test/box-line-intersection-test.cc.o"
   "CMakeFiles/libmobility-test.dir/test/box-line-intersection-test.cc.o.d"
   "CMakeFiles/libmobility-test.dir/test/geo-to-cartesian-test.cc.o"

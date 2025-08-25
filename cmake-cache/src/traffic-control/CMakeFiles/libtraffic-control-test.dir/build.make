@@ -225,28 +225,28 @@ libtraffic__control__test_OBJECTS = \
 # External object files for target libtraffic-control-test
 libtraffic__control__test_EXTERNAL_OBJECTS =
 
-../build/lib/libns3.36.1-traffic-control-test-default.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/adaptive-red-queue-disc-test-suite.cc.o
-../build/lib/libns3.36.1-traffic-control-test-default.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/cobalt-queue-disc-test-suite.cc.o
-../build/lib/libns3.36.1-traffic-control-test-default.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/codel-queue-disc-test-suite.cc.o
-../build/lib/libns3.36.1-traffic-control-test-default.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/fifo-queue-disc-test-suite.cc.o
-../build/lib/libns3.36.1-traffic-control-test-default.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/pie-queue-disc-test-suite.cc.o
-../build/lib/libns3.36.1-traffic-control-test-default.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/prio-queue-disc-test-suite.cc.o
-../build/lib/libns3.36.1-traffic-control-test-default.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/queue-disc-traces-test-suite.cc.o
-../build/lib/libns3.36.1-traffic-control-test-default.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/red-queue-disc-test-suite.cc.o
-../build/lib/libns3.36.1-traffic-control-test-default.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/tbf-queue-disc-test-suite.cc.o
-../build/lib/libns3.36.1-traffic-control-test-default.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/tc-flow-control-test-suite.cc.o
-../build/lib/libns3.36.1-traffic-control-test-default.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/build.make
-../build/lib/libns3.36.1-traffic-control-test-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/lib/libns3.36.1-traffic-control-test-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-traffic-control-test-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-traffic-control-test-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-traffic-control-test-default.so: /usr/lib/x86_64-linux-gnu/libxml2.so
-../build/lib/libns3.36.1-traffic-control-test-default.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library ../../../build/lib/libns3.36.1-traffic-control-test-default.so"
+../build/lib/libns3.36.1-traffic-control-test-debug.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/adaptive-red-queue-disc-test-suite.cc.o
+../build/lib/libns3.36.1-traffic-control-test-debug.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/cobalt-queue-disc-test-suite.cc.o
+../build/lib/libns3.36.1-traffic-control-test-debug.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/codel-queue-disc-test-suite.cc.o
+../build/lib/libns3.36.1-traffic-control-test-debug.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/fifo-queue-disc-test-suite.cc.o
+../build/lib/libns3.36.1-traffic-control-test-debug.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/pie-queue-disc-test-suite.cc.o
+../build/lib/libns3.36.1-traffic-control-test-debug.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/prio-queue-disc-test-suite.cc.o
+../build/lib/libns3.36.1-traffic-control-test-debug.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/queue-disc-traces-test-suite.cc.o
+../build/lib/libns3.36.1-traffic-control-test-debug.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/red-queue-disc-test-suite.cc.o
+../build/lib/libns3.36.1-traffic-control-test-debug.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/tbf-queue-disc-test-suite.cc.o
+../build/lib/libns3.36.1-traffic-control-test-debug.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/test/tc-flow-control-test-suite.cc.o
+../build/lib/libns3.36.1-traffic-control-test-debug.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/build.make
+../build/lib/libns3.36.1-traffic-control-test-debug.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/lib/libns3.36.1-traffic-control-test-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-traffic-control-test-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-traffic-control-test-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-traffic-control-test-debug.so: /usr/lib/x86_64-linux-gnu/libxml2.so
+../build/lib/libns3.36.1-traffic-control-test-debug.so: src/traffic-control/CMakeFiles/libtraffic-control-test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library ../../../build/lib/libns3.36.1-traffic-control-test-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/traffic-control && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libtraffic-control-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/traffic-control/CMakeFiles/libtraffic-control-test.dir/build: ../build/lib/libns3.36.1-traffic-control-test-default.so
+src/traffic-control/CMakeFiles/libtraffic-control-test.dir/build: ../build/lib/libns3.36.1-traffic-control-test-debug.so
 .PHONY : src/traffic-control/CMakeFiles/libtraffic-control-test.dir/build
 
 src/traffic-control/CMakeFiles/libtraffic-control-test.dir/clean:

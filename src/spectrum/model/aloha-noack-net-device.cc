@@ -348,7 +348,7 @@ bool
 AlohaNoackNetDevice::SendFrom (Ptr<Packet> packet, const Address& src, const Address& dest, uint16_t protocolNumber)
 {
   NS_LOG_FUNCTION (packet << src << dest << protocolNumber);
-  // std::cout<<"send from called"<<Simulator::Now()<<std::endl;
+  std::cout<<"send from called"<<Simulator::Now()<<std::endl;
   LlcSnapHeader llc;
   llc.SetType (protocolNumber);
   packet->AddHeader (llc);
@@ -402,8 +402,14 @@ AlohaNoackNetDevice::SendFrom (Ptr<Packet> packet, const Address& src, const Add
       Time now = Simulator::Now();
       Time slotDuration =  MilliSeconds(4); // Slot Time
       Time nextSlot = Seconds (std::ceil (now.GetSeconds() / slotDuration.GetSeconds()) * slotDuration.GetSeconds());
-      Simulator::Schedule (nextSlot - now, &AlohaNoackNetDevice::StartTransmission, this);
-      // std::cout<<"scheduled for"<<nextSlot<<std::endl;
+      if(nextSlot == now && m_state != IDLE){
+          nextSlot += slotDuration;
+          std::cout<<"Scheduled for"<<nextSlot<<std::endl;
+      }
+      else{
+        Simulator::Schedule (nextSlot - now, &AlohaNoackNetDevice::StartTransmission, this);
+        std::cout<<"scheduled for"<<nextSlot<<std::endl;
+      }
   }
   if (m_queue->Enqueue (packet) == false)
     {
@@ -423,7 +429,7 @@ AlohaNoackNetDevice::SetGenericPhyTxStartCallback (GenericPhyTxStartCallback c)
 void
 AlohaNoackNetDevice::StartTransmission ()
 {
-  // std::cout<<"starting ttansmission at"<<Simulator::Now()<<std::endl;
+  std::cout<<"starting ttansmission at"<<Simulator::Now()<<std::endl;
   NS_LOG_FUNCTION (this);
 
   // NS_ASSERT (m_currentPkt == 0);
@@ -443,11 +449,13 @@ AlohaNoackNetDevice::StartTransmission ()
         {
           m_state = TX;
         }
-      Time now = Simulator::Now();
-      Time slotDuration =  MilliSeconds(4); // Slot Time
-      Time nextSlot = Seconds (std::ceil (now.GetSeconds() / slotDuration.GetSeconds()+NanoSeconds(1).GetSeconds()) * slotDuration.GetSeconds());
-      Simulator::Schedule (nextSlot - now, &AlohaNoackNetDevice::StartTransmission, this);
-      // std::cout<<"scheduled for"<<nextSlot<<std::endl;
+      if(m_queue->IsEmpty() == false){
+        Time now = Simulator::Now();
+        Time slotDuration =  MilliSeconds(4); // Slot Time
+        Time nextSlot = Seconds (std::ceil (now.GetSeconds() / slotDuration.GetSeconds()+NanoSeconds(1).GetSeconds()) * slotDuration.GetSeconds());
+        Simulator::Schedule (nextSlot - now, &AlohaNoackNetDevice::StartTransmission, this);
+        std::cout<<"scheduled for"<<nextSlot<<std::endl;
+      }
     }
 
 }
@@ -457,7 +465,7 @@ AlohaNoackNetDevice::StartTransmission ()
 void
 AlohaNoackNetDevice::NotifyTransmissionEnd (Ptr<const Packet>)
 {
-  // std::cout<<"notify trans end"<<std::endl;
+  std::cout<<"notify trans end"<<std::endl;
   NS_LOG_FUNCTION (this);
   NS_ASSERT_MSG (m_state == TX, "TX end notified while state != TX");
   m_state = IDLE;
@@ -496,6 +504,7 @@ AlohaNoackNetDevice::NotifyReceptionEndOk (Ptr<Packet> packet)
 {
   NS_LOG_FUNCTION (this << packet);
   AlohaNoackMacHeader header;
+  Ptr<Packet> originalPacket = packet->Copy();
   packet->RemoveHeader (header);
   NS_LOG_LOGIC ("packet " << header.GetSource () << " --> " << header.GetDestination () << " (here: " << m_address << ")");
 
@@ -521,7 +530,8 @@ AlohaNoackNetDevice::NotifyReceptionEndOk (Ptr<Packet> packet)
     }
 
   NS_LOG_LOGIC ("packet type = " << packetType);
-
+  
+  // m_macPromiscRxTrace (originalPacket);
   if (!m_promiscRxCallback.IsNull ())
     {
       m_promiscRxCallback (this, packet->Copy (), llc.GetType (), header.GetSource (), header.GetDestination (), packetType);
@@ -529,6 +539,7 @@ AlohaNoackNetDevice::NotifyReceptionEndOk (Ptr<Packet> packet)
 
   if (packetType != PACKET_OTHERHOST)
     {
+      m_macRxTrace (originalPacket);
       m_rxCallback (this, packet, llc.GetType (), header.GetSource () );
     }
 }

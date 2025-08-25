@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-buildings-test-default.pdb"
-  "../../../build/lib/libns3.36.1-buildings-test-default.so"
+  "../../../build/lib/libns3.36.1-buildings-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-buildings-test-debug.so"
   "CMakeFiles/libbuildings-test.dir/test/building-position-allocator-test.cc.o"
   "CMakeFiles/libbuildings-test.dir/test/building-position-allocator-test.cc.o.d"
   "CMakeFiles/libbuildings-test.dir/test/buildings-channel-condition-model-test.cc.o"

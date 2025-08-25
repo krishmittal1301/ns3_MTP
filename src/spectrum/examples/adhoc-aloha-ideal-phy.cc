@@ -124,12 +124,13 @@ int main (int argc, char** argv)
   cmd.Parse (argc, argv);
 
   NodeContainer c;
-  c.Create (2);
+  c.Create (3);
 
   MobilityHelper mobility;
   Ptr<ListPositionAllocator> positionAlloc = CreateObject<ListPositionAllocator> ();
   positionAlloc->Add (Vector (0.0, 0.0, 0.0));
   positionAlloc->Add (Vector (5.0, 0.0, 0.0));
+  positionAlloc->Add (Vector (10.0, 0.0, 0.0));
   mobility.SetPositionAllocator (positionAlloc);
   mobility.SetMobilityModel ("ns3::ConstantPositionMobilityModel");
 
@@ -163,17 +164,30 @@ int main (int argc, char** argv)
   packetSocket.Install (c);
 
   PacketSocketAddress socket;
+  PacketSocketAddress socket2;
   socket.SetSingleDevice (devices.Get (0)->GetIfIndex ());
   socket.SetPhysicalAddress (devices.Get (1)->GetAddress ());
   socket.SetProtocol (1);
 
+  socket2.SetSingleDevice (devices.Get (2)->GetIfIndex ());
+  socket2.SetPhysicalAddress (devices.Get (1)->GetAddress ());
+  socket2.SetProtocol (1);
+  
   OnOffHelper onoff ("ns3::PacketSocketFactory", Address (socket));
+  OnOffHelper onoff2 ("ns3::PacketSocketFactory", Address (socket2));
   onoff.SetConstantRate (DataRate ("0.5Mbps"));
-  onoff.SetAttribute ("PacketSize", UintegerValue (50));
+  onoff.SetAttribute ("PacketSize", UintegerValue (150));
+
+  onoff2.SetConstantRate (DataRate ("0.5Mbps"));
+  onoff2.SetAttribute ("PacketSize", UintegerValue (150));
 
   ApplicationContainer apps = onoff.Install (c.Get (0));
+  ApplicationContainer apps2 = onoff2.Install (c.Get (2));
   apps.Start (Seconds (0.1));
   apps.Stop (Seconds (0.11));
+
+  apps2.Start (Seconds (0.11));
+  apps2.Stop (Seconds (0.120));
 
   Ptr<Socket> recvSink = SetupPacketReceive (c.Get (1));
 
@@ -185,7 +199,7 @@ int main (int argc, char** argv)
   Config::Connect ("/NodeList/*/DeviceList/*/Phy/RxEndOk", MakeCallback (&PhyRxEndOkTrace));
   Config::Connect ("/NodeList/*/DeviceList/*/Phy/RxEndError", MakeCallback (&PhyRxEndErrorTrace));
 
-
+  deviceHelper.EnablePcapAll("adhoc-aloha-ideal-phy", true);
   Simulator::Run ();
 
   Simulator::Destroy ();

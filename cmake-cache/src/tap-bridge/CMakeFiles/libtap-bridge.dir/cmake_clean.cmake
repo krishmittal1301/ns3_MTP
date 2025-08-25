@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-tap-bridge-default.pdb"
-  "../../../build/lib/libns3.36.1-tap-bridge-default.so"
+  "../../../build/lib/libns3.36.1-tap-bridge-debug.pdb"
+  "../../../build/lib/libns3.36.1-tap-bridge-debug.so"
 )
 
 # Per-language clean rules from dependency scanning.

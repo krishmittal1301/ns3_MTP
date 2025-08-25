@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/routing/ns3.36.1-mixed-global-routing-default"
-  "../../../build/examples/routing/ns3.36.1-mixed-global-routing-default.pdb"
+  "../../../build/examples/routing/ns3.36.1-mixed-global-routing-debug"
+  "../../../build/examples/routing/ns3.36.1-mixed-global-routing-debug.pdb"
   "CMakeFiles/mixed-global-routing.dir/mixed-global-routing.cc.o"
   "CMakeFiles/mixed-global-routing.dir/mixed-global-routing.cc.o.d"
 )

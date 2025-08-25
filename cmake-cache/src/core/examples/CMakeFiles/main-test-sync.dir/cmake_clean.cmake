@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/core/examples/ns3.36.1-main-test-sync-default"
-  "../../../../build/src/core/examples/ns3.36.1-main-test-sync-default.pdb"
+  "../../../../build/src/core/examples/ns3.36.1-main-test-sync-debug"
+  "../../../../build/src/core/examples/ns3.36.1-main-test-sync-debug.pdb"
   "CMakeFiles/main-test-sync.dir/main-test-sync.cc.o"
   "CMakeFiles/main-test-sync.dir/main-test-sync.cc.o.d"
 )

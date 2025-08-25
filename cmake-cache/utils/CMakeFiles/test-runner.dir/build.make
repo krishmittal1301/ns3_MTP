@@ -106,35 +106,35 @@ test__runner_EXTERNAL_OBJECTS = \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/test/CMakeFiles/libtest.dir/ns3wifi/wifi-ac-mapping-test-suite.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/test/CMakeFiles/libtest.dir/ns3wifi/wifi-msdu-aggregator-test-suite.cc.o"
 
-../build/utils/ns3.36.1-test-runner-default: utils/CMakeFiles/test-runner.dir/test-runner.cc.o
-../build/utils/ns3.36.1-test-runner-default: src/test/CMakeFiles/libtest.dir/__/__/build-support/empty.cc.o
-../build/utils/ns3.36.1-test-runner-default: src/test/CMakeFiles/libtest.dir/ns3tcp/ns3tcp-loss-test-suite.cc.o
-../build/utils/ns3.36.1-test-runner-default: src/test/CMakeFiles/libtest.dir/ns3tcp/ns3tcp-no-delay-test-suite.cc.o
-../build/utils/ns3.36.1-test-runner-default: src/test/CMakeFiles/libtest.dir/ns3tcp/ns3tcp-socket-test-suite.cc.o
-../build/utils/ns3.36.1-test-runner-default: src/test/CMakeFiles/libtest.dir/ns3tcp/ns3tcp-state-test-suite.cc.o
-../build/utils/ns3.36.1-test-runner-default: src/test/CMakeFiles/libtest.dir/csma-system-test-suite.cc.o
-../build/utils/ns3.36.1-test-runner-default: src/test/CMakeFiles/libtest.dir/traced/traced-callback-typedef-test-suite.cc.o
-../build/utils/ns3.36.1-test-runner-default: src/test/CMakeFiles/libtest.dir/ns3tcp/ns3tcp-socket-writer.cc.o
-../build/utils/ns3.36.1-test-runner-default: src/test/CMakeFiles/libtest.dir/traced/traced-value-callback-typedef-test-suite.cc.o
-../build/utils/ns3.36.1-test-runner-default: src/test/CMakeFiles/libtest.dir/ns3tc/fq-cobalt-queue-disc-test-suite.cc.o
-../build/utils/ns3.36.1-test-runner-default: src/test/CMakeFiles/libtest.dir/ns3tc/fq-codel-queue-disc-test-suite.cc.o
-../build/utils/ns3.36.1-test-runner-default: src/test/CMakeFiles/libtest.dir/ns3tc/fq-pie-queue-disc-test-suite.cc.o
-../build/utils/ns3.36.1-test-runner-default: src/test/CMakeFiles/libtest.dir/ns3tc/pfifo-fast-queue-disc-test-suite.cc.o
-../build/utils/ns3.36.1-test-runner-default: src/test/CMakeFiles/libtest.dir/ns3wifi/wifi-issue-211-test-suite.cc.o
-../build/utils/ns3.36.1-test-runner-default: src/test/CMakeFiles/libtest.dir/ns3wifi/wifi-ac-mapping-test-suite.cc.o
-../build/utils/ns3.36.1-test-runner-default: src/test/CMakeFiles/libtest.dir/ns3wifi/wifi-msdu-aggregator-test-suite.cc.o
-../build/utils/ns3.36.1-test-runner-default: utils/CMakeFiles/test-runner.dir/build.make
-../build/utils/ns3.36.1-test-runner-default: /usr/lib/x86_64-linux-gnu/libxml2.so
-../build/utils/ns3.36.1-test-runner-default: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/utils/ns3.36.1-test-runner-default: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/utils/ns3.36.1-test-runner-default: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/utils/ns3.36.1-test-runner-default: /usr/lib/x86_64-linux-gnu/librt.a
-../build/utils/ns3.36.1-test-runner-default: utils/CMakeFiles/test-runner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../build/utils/ns3.36.1-test-runner-default"
+../build/utils/ns3.36.1-test-runner-debug: utils/CMakeFiles/test-runner.dir/test-runner.cc.o
+../build/utils/ns3.36.1-test-runner-debug: src/test/CMakeFiles/libtest.dir/__/__/build-support/empty.cc.o
+../build/utils/ns3.36.1-test-runner-debug: src/test/CMakeFiles/libtest.dir/ns3tcp/ns3tcp-loss-test-suite.cc.o
+../build/utils/ns3.36.1-test-runner-debug: src/test/CMakeFiles/libtest.dir/ns3tcp/ns3tcp-no-delay-test-suite.cc.o
+../build/utils/ns3.36.1-test-runner-debug: src/test/CMakeFiles/libtest.dir/ns3tcp/ns3tcp-socket-test-suite.cc.o
+../build/utils/ns3.36.1-test-runner-debug: src/test/CMakeFiles/libtest.dir/ns3tcp/ns3tcp-state-test-suite.cc.o
+../build/utils/ns3.36.1-test-runner-debug: src/test/CMakeFiles/libtest.dir/csma-system-test-suite.cc.o
+../build/utils/ns3.36.1-test-runner-debug: src/test/CMakeFiles/libtest.dir/traced/traced-callback-typedef-test-suite.cc.o
+../build/utils/ns3.36.1-test-runner-debug: src/test/CMakeFiles/libtest.dir/ns3tcp/ns3tcp-socket-writer.cc.o
+../build/utils/ns3.36.1-test-runner-debug: src/test/CMakeFiles/libtest.dir/traced/traced-value-callback-typedef-test-suite.cc.o
+../build/utils/ns3.36.1-test-runner-debug: src/test/CMakeFiles/libtest.dir/ns3tc/fq-cobalt-queue-disc-test-suite.cc.o
+../build/utils/ns3.36.1-test-runner-debug: src/test/CMakeFiles/libtest.dir/ns3tc/fq-codel-queue-disc-test-suite.cc.o
+../build/utils/ns3.36.1-test-runner-debug: src/test/CMakeFiles/libtest.dir/ns3tc/fq-pie-queue-disc-test-suite.cc.o
+../build/utils/ns3.36.1-test-runner-debug: src/test/CMakeFiles/libtest.dir/ns3tc/pfifo-fast-queue-disc-test-suite.cc.o
+../build/utils/ns3.36.1-test-runner-debug: src/test/CMakeFiles/libtest.dir/ns3wifi/wifi-issue-211-test-suite.cc.o
+../build/utils/ns3.36.1-test-runner-debug: src/test/CMakeFiles/libtest.dir/ns3wifi/wifi-ac-mapping-test-suite.cc.o
+../build/utils/ns3.36.1-test-runner-debug: src/test/CMakeFiles/libtest.dir/ns3wifi/wifi-msdu-aggregator-test-suite.cc.o
+../build/utils/ns3.36.1-test-runner-debug: utils/CMakeFiles/test-runner.dir/build.make
+../build/utils/ns3.36.1-test-runner-debug: /usr/lib/x86_64-linux-gnu/libxml2.so
+../build/utils/ns3.36.1-test-runner-debug: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/utils/ns3.36.1-test-runner-debug: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/utils/ns3.36.1-test-runner-debug: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/utils/ns3.36.1-test-runner-debug: /usr/lib/x86_64-linux-gnu/librt.a
+../build/utils/ns3.36.1-test-runner-debug: utils/CMakeFiles/test-runner.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../build/utils/ns3.36.1-test-runner-debug"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-runner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-utils/CMakeFiles/test-runner.dir/build: ../build/utils/ns3.36.1-test-runner-default
+utils/CMakeFiles/test-runner.dir/build: ../build/utils/ns3.36.1-test-runner-debug
 .PHONY : utils/CMakeFiles/test-runner.dir/build
 
 utils/CMakeFiles/test-runner.dir/clean:

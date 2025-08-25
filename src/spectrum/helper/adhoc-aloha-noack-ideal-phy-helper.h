@@ -27,6 +27,7 @@
 #include <ns3/node-container.h>
 #include <ns3/net-device-container.h>
 #include <ns3/queue.h>
+#include "ns3/trace-helper.h"
 
 
 namespace ns3 {
@@ -39,7 +40,7 @@ class SpectrumChannel;
  * \ingroup spectrum
  * \brief create the AlohaNoackNetDevice
  */
-class AdhocAlohaNoackIdealPhyHelper
+class AdhocAlohaNoackIdealPhyHelper  : public ns3::PcapHelperForDevice
 {
 public:
   AdhocAlohaNoackIdealPhyHelper ();
@@ -135,6 +136,19 @@ public:
    * @return a device container which contains all the devices created by this method.
    */
   NetDeviceContainer Install (std::string nodeName) const;
+private:
+  /**
+   * \brief Enable pcap output on the indicated net device.
+   *
+   * NetDevice-specific implementation mechanism for hooking the trace and
+   * writing to the trace file.
+   *
+   * \param prefix Filename prefix to use for pcap files.
+   * \param nd Net device for which you want to enable tracing.
+   * \param promiscuous If true capture all possible packets available at the device.
+   * \param explicitFilename Treat the prefix as an explicit filename if true
+   */
+  virtual void EnablePcapInternal (std::string prefix, Ptr<NetDevice> nd, bool promiscuous, bool explicitFilename);
 
 
 protected:

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-backward-compatibility-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-backward-compatibility-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-backward-compatibility-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-backward-compatibility-debug.pdb"
   "CMakeFiles/wifi-backward-compatibility.dir/wifi-backward-compatibility.cc.o"
   "CMakeFiles/wifi-backward-compatibility.dir/wifi-backward-compatibility.cc.o.d"
 )

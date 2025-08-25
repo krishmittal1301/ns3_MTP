@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/core/examples/ns3.36.1-system-path-examples-default"
-  "../../../../build/src/core/examples/ns3.36.1-system-path-examples-default.pdb"
+  "../../../../build/src/core/examples/ns3.36.1-system-path-examples-debug"
+  "../../../../build/src/core/examples/ns3.36.1-system-path-examples-debug.pdb"
   "CMakeFiles/system-path-examples.dir/system-path-examples.cc.o"
   "CMakeFiles/system-path-examples.dir/system-path-examples.cc.o.d"
 )

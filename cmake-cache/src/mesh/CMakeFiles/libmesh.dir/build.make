@@ -108,51 +108,51 @@ libmesh_EXTERNAL_OBJECTS = \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/mesh/CMakeFiles/libmesh-obj.dir/model/mesh-wifi-beacon.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/mesh/CMakeFiles/libmesh-obj.dir/model/mesh-wifi-interface-mac.cc.o"
 
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/helper/dot11s/dot11s-installer.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/helper/flame/flame-installer.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/helper/mesh-helper.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/helper/mesh-stack-installer.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/airtime-metric.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/dot11s-mac-header.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/hwmp-protocol-mac.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/hwmp-protocol.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/hwmp-rtable.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/hwmp-tag.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-beacon-timing.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-configuration.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-id.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-metric-report.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-peer-management.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-peering-protocol.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-perr.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-prep.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-preq.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-rann.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/peer-link-frame.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/peer-link.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/peer-management-protocol-mac.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/peer-management-protocol.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/flame/flame-header.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/flame/flame-protocol-mac.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/flame/flame-protocol.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/flame/flame-rtable.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/mesh-information-element-vector.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/mesh-l2-routing-protocol.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/mesh-point-device.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/mesh-wifi-beacon.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/mesh-wifi-interface-mac.cc.o
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh.dir/build.make
-../build/lib/libns3.36.1-mesh-default.so: /usr/lib/x86_64-linux-gnu/libxml2.so
-../build/lib/libns3.36.1-mesh-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-mesh-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-mesh-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-mesh-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/lib/libns3.36.1-mesh-default.so: src/mesh/CMakeFiles/libmesh.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-mesh-default.so"
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/helper/dot11s/dot11s-installer.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/helper/flame/flame-installer.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/helper/mesh-helper.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/helper/mesh-stack-installer.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/airtime-metric.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/dot11s-mac-header.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/hwmp-protocol-mac.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/hwmp-protocol.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/hwmp-rtable.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/hwmp-tag.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-beacon-timing.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-configuration.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-id.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-metric-report.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-peer-management.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-peering-protocol.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-perr.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-prep.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-preq.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/ie-dot11s-rann.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/peer-link-frame.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/peer-link.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/peer-management-protocol-mac.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/dot11s/peer-management-protocol.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/flame/flame-header.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/flame/flame-protocol-mac.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/flame/flame-protocol.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/flame/flame-rtable.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/mesh-information-element-vector.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/mesh-l2-routing-protocol.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/mesh-point-device.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/mesh-wifi-beacon.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh-obj.dir/model/mesh-wifi-interface-mac.cc.o
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh.dir/build.make
+../build/lib/libns3.36.1-mesh-debug.so: /usr/lib/x86_64-linux-gnu/libxml2.so
+../build/lib/libns3.36.1-mesh-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-mesh-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-mesh-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-mesh-debug.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/lib/libns3.36.1-mesh-debug.so: src/mesh/CMakeFiles/libmesh.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-mesh-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/mesh && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libmesh.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/mesh/CMakeFiles/libmesh.dir/build: ../build/lib/libns3.36.1-mesh-default.so
+src/mesh/CMakeFiles/libmesh.dir/build: ../build/lib/libns3.36.1-mesh-debug.so
 .PHONY : src/mesh/CMakeFiles/libmesh.dir/build
 
 src/mesh/CMakeFiles/libmesh.dir/clean:

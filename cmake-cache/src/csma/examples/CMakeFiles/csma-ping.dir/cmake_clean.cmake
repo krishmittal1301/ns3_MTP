@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/csma/examples/ns3.36.1-csma-ping-default"
-  "../../../../build/src/csma/examples/ns3.36.1-csma-ping-default.pdb"
+  "../../../../build/src/csma/examples/ns3.36.1-csma-ping-debug"
+  "../../../../build/src/csma/examples/ns3.36.1-csma-ping-debug.pdb"
   "CMakeFiles/csma-ping.dir/csma-ping.cc.o"
   "CMakeFiles/csma-ping.dir/csma-ping.cc.o.d"
 )

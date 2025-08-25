@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-aodv-test-default.pdb"
-  "../../../build/lib/libns3.36.1-aodv-test-default.so"
+  "../../../build/lib/libns3.36.1-aodv-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-aodv-test-debug.so"
   "CMakeFiles/libaodv-test.dir/test/aodv-id-cache-test-suite.cc.o"
   "CMakeFiles/libaodv-test.dir/test/aodv-id-cache-test-suite.cc.o.d"
   "CMakeFiles/libaodv-test.dir/test/aodv-regression.cc.o"

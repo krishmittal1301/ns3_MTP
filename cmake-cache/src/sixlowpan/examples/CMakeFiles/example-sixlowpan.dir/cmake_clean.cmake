@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/sixlowpan/examples/ns3.36.1-example-sixlowpan-default"
-  "../../../../build/src/sixlowpan/examples/ns3.36.1-example-sixlowpan-default.pdb"
+  "../../../../build/src/sixlowpan/examples/ns3.36.1-example-sixlowpan-debug"
+  "../../../../build/src/sixlowpan/examples/ns3.36.1-example-sixlowpan-debug.pdb"
   "CMakeFiles/example-sixlowpan.dir/example-sixlowpan.cc.o"
   "CMakeFiles/example-sixlowpan.dir/example-sixlowpan.cc.o.d"
 )

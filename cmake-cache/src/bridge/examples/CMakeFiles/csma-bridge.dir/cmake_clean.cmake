@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/bridge/examples/ns3.36.1-csma-bridge-default"
-  "../../../../build/src/bridge/examples/ns3.36.1-csma-bridge-default.pdb"
+  "../../../../build/src/bridge/examples/ns3.36.1-csma-bridge-debug"
+  "../../../../build/src/bridge/examples/ns3.36.1-csma-bridge-debug.pdb"
   "CMakeFiles/csma-bridge.dir/csma-bridge.cc.o"
   "CMakeFiles/csma-bridge.dir/csma-bridge.cc.o.d"
 )

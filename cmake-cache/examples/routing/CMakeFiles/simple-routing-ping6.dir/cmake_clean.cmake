@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/routing/ns3.36.1-simple-routing-ping6-default"
-  "../../../build/examples/routing/ns3.36.1-simple-routing-ping6-default.pdb"
+  "../../../build/examples/routing/ns3.36.1-simple-routing-ping6-debug"
+  "../../../build/examples/routing/ns3.36.1-simple-routing-ping6-debug.pdb"
   "CMakeFiles/simple-routing-ping6.dir/simple-routing-ping6.cc.o"
   "CMakeFiles/simple-routing-ping6.dir/simple-routing-ping6.cc.o.d"
 )

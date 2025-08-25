@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/core/examples/ns3.36.1-sample-random-variable-default"
-  "../../../../build/src/core/examples/ns3.36.1-sample-random-variable-default.pdb"
+  "../../../../build/src/core/examples/ns3.36.1-sample-random-variable-debug"
+  "../../../../build/src/core/examples/ns3.36.1-sample-random-variable-debug.pdb"
   "CMakeFiles/sample-random-variable.dir/sample-random-variable.cc.o"
   "CMakeFiles/sample-random-variable.dir/sample-random-variable.cc.o.d"
 )

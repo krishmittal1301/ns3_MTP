@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/tutorial/ns3.36.1-first-default"
-  "../../../build/examples/tutorial/ns3.36.1-first-default.pdb"
+  "../../../build/examples/tutorial/ns3.36.1-first-debug"
+  "../../../build/examples/tutorial/ns3.36.1-first-debug.pdb"
   "CMakeFiles/first.dir/first.cc.o"
   "CMakeFiles/first.dir/first.cc.o.d"
 )

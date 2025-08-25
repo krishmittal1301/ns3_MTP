@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/tcp/ns3.36.1-tcp-bbr-example-default"
-  "../../../build/examples/tcp/ns3.36.1-tcp-bbr-example-default.pdb"
+  "../../../build/examples/tcp/ns3.36.1-tcp-bbr-example-debug"
+  "../../../build/examples/tcp/ns3.36.1-tcp-bbr-example-debug.pdb"
   "CMakeFiles/tcp-bbr-example.dir/tcp-bbr-example.cc.o"
   "CMakeFiles/tcp-bbr-example.dir/tcp-bbr-example.cc.o.d"
 )

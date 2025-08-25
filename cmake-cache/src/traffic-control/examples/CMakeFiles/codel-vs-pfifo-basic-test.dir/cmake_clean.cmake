@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/traffic-control/examples/ns3.36.1-codel-vs-pfifo-basic-test-default"
-  "../../../../build/src/traffic-control/examples/ns3.36.1-codel-vs-pfifo-basic-test-default.pdb"
+  "../../../../build/src/traffic-control/examples/ns3.36.1-codel-vs-pfifo-basic-test-debug"
+  "../../../../build/src/traffic-control/examples/ns3.36.1-codel-vs-pfifo-basic-test-debug.pdb"
   "CMakeFiles/codel-vs-pfifo-basic-test.dir/codel-vs-pfifo-basic-test.cc.o"
   "CMakeFiles/codel-vs-pfifo-basic-test.dir/codel-vs-pfifo-basic-test.cc.o.d"
 )

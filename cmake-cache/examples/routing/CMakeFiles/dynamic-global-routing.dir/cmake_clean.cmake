@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/routing/ns3.36.1-dynamic-global-routing-default"
-  "../../../build/examples/routing/ns3.36.1-dynamic-global-routing-default.pdb"
+  "../../../build/examples/routing/ns3.36.1-dynamic-global-routing-debug"
+  "../../../build/examples/routing/ns3.36.1-dynamic-global-routing-debug.pdb"
   "CMakeFiles/dynamic-global-routing.dir/dynamic-global-routing.cc.o"
   "CMakeFiles/dynamic-global-routing.dir/dynamic-global-routing.cc.o.d"
 )

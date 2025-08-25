@@ -345,37 +345,37 @@ libwifi__test_OBJECTS = \
 # External object files for target libwifi-test
 libwifi__test_EXTERNAL_OBJECTS =
 
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/block-ack-test-suite.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/channel-access-manager-test.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/inter-bss-test-suite.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/power-rate-adaptation-test.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/spectrum-wifi-phy-test.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/tx-duration-test.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-aggregation-test.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-error-rate-models-test.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mac-ofdma-test.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mac-queue-test.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-ofdma-test.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-reception-test.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-thresholds-test.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-primary-channels-test.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-channel-switching-test.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-test.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-transmit-mask-test.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-txop-test.cc.o
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/build.make
-../build/lib/libns3.36.1-wifi-test-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-wifi-test-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-wifi-test-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-wifi-test-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/lib/libns3.36.1-wifi-test-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-wifi-test-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-wifi-test-default.so: src/wifi/CMakeFiles/libwifi-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX shared library ../../../build/lib/libns3.36.1-wifi-test-default.so"
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/block-ack-test-suite.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/channel-access-manager-test.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/inter-bss-test-suite.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/power-rate-adaptation-test.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/spectrum-wifi-phy-test.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/tx-duration-test.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-aggregation-test.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-error-rate-models-test.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mac-ofdma-test.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-mac-queue-test.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-ofdma-test.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-reception-test.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-phy-thresholds-test.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-primary-channels-test.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-channel-switching-test.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-test.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-transmit-mask-test.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/test/wifi-txop-test.cc.o
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/build.make
+../build/lib/libns3.36.1-wifi-test-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-wifi-test-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-wifi-test-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-wifi-test-debug.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/lib/libns3.36.1-wifi-test-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-wifi-test-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-wifi-test-debug.so: src/wifi/CMakeFiles/libwifi-test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX shared library ../../../build/lib/libns3.36.1-wifi-test-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/wifi && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libwifi-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/wifi/CMakeFiles/libwifi-test.dir/build: ../build/lib/libns3.36.1-wifi-test-default.so
+src/wifi/CMakeFiles/libwifi-test.dir/build: ../build/lib/libns3.36.1-wifi-test-debug.so
 .PHONY : src/wifi/CMakeFiles/libwifi-test.dir/build
 
 src/wifi/CMakeFiles/libwifi-test.dir/clean:

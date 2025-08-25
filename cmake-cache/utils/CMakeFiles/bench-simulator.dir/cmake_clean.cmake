@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../build/utils/ns3.36.1-bench-simulator-default"
-  "../../build/utils/ns3.36.1-bench-simulator-default.pdb"
+  "../../build/utils/ns3.36.1-bench-simulator-debug"
+  "../../build/utils/ns3.36.1-bench-simulator-debug.pdb"
   "CMakeFiles/bench-simulator.dir/bench-simulator.cc.o"
   "CMakeFiles/bench-simulator.dir/bench-simulator.cc.o.d"
 )

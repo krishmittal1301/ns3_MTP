@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lte/examples/ns3.36.1-lena-distributed-ffr-default"
-  "../../../../build/src/lte/examples/ns3.36.1-lena-distributed-ffr-default.pdb"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-distributed-ffr-debug"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-distributed-ffr-debug.pdb"
   "CMakeFiles/lena-distributed-ffr.dir/lena-distributed-ffr.cc.o"
   "CMakeFiles/lena-distributed-ffr.dir/lena-distributed-ffr.cc.o.d"
 )

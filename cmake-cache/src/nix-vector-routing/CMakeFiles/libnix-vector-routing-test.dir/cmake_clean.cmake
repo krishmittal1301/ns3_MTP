@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-nix-vector-routing-test-default.pdb"
-  "../../../build/lib/libns3.36.1-nix-vector-routing-test-default.so"
+  "../../../build/lib/libns3.36.1-nix-vector-routing-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-nix-vector-routing-test-debug.so"
   "CMakeFiles/libnix-vector-routing-test.dir/test/nix-test.cc.o"
   "CMakeFiles/libnix-vector-routing-test.dir/test/nix-test.cc.o.d"
 )

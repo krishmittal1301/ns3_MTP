@@ -98,40 +98,40 @@ libstats_EXTERNAL_OBJECTS = \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/stats/CMakeFiles/libstats-obj.dir/model/uinteger-32-probe.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/stats/CMakeFiles/libstats-obj.dir/model/uinteger-8-probe.cc.o"
 
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/sqlite-data-output.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/sqlite-output.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/helper/file-helper.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/helper/gnuplot-helper.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/boolean-probe.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/data-calculator.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/data-collection-object.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/data-collector.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/data-output-interface.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/double-probe.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/file-aggregator.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/get-wildcard-matches.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/gnuplot-aggregator.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/gnuplot.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/histogram.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/omnet-data-output.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/probe.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/time-data-calculators.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/time-probe.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/time-series-adaptor.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/uinteger-16-probe.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/uinteger-32-probe.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats-obj.dir/model/uinteger-8-probe.cc.o
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats.dir/build.make
-../build/lib/libns3.36.1-stats-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/lib/libns3.36.1-stats-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-stats-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-stats-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-stats-default.so: src/stats/CMakeFiles/libstats.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-stats-default.so"
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/sqlite-data-output.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/sqlite-output.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/helper/file-helper.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/helper/gnuplot-helper.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/boolean-probe.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/data-calculator.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/data-collection-object.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/data-collector.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/data-output-interface.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/double-probe.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/file-aggregator.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/get-wildcard-matches.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/gnuplot-aggregator.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/gnuplot.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/histogram.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/omnet-data-output.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/probe.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/time-data-calculators.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/time-probe.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/time-series-adaptor.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/uinteger-16-probe.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/uinteger-32-probe.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats-obj.dir/model/uinteger-8-probe.cc.o
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats.dir/build.make
+../build/lib/libns3.36.1-stats-debug.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/lib/libns3.36.1-stats-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-stats-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-stats-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-stats-debug.so: src/stats/CMakeFiles/libstats.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-stats-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/stats && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libstats.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/stats/CMakeFiles/libstats.dir/build: ../build/lib/libns3.36.1-stats-default.so
+src/stats/CMakeFiles/libstats.dir/build: ../build/lib/libns3.36.1-stats-debug.so
 .PHONY : src/stats/CMakeFiles/libstats.dir/build
 
 src/stats/CMakeFiles/libstats.dir/clean:

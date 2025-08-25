@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lr-wpan/examples/ns3.36.1-lr-wpan-packet-print-default"
-  "../../../../build/src/lr-wpan/examples/ns3.36.1-lr-wpan-packet-print-default.pdb"
+  "../../../../build/src/lr-wpan/examples/ns3.36.1-lr-wpan-packet-print-debug"
+  "../../../../build/src/lr-wpan/examples/ns3.36.1-lr-wpan-packet-print-debug.pdb"
   "CMakeFiles/lr-wpan-packet-print.dir/lr-wpan-packet-print.cc.o"
   "CMakeFiles/lr-wpan-packet-print.dir/lr-wpan-packet-print.cc.o.d"
 )

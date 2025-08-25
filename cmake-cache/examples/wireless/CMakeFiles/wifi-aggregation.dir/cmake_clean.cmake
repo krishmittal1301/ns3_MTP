@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-aggregation-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-aggregation-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-aggregation-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-aggregation-debug.pdb"
   "CMakeFiles/wifi-aggregation.dir/wifi-aggregation.cc.o"
   "CMakeFiles/wifi-aggregation.dir/wifi-aggregation.cc.o.d"
 )

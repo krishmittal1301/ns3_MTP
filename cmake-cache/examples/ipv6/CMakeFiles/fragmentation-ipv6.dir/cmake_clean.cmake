@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/ipv6/ns3.36.1-fragmentation-ipv6-default"
-  "../../../build/examples/ipv6/ns3.36.1-fragmentation-ipv6-default.pdb"
+  "../../../build/examples/ipv6/ns3.36.1-fragmentation-ipv6-debug"
+  "../../../build/examples/ipv6/ns3.36.1-fragmentation-ipv6-debug.pdb"
   "CMakeFiles/fragmentation-ipv6.dir/fragmentation-ipv6.cc.o"
   "CMakeFiles/fragmentation-ipv6.dir/fragmentation-ipv6.cc.o.d"
 )

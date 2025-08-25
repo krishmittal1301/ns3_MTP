@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lr-wpan/examples/ns3.36.1-lr-wpan-data-default"
-  "../../../../build/src/lr-wpan/examples/ns3.36.1-lr-wpan-data-default.pdb"
+  "../../../../build/src/lr-wpan/examples/ns3.36.1-lr-wpan-data-debug"
+  "../../../../build/src/lr-wpan/examples/ns3.36.1-lr-wpan-data-debug.pdb"
   "CMakeFiles/lr-wpan-data.dir/lr-wpan-data.cc.o"
   "CMakeFiles/lr-wpan-data.dir/lr-wpan-data.cc.o.d"
 )

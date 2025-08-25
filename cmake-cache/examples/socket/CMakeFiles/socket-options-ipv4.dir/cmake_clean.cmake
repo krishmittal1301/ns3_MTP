@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/socket/ns3.36.1-socket-options-ipv4-default"
-  "../../../build/examples/socket/ns3.36.1-socket-options-ipv4-default.pdb"
+  "../../../build/examples/socket/ns3.36.1-socket-options-ipv4-debug"
+  "../../../build/examples/socket/ns3.36.1-socket-options-ipv4-debug.pdb"
   "CMakeFiles/socket-options-ipv4.dir/socket-options-ipv4.cc.o"
   "CMakeFiles/socket-options-ipv4.dir/socket-options-ipv4.cc.o.d"
 )

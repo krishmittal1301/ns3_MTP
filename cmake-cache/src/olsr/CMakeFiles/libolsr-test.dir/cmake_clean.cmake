@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-olsr-test-default.pdb"
-  "../../../build/lib/libns3.36.1-olsr-test-default.so"
+  "../../../build/lib/libns3.36.1-olsr-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-olsr-test-debug.so"
   "CMakeFiles/libolsr-test.dir/test/bug780-test.cc.o"
   "CMakeFiles/libolsr-test.dir/test/bug780-test.cc.o.d"
   "CMakeFiles/libolsr-test.dir/test/hello-regression-test.cc.o"

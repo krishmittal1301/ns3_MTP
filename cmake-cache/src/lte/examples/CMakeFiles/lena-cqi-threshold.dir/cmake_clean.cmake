@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lte/examples/ns3.36.1-lena-cqi-threshold-default"
-  "../../../../build/src/lte/examples/ns3.36.1-lena-cqi-threshold-default.pdb"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-cqi-threshold-debug"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-cqi-threshold-debug.pdb"
   "CMakeFiles/lena-cqi-threshold.dir/lena-cqi-threshold.cc.o"
   "CMakeFiles/lena-cqi-threshold.dir/lena-cqi-threshold.cc.o.d"
 )

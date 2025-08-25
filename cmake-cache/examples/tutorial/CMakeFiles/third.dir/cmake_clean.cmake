@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/tutorial/ns3.36.1-third-default"
-  "../../../build/examples/tutorial/ns3.36.1-third-default.pdb"
+  "../../../build/examples/tutorial/ns3.36.1-third-debug"
+  "../../../build/examples/tutorial/ns3.36.1-third-debug.pdb"
   "CMakeFiles/third.dir/third.cc.o"
   "CMakeFiles/third.dir/third.cc.o.d"
 )

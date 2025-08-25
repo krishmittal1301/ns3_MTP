@@ -89,32 +89,32 @@ libbuildings_EXTERNAL_OBJECTS = \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/buildings/CMakeFiles/libbuildings-obj.dir/model/random-walk-2d-outdoor-mobility-model.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/buildings/CMakeFiles/libbuildings-obj.dir/model/three-gpp-v2v-channel-condition-model.cc.o"
 
-../build/lib/libns3.36.1-buildings-default.so: src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-allocator.cc.o
-../build/lib/libns3.36.1-buildings-default.so: src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-container.cc.o
-../build/lib/libns3.36.1-buildings-default.so: src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-position-allocator.cc.o
-../build/lib/libns3.36.1-buildings-default.so: src/buildings/CMakeFiles/libbuildings-obj.dir/helper/buildings-helper.cc.o
-../build/lib/libns3.36.1-buildings-default.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/building-list.cc.o
-../build/lib/libns3.36.1-buildings-default.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/building.cc.o
-../build/lib/libns3.36.1-buildings-default.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/buildings-channel-condition-model.cc.o
-../build/lib/libns3.36.1-buildings-default.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/buildings-propagation-loss-model.cc.o
-../build/lib/libns3.36.1-buildings-default.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/hybrid-buildings-propagation-loss-model.cc.o
-../build/lib/libns3.36.1-buildings-default.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/itu-r-1238-propagation-loss-model.cc.o
-../build/lib/libns3.36.1-buildings-default.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/mobility-building-info.cc.o
-../build/lib/libns3.36.1-buildings-default.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/oh-buildings-propagation-loss-model.cc.o
-../build/lib/libns3.36.1-buildings-default.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/random-walk-2d-outdoor-mobility-model.cc.o
-../build/lib/libns3.36.1-buildings-default.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/three-gpp-v2v-channel-condition-model.cc.o
-../build/lib/libns3.36.1-buildings-default.so: src/buildings/CMakeFiles/libbuildings.dir/build.make
-../build/lib/libns3.36.1-buildings-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/lib/libns3.36.1-buildings-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-buildings-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-buildings-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-buildings-default.so: /usr/lib/x86_64-linux-gnu/libxml2.so
-../build/lib/libns3.36.1-buildings-default.so: src/buildings/CMakeFiles/libbuildings.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-buildings-default.so"
+../build/lib/libns3.36.1-buildings-debug.so: src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-allocator.cc.o
+../build/lib/libns3.36.1-buildings-debug.so: src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-container.cc.o
+../build/lib/libns3.36.1-buildings-debug.so: src/buildings/CMakeFiles/libbuildings-obj.dir/helper/building-position-allocator.cc.o
+../build/lib/libns3.36.1-buildings-debug.so: src/buildings/CMakeFiles/libbuildings-obj.dir/helper/buildings-helper.cc.o
+../build/lib/libns3.36.1-buildings-debug.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/building-list.cc.o
+../build/lib/libns3.36.1-buildings-debug.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/building.cc.o
+../build/lib/libns3.36.1-buildings-debug.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/buildings-channel-condition-model.cc.o
+../build/lib/libns3.36.1-buildings-debug.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/buildings-propagation-loss-model.cc.o
+../build/lib/libns3.36.1-buildings-debug.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/hybrid-buildings-propagation-loss-model.cc.o
+../build/lib/libns3.36.1-buildings-debug.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/itu-r-1238-propagation-loss-model.cc.o
+../build/lib/libns3.36.1-buildings-debug.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/mobility-building-info.cc.o
+../build/lib/libns3.36.1-buildings-debug.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/oh-buildings-propagation-loss-model.cc.o
+../build/lib/libns3.36.1-buildings-debug.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/random-walk-2d-outdoor-mobility-model.cc.o
+../build/lib/libns3.36.1-buildings-debug.so: src/buildings/CMakeFiles/libbuildings-obj.dir/model/three-gpp-v2v-channel-condition-model.cc.o
+../build/lib/libns3.36.1-buildings-debug.so: src/buildings/CMakeFiles/libbuildings.dir/build.make
+../build/lib/libns3.36.1-buildings-debug.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/lib/libns3.36.1-buildings-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-buildings-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-buildings-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-buildings-debug.so: /usr/lib/x86_64-linux-gnu/libxml2.so
+../build/lib/libns3.36.1-buildings-debug.so: src/buildings/CMakeFiles/libbuildings.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-buildings-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/buildings && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libbuildings.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/buildings/CMakeFiles/libbuildings.dir/build: ../build/lib/libns3.36.1-buildings-default.so
+src/buildings/CMakeFiles/libbuildings.dir/build: ../build/lib/libns3.36.1-buildings-debug.so
 .PHONY : src/buildings/CMakeFiles/libbuildings.dir/build
 
 src/buildings/CMakeFiles/libbuildings.dir/clean:

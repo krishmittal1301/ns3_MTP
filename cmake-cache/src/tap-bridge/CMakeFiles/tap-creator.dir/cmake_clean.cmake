@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/src/tap-bridge/ns3.36.1-tap-creator-default"
-  "../../../build/src/tap-bridge/ns3.36.1-tap-creator-default.pdb"
+  "../../../build/src/tap-bridge/ns3.36.1-tap-creator-debug"
+  "../../../build/src/tap-bridge/ns3.36.1-tap-creator-debug.pdb"
   "CMakeFiles/tap-creator.dir/model/tap-creator.cc.o"
   "CMakeFiles/tap-creator.dir/model/tap-creator.cc.o.d"
   "CMakeFiles/tap-creator.dir/model/tap-encode-decode.cc.o"

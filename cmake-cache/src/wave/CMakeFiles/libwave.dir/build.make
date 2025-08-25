@@ -91,34 +91,34 @@ libwave_EXTERNAL_OBJECTS = \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/wave/CMakeFiles/libwave-obj.dir/model/wave-frame-exchange-manager.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/wave/CMakeFiles/libwave-obj.dir/model/wave-net-device.cc.o"
 
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave-obj.dir/helper/wave-bsm-helper.cc.o
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave-obj.dir/helper/wave-bsm-stats.cc.o
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave-obj.dir/helper/wave-helper.cc.o
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave-obj.dir/helper/wave-mac-helper.cc.o
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave-obj.dir/helper/wifi-80211p-helper.cc.o
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave-obj.dir/model/bsm-application.cc.o
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave-obj.dir/model/channel-coordinator.cc.o
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave-obj.dir/model/channel-manager.cc.o
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave-obj.dir/model/channel-scheduler.cc.o
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave-obj.dir/model/default-channel-scheduler.cc.o
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave-obj.dir/model/higher-tx-tag.cc.o
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave-obj.dir/model/ocb-wifi-mac.cc.o
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave-obj.dir/model/vendor-specific-action.cc.o
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave-obj.dir/model/vsa-manager.cc.o
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave-obj.dir/model/wave-frame-exchange-manager.cc.o
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave-obj.dir/model/wave-net-device.cc.o
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave.dir/build.make
-../build/lib/libns3.36.1-wave-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-wave-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-wave-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-wave-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/lib/libns3.36.1-wave-default.so: /usr/lib/x86_64-linux-gnu/libxml2.so
-../build/lib/libns3.36.1-wave-default.so: src/wave/CMakeFiles/libwave.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-wave-default.so"
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave-obj.dir/helper/wave-bsm-helper.cc.o
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave-obj.dir/helper/wave-bsm-stats.cc.o
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave-obj.dir/helper/wave-helper.cc.o
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave-obj.dir/helper/wave-mac-helper.cc.o
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave-obj.dir/helper/wifi-80211p-helper.cc.o
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave-obj.dir/model/bsm-application.cc.o
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave-obj.dir/model/channel-coordinator.cc.o
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave-obj.dir/model/channel-manager.cc.o
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave-obj.dir/model/channel-scheduler.cc.o
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave-obj.dir/model/default-channel-scheduler.cc.o
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave-obj.dir/model/higher-tx-tag.cc.o
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave-obj.dir/model/ocb-wifi-mac.cc.o
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave-obj.dir/model/vendor-specific-action.cc.o
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave-obj.dir/model/vsa-manager.cc.o
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave-obj.dir/model/wave-frame-exchange-manager.cc.o
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave-obj.dir/model/wave-net-device.cc.o
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave.dir/build.make
+../build/lib/libns3.36.1-wave-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-wave-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-wave-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-wave-debug.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/lib/libns3.36.1-wave-debug.so: /usr/lib/x86_64-linux-gnu/libxml2.so
+../build/lib/libns3.36.1-wave-debug.so: src/wave/CMakeFiles/libwave.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-wave-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/wave && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libwave.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/wave/CMakeFiles/libwave.dir/build: ../build/lib/libns3.36.1-wave-default.so
+src/wave/CMakeFiles/libwave.dir/build: ../build/lib/libns3.36.1-wave-debug.so
 .PHONY : src/wave/CMakeFiles/libwave.dir/build
 
 src/wave/CMakeFiles/libwave.dir/clean:

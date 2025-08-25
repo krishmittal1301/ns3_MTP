@@ -92,34 +92,34 @@ libenergy_EXTERNAL_OBJECTS = \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/rv-battery-model.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/energy/CMakeFiles/libenergy-obj.dir/model/simple-device-energy-model.cc.o"
 
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/basic-energy-harvester-helper.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/basic-energy-source-helper.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-harvester-container.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-harvester-helper.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-model-helper.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-source-container.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/li-ion-energy-source-helper.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/rv-battery-model-helper.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/model/basic-energy-harvester.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/model/basic-energy-source.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/model/device-energy-model-container.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/model/device-energy-model.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/model/energy-harvester.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/model/energy-source.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/model/li-ion-energy-source.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/model/rv-battery-model.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy-obj.dir/model/simple-device-energy-model.cc.o
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy.dir/build.make
-../build/lib/libns3.36.1-energy-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-energy-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-energy-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-energy-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/lib/libns3.36.1-energy-default.so: src/energy/CMakeFiles/libenergy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-energy-default.so"
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/basic-energy-harvester-helper.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/basic-energy-source-helper.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-harvester-container.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-harvester-helper.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-model-helper.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/energy-source-container.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/li-ion-energy-source-helper.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/helper/rv-battery-model-helper.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/model/basic-energy-harvester.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/model/basic-energy-source.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/model/device-energy-model-container.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/model/device-energy-model.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/model/energy-harvester.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/model/energy-source.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/model/li-ion-energy-source.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/model/rv-battery-model.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy-obj.dir/model/simple-device-energy-model.cc.o
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy.dir/build.make
+../build/lib/libns3.36.1-energy-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-energy-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-energy-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-energy-debug.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/lib/libns3.36.1-energy-debug.so: src/energy/CMakeFiles/libenergy.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-energy-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/energy && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libenergy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/energy/CMakeFiles/libenergy.dir/build: ../build/lib/libns3.36.1-energy-default.so
+src/energy/CMakeFiles/libenergy.dir/build: ../build/lib/libns3.36.1-energy-debug.so
 .PHONY : src/energy/CMakeFiles/libenergy.dir/build
 
 src/energy/CMakeFiles/libenergy.dir/clean:

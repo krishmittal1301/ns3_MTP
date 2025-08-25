@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-power-adaptation-interference-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-power-adaptation-interference-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-power-adaptation-interference-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-power-adaptation-interference-debug.pdb"
   "CMakeFiles/wifi-power-adaptation-interference.dir/wifi-power-adaptation-interference.cc.o"
   "CMakeFiles/wifi-power-adaptation-interference.dir/wifi-power-adaptation-interference.cc.o.d"
 )

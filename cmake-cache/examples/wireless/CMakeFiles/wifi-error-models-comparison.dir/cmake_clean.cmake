@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-error-models-comparison-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-error-models-comparison-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-error-models-comparison-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-error-models-comparison-debug.pdb"
   "CMakeFiles/wifi-error-models-comparison.dir/wifi-error-models-comparison.cc.o"
   "CMakeFiles/wifi-error-models-comparison.dir/wifi-error-models-comparison.cc.o.d"
 )

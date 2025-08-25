@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-simple-ht-hidden-stations-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-simple-ht-hidden-stations-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-simple-ht-hidden-stations-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-simple-ht-hidden-stations-debug.pdb"
   "CMakeFiles/wifi-simple-ht-hidden-stations.dir/wifi-simple-ht-hidden-stations.cc.o"
   "CMakeFiles/wifi-simple-ht-hidden-stations.dir/wifi-simple-ht-hidden-stations.cc.o.d"
 )

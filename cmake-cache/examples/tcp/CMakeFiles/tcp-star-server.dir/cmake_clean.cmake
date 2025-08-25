@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/tcp/ns3.36.1-tcp-star-server-default"
-  "../../../build/examples/tcp/ns3.36.1-tcp-star-server-default.pdb"
+  "../../../build/examples/tcp/ns3.36.1-tcp-star-server-debug"
+  "../../../build/examples/tcp/ns3.36.1-tcp-star-server-debug.pdb"
   "CMakeFiles/tcp-star-server.dir/tcp-star-server.cc.o"
   "CMakeFiles/tcp-star-server.dir/tcp-star-server.cc.o.d"
 )

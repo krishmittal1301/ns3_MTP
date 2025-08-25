@@ -30,6 +30,7 @@
 #include "ns3/mac48-address.h"
 #include "ns3/aloha-noack-net-device.h"
 #include "adhoc-aloha-noack-ideal-phy-helper.h"
+#include "ns3/trace-helper.h"
 
 
 
@@ -168,6 +169,42 @@ AdhocAlohaNoackIdealPhyHelper::Install (NodeContainer c) const
     }
   return devices;
 }
+
+void 
+AdhocAlohaNoackIdealPhyHelper::EnablePcapInternal (std::string prefix, Ptr<NetDevice> nd, bool promiscuous, bool explicitFilename)
+{
+  //
+  // All of the Pcap enable functions vector through here including the ones
+  // that are wandering through all of devices on perhaps all of the nodes in
+  // the system.  We can only deal with devices of type CsmaNetDevice.
+  //
+  Ptr<AlohaNoackNetDevice> device = nd->GetObject<AlohaNoackNetDevice> ();
+  if (device == 0)
+    {
+      NS_LOG_INFO ("CsmaHelper::EnablePcapInternal(): Device " << device << " not of type ns3::AlohaNoackNetDevice");
+      return;
+    }
+
+  PcapHelper pcapHelper;
+
+  std::string filename;
+  if (explicitFilename)
+    {
+      filename = prefix;
+    }
+  else
+    {
+      filename = pcapHelper.GetFilenameFromDevice (prefix, device);
+    }
+
+  Ptr<PcapFileWrapper> file = pcapHelper.CreateFile (filename, std::ios::out, PcapHelper::DLT_EN10MB);
+
+  pcapHelper.HookDefaultSink<AlohaNoackNetDevice> (device, "MacTx", file);  
+  pcapHelper.HookDefaultSink<AlohaNoackNetDevice> (device, "MacRx", file);  
+  pcapHelper.HookDefaultSink<AlohaNoackNetDevice> (device, "MacPromiscRx", file);  
+  pcapHelper.HookDefaultSink<AlohaNoackNetDevice> (device, "MacTxDrop", file);  
+}
+
 
 NetDeviceContainer
 AdhocAlohaNoackIdealPhyHelper::Install (Ptr<Node> node) const

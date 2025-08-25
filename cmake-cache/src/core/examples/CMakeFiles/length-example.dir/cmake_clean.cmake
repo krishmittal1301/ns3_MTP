@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/core/examples/ns3.36.1-length-example-default"
-  "../../../../build/src/core/examples/ns3.36.1-length-example-default.pdb"
+  "../../../../build/src/core/examples/ns3.36.1-length-example-debug"
+  "../../../../build/src/core/examples/ns3.36.1-length-example-debug.pdb"
   "CMakeFiles/length-example.dir/length-example.cc.o"
   "CMakeFiles/length-example.dir/length-example.cc.o.d"
 )

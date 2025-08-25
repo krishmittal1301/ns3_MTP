@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-spectrum-per-example-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-spectrum-per-example-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-spectrum-per-example-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-spectrum-per-example-debug.pdb"
   "CMakeFiles/wifi-spectrum-per-example.dir/wifi-spectrum-per-example.cc.o"
   "CMakeFiles/wifi-spectrum-per-example.dir/wifi-spectrum-per-example.cc.o.d"
 )

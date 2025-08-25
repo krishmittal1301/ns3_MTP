@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/wifi/examples/ns3.36.1-wifi-manager-example-default"
-  "../../../../build/src/wifi/examples/ns3.36.1-wifi-manager-example-default.pdb"
+  "../../../../build/src/wifi/examples/ns3.36.1-wifi-manager-example-debug"
+  "../../../../build/src/wifi/examples/ns3.36.1-wifi-manager-example-debug.pdb"
   "CMakeFiles/wifi-manager-example.dir/wifi-manager-example.cc.o"
   "CMakeFiles/wifi-manager-example.dir/wifi-manager-example.cc.o.d"
 )

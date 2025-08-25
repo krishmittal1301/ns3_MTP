@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/internet-apps/examples/ns3.36.1-dhcp-example-default"
-  "../../../../build/src/internet-apps/examples/ns3.36.1-dhcp-example-default.pdb"
+  "../../../../build/src/internet-apps/examples/ns3.36.1-dhcp-example-debug"
+  "../../../../build/src/internet-apps/examples/ns3.36.1-dhcp-example-debug.pdb"
   "CMakeFiles/dhcp-example.dir/dhcp-example.cc.o"
   "CMakeFiles/dhcp-example.dir/dhcp-example.cc.o.d"
 )

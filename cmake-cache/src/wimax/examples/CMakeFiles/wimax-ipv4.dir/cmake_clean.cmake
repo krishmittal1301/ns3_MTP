@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/wimax/examples/ns3.36.1-wimax-ipv4-default"
-  "../../../../build/src/wimax/examples/ns3.36.1-wimax-ipv4-default.pdb"
+  "../../../../build/src/wimax/examples/ns3.36.1-wimax-ipv4-debug"
+  "../../../../build/src/wimax/examples/ns3.36.1-wimax-ipv4-debug.pdb"
   "CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.o"
   "CMakeFiles/wimax-ipv4.dir/wimax-ipv4.cc.o.d"
 )

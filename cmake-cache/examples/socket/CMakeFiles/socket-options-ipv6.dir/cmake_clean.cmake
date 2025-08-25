@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/socket/ns3.36.1-socket-options-ipv6-default"
-  "../../../build/examples/socket/ns3.36.1-socket-options-ipv6-default.pdb"
+  "../../../build/examples/socket/ns3.36.1-socket-options-ipv6-debug"
+  "../../../build/examples/socket/ns3.36.1-socket-options-ipv6-debug.pdb"
   "CMakeFiles/socket-options-ipv6.dir/socket-options-ipv6.cc.o"
   "CMakeFiles/socket-options-ipv6.dir/socket-options-ipv6.cc.o.d"
 )

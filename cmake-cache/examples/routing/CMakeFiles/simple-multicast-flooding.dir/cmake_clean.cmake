@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/routing/ns3.36.1-simple-multicast-flooding-default"
-  "../../../build/examples/routing/ns3.36.1-simple-multicast-flooding-default.pdb"
+  "../../../build/examples/routing/ns3.36.1-simple-multicast-flooding-debug"
+  "../../../build/examples/routing/ns3.36.1-simple-multicast-flooding-debug.pdb"
   "CMakeFiles/simple-multicast-flooding.dir/simple-multicast-flooding.cc.o"
   "CMakeFiles/simple-multicast-flooding.dir/simple-multicast-flooding.cc.o.d"
 )

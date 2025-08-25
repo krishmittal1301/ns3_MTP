@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/core/examples/ns3.36.1-sample-show-progress-default"
-  "../../../../build/src/core/examples/ns3.36.1-sample-show-progress-default.pdb"
+  "../../../../build/src/core/examples/ns3.36.1-sample-show-progress-debug"
+  "../../../../build/src/core/examples/ns3.36.1-sample-show-progress-debug.pdb"
   "CMakeFiles/sample-show-progress.dir/sample-show-progress.cc.o"
   "CMakeFiles/sample-show-progress.dir/sample-show-progress.cc.o.d"
 )

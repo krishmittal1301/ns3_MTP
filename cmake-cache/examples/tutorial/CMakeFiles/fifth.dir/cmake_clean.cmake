@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/tutorial/ns3.36.1-fifth-default"
-  "../../../build/examples/tutorial/ns3.36.1-fifth-default.pdb"
+  "../../../build/examples/tutorial/ns3.36.1-fifth-debug"
+  "../../../build/examples/tutorial/ns3.36.1-fifth-debug.pdb"
   "CMakeFiles/fifth.dir/fifth.cc.o"
   "CMakeFiles/fifth.dir/fifth.cc.o.d"
   "CMakeFiles/fifth.dir/tutorial-app.cc.o"

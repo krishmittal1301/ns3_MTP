@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/core/examples/ns3.36.1-main-ptr-default"
-  "../../../../build/src/core/examples/ns3.36.1-main-ptr-default.pdb"
+  "../../../../build/src/core/examples/ns3.36.1-main-ptr-debug"
+  "../../../../build/src/core/examples/ns3.36.1-main-ptr-debug.pdb"
   "CMakeFiles/main-ptr.dir/main-ptr.cc.o"
   "CMakeFiles/main-ptr.dir/main-ptr.cc.o.d"
 )

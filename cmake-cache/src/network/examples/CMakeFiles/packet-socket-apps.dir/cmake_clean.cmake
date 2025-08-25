@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/network/examples/ns3.36.1-packet-socket-apps-default"
-  "../../../../build/src/network/examples/ns3.36.1-packet-socket-apps-default.pdb"
+  "../../../../build/src/network/examples/ns3.36.1-packet-socket-apps-debug"
+  "../../../../build/src/network/examples/ns3.36.1-packet-socket-apps-debug.pdb"
   "CMakeFiles/packet-socket-apps.dir/packet-socket-apps.cc.o"
   "CMakeFiles/packet-socket-apps.dir/packet-socket-apps.cc.o.d"
 )

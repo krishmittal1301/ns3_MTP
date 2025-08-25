@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/tcp/ns3.36.1-tcp-large-transfer-default"
-  "../../../build/examples/tcp/ns3.36.1-tcp-large-transfer-default.pdb"
+  "../../../build/examples/tcp/ns3.36.1-tcp-large-transfer-debug"
+  "../../../build/examples/tcp/ns3.36.1-tcp-large-transfer-debug.pdb"
   "CMakeFiles/tcp-large-transfer.dir/tcp-large-transfer.cc.o"
   "CMakeFiles/tcp-large-transfer.dir/tcp-large-transfer.cc.o.d"
 )

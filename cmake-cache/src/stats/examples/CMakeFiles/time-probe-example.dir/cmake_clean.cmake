@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/stats/examples/ns3.36.1-time-probe-example-default"
-  "../../../../build/src/stats/examples/ns3.36.1-time-probe-example-default.pdb"
+  "../../../../build/src/stats/examples/ns3.36.1-time-probe-example-debug"
+  "../../../../build/src/stats/examples/ns3.36.1-time-probe-example-debug.pdb"
   "CMakeFiles/time-probe-example.dir/time-probe-example.cc.o"
   "CMakeFiles/time-probe-example.dir/time-probe-example.cc.o.d"
 )

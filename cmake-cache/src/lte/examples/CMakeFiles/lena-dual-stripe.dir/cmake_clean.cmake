@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lte/examples/ns3.36.1-lena-dual-stripe-default"
-  "../../../../build/src/lte/examples/ns3.36.1-lena-dual-stripe-default.pdb"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-dual-stripe-debug"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-dual-stripe-debug.pdb"
   "CMakeFiles/lena-dual-stripe.dir/lena-dual-stripe.cc.o"
   "CMakeFiles/lena-dual-stripe.dir/lena-dual-stripe.cc.o.d"
 )

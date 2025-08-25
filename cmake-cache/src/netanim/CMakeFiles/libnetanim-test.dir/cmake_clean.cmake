@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-netanim-test-default.pdb"
-  "../../../build/lib/libns3.36.1-netanim-test-default.so"
+  "../../../build/lib/libns3.36.1-netanim-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-netanim-test-debug.so"
   "CMakeFiles/libnetanim-test.dir/test/netanim-test.cc.o"
   "CMakeFiles/libnetanim-test.dir/test/netanim-test.cc.o.d"
 )

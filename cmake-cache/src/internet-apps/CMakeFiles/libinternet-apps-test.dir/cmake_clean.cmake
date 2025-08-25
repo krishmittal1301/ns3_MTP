@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-internet-apps-test-default.pdb"
-  "../../../build/lib/libns3.36.1-internet-apps-test-default.so"
+  "../../../build/lib/libns3.36.1-internet-apps-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-internet-apps-test-debug.so"
   "CMakeFiles/libinternet-apps-test.dir/test/dhcp-test.cc.o"
   "CMakeFiles/libinternet-apps-test.dir/test/dhcp-test.cc.o.d"
   "CMakeFiles/libinternet-apps-test.dir/test/ipv6-radvd-test.cc.o"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/routing/ns3.36.1-simple-alternate-routing-default"
-  "../../../build/examples/routing/ns3.36.1-simple-alternate-routing-default.pdb"
+  "../../../build/examples/routing/ns3.36.1-simple-alternate-routing-debug"
+  "../../../build/examples/routing/ns3.36.1-simple-alternate-routing-debug.pdb"
   "CMakeFiles/simple-alternate-routing.dir/simple-alternate-routing.cc.o"
   "CMakeFiles/simple-alternate-routing.dir/simple-alternate-routing.cc.o.d"
 )

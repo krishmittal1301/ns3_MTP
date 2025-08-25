@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/network/examples/ns3.36.1-bit-serializer-default"
-  "../../../../build/src/network/examples/ns3.36.1-bit-serializer-default.pdb"
+  "../../../../build/src/network/examples/ns3.36.1-bit-serializer-debug"
+  "../../../../build/src/network/examples/ns3.36.1-bit-serializer-debug.pdb"
   "CMakeFiles/bit-serializer.dir/bit-serializer.cc.o"
   "CMakeFiles/bit-serializer.dir/bit-serializer.cc.o.d"
 )

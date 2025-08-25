@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../build/utils/ns3.36.1-bench-packets-default"
-  "../../build/utils/ns3.36.1-bench-packets-default.pdb"
+  "../../build/utils/ns3.36.1-bench-packets-debug"
+  "../../build/utils/ns3.36.1-bench-packets-debug.pdb"
   "CMakeFiles/bench-packets.dir/bench-packets.cc.o"
   "CMakeFiles/bench-packets.dir/bench-packets.cc.o.d"
 )

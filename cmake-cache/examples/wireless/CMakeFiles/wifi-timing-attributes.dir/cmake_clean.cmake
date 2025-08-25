@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-timing-attributes-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-timing-attributes-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-timing-attributes-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-timing-attributes-debug.pdb"
   "CMakeFiles/wifi-timing-attributes.dir/wifi-timing-attributes.cc.o"
   "CMakeFiles/wifi-timing-attributes.dir/wifi-timing-attributes.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-energy-test-default.pdb"
-  "../../../build/lib/libns3.36.1-energy-test-default.so"
+  "../../../build/lib/libns3.36.1-energy-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-energy-test-debug.so"
   "CMakeFiles/libenergy-test.dir/test/basic-energy-harvester-test.cc.o"
   "CMakeFiles/libenergy-test.dir/test/basic-energy-harvester-test.cc.o.d"
   "CMakeFiles/libenergy-test.dir/test/li-ion-energy-source-test.cc.o"

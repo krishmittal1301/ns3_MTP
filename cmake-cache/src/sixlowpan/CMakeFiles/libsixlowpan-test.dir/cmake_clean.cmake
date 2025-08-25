@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-sixlowpan-test-default.pdb"
-  "../../../build/lib/libns3.36.1-sixlowpan-test-default.so"
+  "../../../build/lib/libns3.36.1-sixlowpan-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-sixlowpan-test-debug.so"
   "CMakeFiles/libsixlowpan-test.dir/test/mock-net-device.cc.o"
   "CMakeFiles/libsixlowpan-test.dir/test/mock-net-device.cc.o.d"
   "CMakeFiles/libsixlowpan-test.dir/test/sixlowpan-examples-test-suite.cc.o"

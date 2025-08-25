@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-wifi-default.pdb"
-  "../../../build/lib/libns3.36.1-wifi-default.so"
+  "../../../build/lib/libns3.36.1-wifi-debug.pdb"
+  "../../../build/lib/libns3.36.1-wifi-debug.so"
 )
 
 # Per-language clean rules from dependency scanning.

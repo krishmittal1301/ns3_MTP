@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/wifi/examples/ns3.36.1-wifi-phy-test-default"
-  "../../../../build/src/wifi/examples/ns3.36.1-wifi-phy-test-default.pdb"
+  "../../../../build/src/wifi/examples/ns3.36.1-wifi-phy-test-debug"
+  "../../../../build/src/wifi/examples/ns3.36.1-wifi-phy-test-debug.pdb"
   "CMakeFiles/wifi-phy-test.dir/wifi-phy-test.cc.o"
   "CMakeFiles/wifi-phy-test.dir/wifi-phy-test.cc.o.d"
 )

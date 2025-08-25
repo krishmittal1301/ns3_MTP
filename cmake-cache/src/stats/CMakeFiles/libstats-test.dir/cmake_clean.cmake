@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-stats-test-default.pdb"
-  "../../../build/lib/libns3.36.1-stats-test-default.so"
+  "../../../build/lib/libns3.36.1-stats-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-stats-test-debug.so"
   "CMakeFiles/libstats-test.dir/test/average-test-suite.cc.o"
   "CMakeFiles/libstats-test.dir/test/average-test-suite.cc.o.d"
   "CMakeFiles/libstats-test.dir/test/basic-data-calculators-test-suite.cc.o"

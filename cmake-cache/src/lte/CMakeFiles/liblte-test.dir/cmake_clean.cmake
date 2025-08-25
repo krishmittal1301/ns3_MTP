@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-lte-test-default.pdb"
-  "../../../build/lib/libns3.36.1-lte-test-default.so"
+  "../../../build/lib/libns3.36.1-lte-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-lte-test-debug.so"
   "CMakeFiles/liblte-test.dir/test/epc-test-gtpu.cc.o"
   "CMakeFiles/liblte-test.dir/test/epc-test-gtpu.cc.o.d"
   "CMakeFiles/liblte-test.dir/test/epc-test-s1u-downlink.cc.o"

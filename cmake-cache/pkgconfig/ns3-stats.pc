@@ -9,5 +9,5 @@ Version: 3.36.1
 Requires:  ns3-core
 Requires.private: 
 Cflags: -I"${includedir}" -I/usr/include -I/usr; -I/usr/include/libxml2 -I/usr/include/python3.10
-Libs: -L"${libdir}" -lns3.36.1-stats-default  -lns3.36.1-core-default /usr/lib/x86_64-linux-gnu/libsqlite3.so
+Libs: -L"${libdir}" -lns3.36.1-stats-debug  -lns3.36.1-core-debug /usr/lib/x86_64-linux-gnu/libsqlite3.so
 Libs.private: -L"${libdir}" 

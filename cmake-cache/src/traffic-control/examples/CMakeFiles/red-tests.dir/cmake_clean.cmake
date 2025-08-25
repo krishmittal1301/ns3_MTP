@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/traffic-control/examples/ns3.36.1-red-tests-default"
-  "../../../../build/src/traffic-control/examples/ns3.36.1-red-tests-default.pdb"
+  "../../../../build/src/traffic-control/examples/ns3.36.1-red-tests-debug"
+  "../../../../build/src/traffic-control/examples/ns3.36.1-red-tests-debug.pdb"
   "CMakeFiles/red-tests.dir/red-tests.cc.o"
   "CMakeFiles/red-tests.dir/red-tests.cc.o.d"
 )

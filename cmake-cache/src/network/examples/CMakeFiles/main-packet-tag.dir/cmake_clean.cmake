@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/network/examples/ns3.36.1-main-packet-tag-default"
-  "../../../../build/src/network/examples/ns3.36.1-main-packet-tag-default.pdb"
+  "../../../../build/src/network/examples/ns3.36.1-main-packet-tag-debug"
+  "../../../../build/src/network/examples/ns3.36.1-main-packet-tag-debug.pdb"
   "CMakeFiles/main-packet-tag.dir/main-packet-tag.cc.o"
   "CMakeFiles/main-packet-tag.dir/main-packet-tag.cc.o.d"
 )

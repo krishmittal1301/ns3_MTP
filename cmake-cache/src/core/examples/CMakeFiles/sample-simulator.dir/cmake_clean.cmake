@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/core/examples/ns3.36.1-sample-simulator-default"
-  "../../../../build/src/core/examples/ns3.36.1-sample-simulator-default.pdb"
+  "../../../../build/src/core/examples/ns3.36.1-sample-simulator-debug"
+  "../../../../build/src/core/examples/ns3.36.1-sample-simulator-debug.pdb"
   "CMakeFiles/sample-simulator.dir/sample-simulator.cc.o"
   "CMakeFiles/sample-simulator.dir/sample-simulator.cc.o.d"
 )

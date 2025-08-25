@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-dsr-test-default.pdb"
-  "../../../build/lib/libns3.36.1-dsr-test-default.so"
+  "../../../build/lib/libns3.36.1-dsr-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-dsr-test-debug.so"
   "CMakeFiles/libdsr-test.dir/test/dsr-test-suite.cc.o"
   "CMakeFiles/libdsr-test.dir/test/dsr-test-suite.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/energy/examples/ns3.36.1-rv-battery-model-test-default"
-  "../../../../build/src/energy/examples/ns3.36.1-rv-battery-model-test-default.pdb"
+  "../../../../build/src/energy/examples/ns3.36.1-rv-battery-model-test-debug"
+  "../../../../build/src/energy/examples/ns3.36.1-rv-battery-model-test-debug.pdb"
   "CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.o"
   "CMakeFiles/rv-battery-model-test.dir/rv-battery-model-test.cc.o.d"
 )

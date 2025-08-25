@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/ipv6/ns3.36.1-radvd-two-prefix-default"
-  "../../../build/examples/ipv6/ns3.36.1-radvd-two-prefix-default.pdb"
+  "../../../build/examples/ipv6/ns3.36.1-radvd-two-prefix-debug"
+  "../../../build/examples/ipv6/ns3.36.1-radvd-two-prefix-debug.pdb"
   "CMakeFiles/radvd-two-prefix.dir/radvd-two-prefix.cc.o"
   "CMakeFiles/radvd-two-prefix.dir/radvd-two-prefix.cc.o.d"
 )

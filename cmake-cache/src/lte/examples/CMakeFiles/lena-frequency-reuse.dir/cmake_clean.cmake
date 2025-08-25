@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lte/examples/ns3.36.1-lena-frequency-reuse-default"
-  "../../../../build/src/lte/examples/ns3.36.1-lena-frequency-reuse-default.pdb"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-frequency-reuse-debug"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-frequency-reuse-debug.pdb"
   "CMakeFiles/lena-frequency-reuse.dir/lena-frequency-reuse.cc.o"
   "CMakeFiles/lena-frequency-reuse.dir/lena-frequency-reuse.cc.o.d"
 )

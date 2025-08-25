@@ -110,52 +110,52 @@ libspectrum_EXTERNAL_OBJECTS = \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/spectrum/CMakeFiles/libspectrum-obj.dir/model/wifi-spectrum-value-helper.cc.o"
 
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-helper.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helper.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-loss.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-loss.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-parameters.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/microwave-oven-spectrum-value-helper.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-converter.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-error-model.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-interference.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-300kHz-300GHz-log.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-ism2400MHz-res1MHz.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-model.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagation-loss-model.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-signal-parameters.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-value.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation-loss-model.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/wifi-spectrum-value-helper.cc.o
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum.dir/build.make
-../build/lib/libns3.36.1-spectrum-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/lib/libns3.36.1-spectrum-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-spectrum-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-spectrum-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-spectrum-default.so: src/spectrum/CMakeFiles/libspectrum.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-spectrum-default.so"
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-helper.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helper.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-loss.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-loss.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy-signal-parameters.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/half-duplex-ideal-phy.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/matrix-based-channel-model.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/microwave-oven-spectrum-value-helper.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/multi-model-spectrum-channel.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/non-communicating-net-device.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-analyzer.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-channel.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-converter.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-error-model.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-interference.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-300kHz-300GHz-log.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model-ism2400MHz-res1MHz.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-model.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-phy.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-propagation-loss-model.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/phased-array-spectrum-propagation-loss-model.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-signal-parameters.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/spectrum-value.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-channel-model.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation-loss-model.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/trace-fading-loss-model.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/tv-spectrum-transmitter.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/waveform-generator.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/wifi-spectrum-value-helper.cc.o
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum.dir/build.make
+../build/lib/libns3.36.1-spectrum-debug.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/lib/libns3.36.1-spectrum-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-spectrum-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-spectrum-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-spectrum-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/spectrum && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libspectrum.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/spectrum/CMakeFiles/libspectrum.dir/build: ../build/lib/libns3.36.1-spectrum-default.so
+src/spectrum/CMakeFiles/libspectrum.dir/build: ../build/lib/libns3.36.1-spectrum-debug.so
 .PHONY : src/spectrum/CMakeFiles/libspectrum.dir/build
 
 src/spectrum/CMakeFiles/libspectrum.dir/clean:

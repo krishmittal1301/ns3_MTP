@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-applications-test-default.pdb"
-  "../../../build/lib/libns3.36.1-applications-test-default.so"
+  "../../../build/lib/libns3.36.1-applications-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-applications-test-debug.so"
   "CMakeFiles/libapplications-test.dir/test/bulk-send-application-test-suite.cc.o"
   "CMakeFiles/libapplications-test.dir/test/bulk-send-application-test-suite.cc.o.d"
   "CMakeFiles/libapplications-test.dir/test/three-gpp-http-client-server-test.cc.o"

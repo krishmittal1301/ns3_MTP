@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-traffic-control-test-default.pdb"
-  "../../../build/lib/libns3.36.1-traffic-control-test-default.so"
+  "../../../build/lib/libns3.36.1-traffic-control-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-traffic-control-test-debug.so"
   "CMakeFiles/libtraffic-control-test.dir/test/adaptive-red-queue-disc-test-suite.cc.o"
   "CMakeFiles/libtraffic-control-test.dir/test/adaptive-red-queue-disc-test-suite.cc.o.d"
   "CMakeFiles/libtraffic-control-test.dir/test/cobalt-queue-disc-test-suite.cc.o"

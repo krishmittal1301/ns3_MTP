@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd-tap-ping-default"
-  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd-tap-ping-default.pdb"
+  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd-tap-ping-debug"
+  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd-tap-ping-debug.pdb"
   "CMakeFiles/fd-tap-ping.dir/fd-tap-ping.cc.o"
   "CMakeFiles/fd-tap-ping.dir/fd-tap-ping.cc.o.d"
 )

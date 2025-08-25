@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd-emu-udp-echo-default"
-  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd-emu-udp-echo-default.pdb"
+  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd-emu-udp-echo-debug"
+  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd-emu-udp-echo-debug.pdb"
   "CMakeFiles/fd-emu-udp-echo.dir/fd-emu-udp-echo.cc.o"
   "CMakeFiles/fd-emu-udp-echo.dir/fd-emu-udp-echo.cc.o.d"
 )

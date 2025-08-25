@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/core/examples/ns3.36.1-hash-example-default"
-  "../../../../build/src/core/examples/ns3.36.1-hash-example-default.pdb"
+  "../../../../build/src/core/examples/ns3.36.1-hash-example-debug"
+  "../../../../build/src/core/examples/ns3.36.1-hash-example-debug.pdb"
   "CMakeFiles/hash-example.dir/hash-example.cc.o"
   "CMakeFiles/hash-example.dir/hash-example.cc.o.d"
 )

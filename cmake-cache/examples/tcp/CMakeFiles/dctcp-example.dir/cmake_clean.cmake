@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/tcp/ns3.36.1-dctcp-example-default"
-  "../../../build/examples/tcp/ns3.36.1-dctcp-example-default.pdb"
+  "../../../build/examples/tcp/ns3.36.1-dctcp-example-debug"
+  "../../../build/examples/tcp/ns3.36.1-dctcp-example-debug.pdb"
   "CMakeFiles/dctcp-example.dir/dctcp-example.cc.o"
   "CMakeFiles/dctcp-example.dir/dctcp-example.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/mobility/examples/ns3.36.1-main-grid-topology-default"
-  "../../../../build/src/mobility/examples/ns3.36.1-main-grid-topology-default.pdb"
+  "../../../../build/src/mobility/examples/ns3.36.1-main-grid-topology-debug"
+  "../../../../build/src/mobility/examples/ns3.36.1-main-grid-topology-debug.pdb"
   "CMakeFiles/main-grid-topology.dir/main-grid-topology.cc.o"
   "CMakeFiles/main-grid-topology.dir/main-grid-topology.cc.o.d"
 )

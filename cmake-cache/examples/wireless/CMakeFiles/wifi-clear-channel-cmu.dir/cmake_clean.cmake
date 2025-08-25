@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-clear-channel-cmu-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-clear-channel-cmu-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-clear-channel-cmu-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-clear-channel-cmu-debug.pdb"
   "CMakeFiles/wifi-clear-channel-cmu.dir/wifi-clear-channel-cmu.cc.o"
   "CMakeFiles/wifi-clear-channel-cmu.dir/wifi-clear-channel-cmu.cc.o.d"
 )

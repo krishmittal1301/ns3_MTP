@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-fd-net-device-default.pdb"
-  "../../../build/lib/libns3.36.1-fd-net-device-default.so"
+  "../../../build/lib/libns3.36.1-fd-net-device-debug.pdb"
+  "../../../build/lib/libns3.36.1-fd-net-device-debug.so"
 )
 
 # Per-language clean rules from dependency scanning.

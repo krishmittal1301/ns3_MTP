@@ -95,37 +95,37 @@ libmobility_EXTERNAL_OBJECTS = \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/mobility/CMakeFiles/libmobility-obj.dir/model/waypoint-mobility-model.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/mobility/CMakeFiles/libmobility-obj.dir/model/waypoint.cc.o"
 
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/helper/group-mobility-helper.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/helper/mobility-helper.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/helper/ns2-mobility-helper.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/box.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/constant-acceleration-mobility-model.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/constant-position-mobility-model.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/constant-velocity-helper.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/constant-velocity-mobility-model.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/gauss-markov-mobility-model.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/geographic-positions.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/hierarchical-mobility-model.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/mobility-model.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/position-allocator.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/random-direction-2d-mobility-model.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/random-walk-2d-mobility-model.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/random-waypoint-mobility-model.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/rectangle.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/steady-state-random-waypoint-mobility-model.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/waypoint-mobility-model.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/waypoint.cc.o
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility.dir/build.make
-../build/lib/libns3.36.1-mobility-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-mobility-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-mobility-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-mobility-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/lib/libns3.36.1-mobility-default.so: src/mobility/CMakeFiles/libmobility.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-mobility-default.so"
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/helper/group-mobility-helper.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/helper/mobility-helper.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/helper/ns2-mobility-helper.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/box.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/constant-acceleration-mobility-model.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/constant-position-mobility-model.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/constant-velocity-helper.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/constant-velocity-mobility-model.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/gauss-markov-mobility-model.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/geographic-positions.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/hierarchical-mobility-model.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/mobility-model.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/position-allocator.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/random-direction-2d-mobility-model.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/random-walk-2d-mobility-model.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/random-waypoint-mobility-model.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/rectangle.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/steady-state-random-waypoint-mobility-model.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/waypoint-mobility-model.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility-obj.dir/model/waypoint.cc.o
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility.dir/build.make
+../build/lib/libns3.36.1-mobility-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-mobility-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-mobility-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-mobility-debug.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/lib/libns3.36.1-mobility-debug.so: src/mobility/CMakeFiles/libmobility.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-mobility-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/mobility && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libmobility.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/mobility/CMakeFiles/libmobility.dir/build: ../build/lib/libns3.36.1-mobility-default.so
+src/mobility/CMakeFiles/libmobility.dir/build: ../build/lib/libns3.36.1-mobility-debug.so
 .PHONY : src/mobility/CMakeFiles/libmobility.dir/build
 
 src/mobility/CMakeFiles/libmobility.dir/clean:

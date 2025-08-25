@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lte/examples/ns3.36.1-lena-intercell-interference-default"
-  "../../../../build/src/lte/examples/ns3.36.1-lena-intercell-interference-default.pdb"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-intercell-interference-debug"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-intercell-interference-debug.pdb"
   "CMakeFiles/lena-intercell-interference.dir/lena-intercell-interference.cc.o"
   "CMakeFiles/lena-intercell-interference.dir/lena-intercell-interference.cc.o.d"
 )

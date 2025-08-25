@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/traffic-control/ns3.36.1-tbf-example-default"
-  "../../../build/examples/traffic-control/ns3.36.1-tbf-example-default.pdb"
+  "../../../build/examples/traffic-control/ns3.36.1-tbf-example-debug"
+  "../../../build/examples/traffic-control/ns3.36.1-tbf-example-debug.pdb"
   "CMakeFiles/tbf-example.dir/tbf-example.cc.o"
   "CMakeFiles/tbf-example.dir/tbf-example.cc.o.d"
 )

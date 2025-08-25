@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/wave/examples/ns3.36.1-wave-simple-device-default"
-  "../../../../build/src/wave/examples/ns3.36.1-wave-simple-device-default.pdb"
+  "../../../../build/src/wave/examples/ns3.36.1-wave-simple-device-debug"
+  "../../../../build/src/wave/examples/ns3.36.1-wave-simple-device-debug.pdb"
   "CMakeFiles/wave-simple-device.dir/wave-simple-device.cc.o"
   "CMakeFiles/wave-simple-device.dir/wave-simple-device.cc.o.d"
 )

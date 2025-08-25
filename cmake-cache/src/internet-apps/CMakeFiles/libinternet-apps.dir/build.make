@@ -89,32 +89,32 @@ libinternet__apps_EXTERNAL_OBJECTS = \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/v4ping.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/v4traceroute.cc.o"
 
-../build/lib/libns3.36.1-internet-apps-default.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/helper/dhcp-helper.cc.o
-../build/lib/libns3.36.1-internet-apps-default.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/helper/ping6-helper.cc.o
-../build/lib/libns3.36.1-internet-apps-default.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/helper/radvd-helper.cc.o
-../build/lib/libns3.36.1-internet-apps-default.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/helper/v4ping-helper.cc.o
-../build/lib/libns3.36.1-internet-apps-default.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/helper/v4traceroute-helper.cc.o
-../build/lib/libns3.36.1-internet-apps-default.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/dhcp-client.cc.o
-../build/lib/libns3.36.1-internet-apps-default.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/dhcp-header.cc.o
-../build/lib/libns3.36.1-internet-apps-default.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/dhcp-server.cc.o
-../build/lib/libns3.36.1-internet-apps-default.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/ping6.cc.o
-../build/lib/libns3.36.1-internet-apps-default.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/radvd-interface.cc.o
-../build/lib/libns3.36.1-internet-apps-default.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/radvd-prefix.cc.o
-../build/lib/libns3.36.1-internet-apps-default.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/radvd.cc.o
-../build/lib/libns3.36.1-internet-apps-default.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/v4ping.cc.o
-../build/lib/libns3.36.1-internet-apps-default.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/v4traceroute.cc.o
-../build/lib/libns3.36.1-internet-apps-default.so: src/internet-apps/CMakeFiles/libinternet-apps.dir/build.make
-../build/lib/libns3.36.1-internet-apps-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/lib/libns3.36.1-internet-apps-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-internet-apps-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-internet-apps-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-internet-apps-default.so: /usr/lib/x86_64-linux-gnu/libxml2.so
-../build/lib/libns3.36.1-internet-apps-default.so: src/internet-apps/CMakeFiles/libinternet-apps.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-internet-apps-default.so"
+../build/lib/libns3.36.1-internet-apps-debug.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/helper/dhcp-helper.cc.o
+../build/lib/libns3.36.1-internet-apps-debug.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/helper/ping6-helper.cc.o
+../build/lib/libns3.36.1-internet-apps-debug.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/helper/radvd-helper.cc.o
+../build/lib/libns3.36.1-internet-apps-debug.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/helper/v4ping-helper.cc.o
+../build/lib/libns3.36.1-internet-apps-debug.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/helper/v4traceroute-helper.cc.o
+../build/lib/libns3.36.1-internet-apps-debug.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/dhcp-client.cc.o
+../build/lib/libns3.36.1-internet-apps-debug.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/dhcp-header.cc.o
+../build/lib/libns3.36.1-internet-apps-debug.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/dhcp-server.cc.o
+../build/lib/libns3.36.1-internet-apps-debug.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/ping6.cc.o
+../build/lib/libns3.36.1-internet-apps-debug.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/radvd-interface.cc.o
+../build/lib/libns3.36.1-internet-apps-debug.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/radvd-prefix.cc.o
+../build/lib/libns3.36.1-internet-apps-debug.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/radvd.cc.o
+../build/lib/libns3.36.1-internet-apps-debug.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/v4ping.cc.o
+../build/lib/libns3.36.1-internet-apps-debug.so: src/internet-apps/CMakeFiles/libinternet-apps-obj.dir/model/v4traceroute.cc.o
+../build/lib/libns3.36.1-internet-apps-debug.so: src/internet-apps/CMakeFiles/libinternet-apps.dir/build.make
+../build/lib/libns3.36.1-internet-apps-debug.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/lib/libns3.36.1-internet-apps-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-internet-apps-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-internet-apps-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-internet-apps-debug.so: /usr/lib/x86_64-linux-gnu/libxml2.so
+../build/lib/libns3.36.1-internet-apps-debug.so: src/internet-apps/CMakeFiles/libinternet-apps.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-internet-apps-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/internet-apps && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libinternet-apps.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/internet-apps/CMakeFiles/libinternet-apps.dir/build: ../build/lib/libns3.36.1-internet-apps-default.so
+src/internet-apps/CMakeFiles/libinternet-apps.dir/build: ../build/lib/libns3.36.1-internet-apps-debug.so
 .PHONY : src/internet-apps/CMakeFiles/libinternet-apps.dir/build
 
 src/internet-apps/CMakeFiles/libinternet-apps.dir/clean:

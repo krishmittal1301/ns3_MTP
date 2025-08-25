@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-internet-test-default.pdb"
-  "../../../build/lib/libns3.36.1-internet-test-default.so"
+  "../../../build/lib/libns3.36.1-internet-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-internet-test-debug.so"
   "CMakeFiles/libinternet-test.dir/test/global-route-manager-impl-test-suite.cc.o"
   "CMakeFiles/libinternet-test.dir/test/global-route-manager-impl-test-suite.cc.o.d"
   "CMakeFiles/libinternet-test.dir/test/icmp-test.cc.o"

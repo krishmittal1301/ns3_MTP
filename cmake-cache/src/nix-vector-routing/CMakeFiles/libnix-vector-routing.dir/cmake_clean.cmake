@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-nix-vector-routing-default.pdb"
-  "../../../build/lib/libns3.36.1-nix-vector-routing-default.so"
+  "../../../build/lib/libns3.36.1-nix-vector-routing-debug.pdb"
+  "../../../build/lib/libns3.36.1-nix-vector-routing-debug.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/traffic-control/examples/ns3.36.1-red-vs-ared-default"
-  "../../../../build/src/traffic-control/examples/ns3.36.1-red-vs-ared-default.pdb"
+  "../../../../build/src/traffic-control/examples/ns3.36.1-red-vs-ared-debug"
+  "../../../../build/src/traffic-control/examples/ns3.36.1-red-vs-ared-debug.pdb"
   "CMakeFiles/red-vs-ared.dir/red-vs-ared.cc.o"
   "CMakeFiles/red-vs-ared.dir/red-vs-ared.cc.o.d"
 )

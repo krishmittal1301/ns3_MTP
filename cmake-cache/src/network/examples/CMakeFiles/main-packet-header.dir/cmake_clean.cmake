@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/network/examples/ns3.36.1-main-packet-header-default"
-  "../../../../build/src/network/examples/ns3.36.1-main-packet-header-default.pdb"
+  "../../../../build/src/network/examples/ns3.36.1-main-packet-header-debug"
+  "../../../../build/src/network/examples/ns3.36.1-main-packet-header-debug.pdb"
   "CMakeFiles/main-packet-header.dir/main-packet-header.cc.o"
   "CMakeFiles/main-packet-header.dir/main-packet-header.cc.o.d"
 )

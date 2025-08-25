@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/nix-vector-routing/examples/ns3.36.1-nix-double-wifi-default"
-  "../../../../build/src/nix-vector-routing/examples/ns3.36.1-nix-double-wifi-default.pdb"
+  "../../../../build/src/nix-vector-routing/examples/ns3.36.1-nix-double-wifi-debug"
+  "../../../../build/src/nix-vector-routing/examples/ns3.36.1-nix-double-wifi-debug.pdb"
   "CMakeFiles/nix-double-wifi.dir/nix-double-wifi.cc.o"
   "CMakeFiles/nix-double-wifi.dir/nix-double-wifi.cc.o.d"
 )

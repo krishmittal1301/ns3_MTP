@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/netanim/examples/ns3.36.1-resources-counters-default"
-  "../../../../build/src/netanim/examples/ns3.36.1-resources-counters-default.pdb"
+  "../../../../build/src/netanim/examples/ns3.36.1-resources-counters-debug"
+  "../../../../build/src/netanim/examples/ns3.36.1-resources-counters-debug.pdb"
   "CMakeFiles/resources-counters.dir/resources-counters.cc.o"
   "CMakeFiles/resources-counters.dir/resources-counters.cc.o.d"
 )

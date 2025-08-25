@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/tcp/ns3.36.1-tcp-pcap-nanosec-example-default"
-  "../../../build/examples/tcp/ns3.36.1-tcp-pcap-nanosec-example-default.pdb"
+  "../../../build/examples/tcp/ns3.36.1-tcp-pcap-nanosec-example-debug"
+  "../../../build/examples/tcp/ns3.36.1-tcp-pcap-nanosec-example-debug.pdb"
   "CMakeFiles/tcp-pcap-nanosec-example.dir/tcp-pcap-nanosec-example.cc.o"
   "CMakeFiles/tcp-pcap-nanosec-example.dir/tcp-pcap-nanosec-example.cc.o.d"
 )

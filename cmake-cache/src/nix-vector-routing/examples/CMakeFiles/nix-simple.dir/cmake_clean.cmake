@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/nix-vector-routing/examples/ns3.36.1-nix-simple-default"
-  "../../../../build/src/nix-vector-routing/examples/ns3.36.1-nix-simple-default.pdb"
+  "../../../../build/src/nix-vector-routing/examples/ns3.36.1-nix-simple-debug"
+  "../../../../build/src/nix-vector-routing/examples/ns3.36.1-nix-simple-debug.pdb"
   "CMakeFiles/nix-simple.dir/nix-simple.cc.o"
   "CMakeFiles/nix-simple.dir/nix-simple.cc.o.d"
 )

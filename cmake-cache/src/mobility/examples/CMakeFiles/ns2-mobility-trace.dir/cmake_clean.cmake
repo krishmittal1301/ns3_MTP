@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/mobility/examples/ns3.36.1-ns2-mobility-trace-default"
-  "../../../../build/src/mobility/examples/ns3.36.1-ns2-mobility-trace-default.pdb"
+  "../../../../build/src/mobility/examples/ns3.36.1-ns2-mobility-trace-debug"
+  "../../../../build/src/mobility/examples/ns3.36.1-ns2-mobility-trace-debug.pdb"
   "CMakeFiles/ns2-mobility-trace.dir/ns2-mobility-trace.cc.o"
   "CMakeFiles/ns2-mobility-trace.dir/ns2-mobility-trace.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/core/examples/ns3.36.1-main-callback-default"
-  "../../../../build/src/core/examples/ns3.36.1-main-callback-default.pdb"
+  "../../../../build/src/core/examples/ns3.36.1-main-callback-debug"
+  "../../../../build/src/core/examples/ns3.36.1-main-callback-debug.pdb"
   "CMakeFiles/main-callback.dir/main-callback.cc.o"
   "CMakeFiles/main-callback.dir/main-callback.cc.o.d"
 )

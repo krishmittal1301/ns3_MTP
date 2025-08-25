@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/fd-net-device/examples/ns3.36.1-realtime-dummy-network-default"
-  "../../../../build/src/fd-net-device/examples/ns3.36.1-realtime-dummy-network-default.pdb"
+  "../../../../build/src/fd-net-device/examples/ns3.36.1-realtime-dummy-network-debug"
+  "../../../../build/src/fd-net-device/examples/ns3.36.1-realtime-dummy-network-debug.pdb"
   "CMakeFiles/realtime-dummy-network.dir/realtime-dummy-network.cc.o"
   "CMakeFiles/realtime-dummy-network.dir/realtime-dummy-network.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/stats/examples/ns3.36.1-file-aggregator-example-default"
-  "../../../../build/src/stats/examples/ns3.36.1-file-aggregator-example-default.pdb"
+  "../../../../build/src/stats/examples/ns3.36.1-file-aggregator-example-debug"
+  "../../../../build/src/stats/examples/ns3.36.1-file-aggregator-example-debug.pdb"
   "CMakeFiles/file-aggregator-example.dir/file-aggregator-example.cc.o"
   "CMakeFiles/file-aggregator-example.dir/file-aggregator-example.cc.o.d"
 )

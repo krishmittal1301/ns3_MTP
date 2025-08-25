@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-flow-monitor-default.pdb"
-  "../../../build/lib/libns3.36.1-flow-monitor-default.so"
+  "../../../build/lib/libns3.36.1-flow-monitor-debug.pdb"
+  "../../../build/lib/libns3.36.1-flow-monitor-debug.so"
 )
 
 # Per-language clean rules from dependency scanning.

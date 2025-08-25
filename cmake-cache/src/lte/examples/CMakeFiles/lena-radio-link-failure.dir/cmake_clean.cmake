@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lte/examples/ns3.36.1-lena-radio-link-failure-default"
-  "../../../../build/src/lte/examples/ns3.36.1-lena-radio-link-failure-default.pdb"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-radio-link-failure-debug"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-radio-link-failure-debug.pdb"
   "CMakeFiles/lena-radio-link-failure.dir/lena-radio-link-failure.cc.o"
   "CMakeFiles/lena-radio-link-failure.dir/lena-radio-link-failure.cc.o.d"
 )

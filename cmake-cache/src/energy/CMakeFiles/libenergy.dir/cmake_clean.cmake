@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-energy-default.pdb"
-  "../../../build/lib/libns3.36.1-energy-default.so"
+  "../../../build/lib/libns3.36.1-energy-debug.pdb"
+  "../../../build/lib/libns3.36.1-energy-debug.so"
 )
 
 # Per-language clean rules from dependency scanning.

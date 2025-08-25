@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-power-adaptation-distance-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-power-adaptation-distance-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-power-adaptation-distance-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-power-adaptation-distance-debug.pdb"
   "CMakeFiles/wifi-power-adaptation-distance.dir/wifi-power-adaptation-distance.cc.o"
   "CMakeFiles/wifi-power-adaptation-distance.dir/wifi-power-adaptation-distance.cc.o.d"
 )

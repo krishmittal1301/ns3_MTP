@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/netanim/examples/ns3.36.1-dumbbell-animation-default"
-  "../../../../build/src/netanim/examples/ns3.36.1-dumbbell-animation-default.pdb"
+  "../../../../build/src/netanim/examples/ns3.36.1-dumbbell-animation-debug"
+  "../../../../build/src/netanim/examples/ns3.36.1-dumbbell-animation-debug.pdb"
   "CMakeFiles/dumbbell-animation.dir/dumbbell-animation.cc.o"
   "CMakeFiles/dumbbell-animation.dir/dumbbell-animation.cc.o.d"
 )

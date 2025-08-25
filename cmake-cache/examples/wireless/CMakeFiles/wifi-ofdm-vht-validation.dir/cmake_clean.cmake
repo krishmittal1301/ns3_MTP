@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/wireless/ns3.36.1-wifi-ofdm-vht-validation-default"
-  "../../../build/examples/wireless/ns3.36.1-wifi-ofdm-vht-validation-default.pdb"
+  "../../../build/examples/wireless/ns3.36.1-wifi-ofdm-vht-validation-debug"
+  "../../../build/examples/wireless/ns3.36.1-wifi-ofdm-vht-validation-debug.pdb"
   "CMakeFiles/wifi-ofdm-vht-validation.dir/wifi-ofdm-vht-validation.cc.o"
   "CMakeFiles/wifi-ofdm-vht-validation.dir/wifi-ofdm-vht-validation.cc.o.d"
 )

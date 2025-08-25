@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-netanim-default.pdb"
-  "../../../build/lib/libns3.36.1-netanim-default.so"
+  "../../../build/lib/libns3.36.1-netanim-debug.pdb"
+  "../../../build/lib/libns3.36.1-netanim-debug.so"
 )
 
 # Per-language clean rules from dependency scanning.

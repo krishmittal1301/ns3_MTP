@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/point-to-point/examples/ns3.36.1-main-attribute-value-default"
-  "../../../../build/src/point-to-point/examples/ns3.36.1-main-attribute-value-default.pdb"
+  "../../../../build/src/point-to-point/examples/ns3.36.1-main-attribute-value-debug"
+  "../../../../build/src/point-to-point/examples/ns3.36.1-main-attribute-value-debug.pdb"
   "CMakeFiles/main-attribute-value.dir/main-attribute-value.cc.o"
   "CMakeFiles/main-attribute-value.dir/main-attribute-value.cc.o.d"
 )

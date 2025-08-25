@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd2fd-onoff-default"
-  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd2fd-onoff-default.pdb"
+  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd2fd-onoff-debug"
+  "../../../../build/src/fd-net-device/examples/ns3.36.1-fd2fd-onoff-debug.pdb"
   "CMakeFiles/fd2fd-onoff.dir/fd2fd-onoff.cc.o"
   "CMakeFiles/fd2fd-onoff.dir/fd2fd-onoff.cc.o.d"
 )

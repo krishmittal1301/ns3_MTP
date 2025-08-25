@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/tap-bridge/examples/ns3.36.1-tap-csma-virtual-machine-default"
-  "../../../../build/src/tap-bridge/examples/ns3.36.1-tap-csma-virtual-machine-default.pdb"
+  "../../../../build/src/tap-bridge/examples/ns3.36.1-tap-csma-virtual-machine-debug"
+  "../../../../build/src/tap-bridge/examples/ns3.36.1-tap-csma-virtual-machine-debug.pdb"
   "CMakeFiles/tap-csma-virtual-machine.dir/tap-csma-virtual-machine.cc.o"
   "CMakeFiles/tap-csma-virtual-machine.dir/tap-csma-virtual-machine.cc.o.d"
 )

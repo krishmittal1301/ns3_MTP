@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-topology-read-test-default.pdb"
-  "../../../build/lib/libns3.36.1-topology-read-test-default.so"
+  "../../../build/lib/libns3.36.1-topology-read-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-topology-read-test-debug.so"
   "CMakeFiles/libtopology-read-test.dir/test/rocketfuel-topology-reader-test-suite.cc.o"
   "CMakeFiles/libtopology-read-test.dir/test/rocketfuel-topology-reader-test-suite.cc.o.d"
 )

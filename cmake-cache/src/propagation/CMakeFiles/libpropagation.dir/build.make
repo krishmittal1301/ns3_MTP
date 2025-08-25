@@ -88,30 +88,30 @@ libpropagation_EXTERNAL_OBJECTS = \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-propagation-loss-model.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagation-loss-model.cc.o"
 
-../build/lib/libns3.36.1-propagation-default.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/channel-condition-model.cc.o
-../build/lib/libns3.36.1-propagation-default.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/cost231-propagation-loss-model.cc.o
-../build/lib/libns3.36.1-propagation-default.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/itu-r-1411-los-propagation-loss-model.cc.o
-../build/lib/libns3.36.1-propagation-default.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/itu-r-1411-nlos-over-rooftop-propagation-loss-model.cc.o
-../build/lib/libns3.36.1-propagation-default.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/jakes-process.cc.o
-../build/lib/libns3.36.1-propagation-default.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/jakes-propagation-loss-model.cc.o
-../build/lib/libns3.36.1-propagation-default.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/kun-2600-mhz-propagation-loss-model.cc.o
-../build/lib/libns3.36.1-propagation-default.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/okumura-hata-propagation-loss-model.cc.o
-../build/lib/libns3.36.1-propagation-default.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/probabilistic-v2v-channel-condition-model.cc.o
-../build/lib/libns3.36.1-propagation-default.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/propagation-delay-model.cc.o
-../build/lib/libns3.36.1-propagation-default.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/propagation-loss-model.cc.o
-../build/lib/libns3.36.1-propagation-default.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-propagation-loss-model.cc.o
-../build/lib/libns3.36.1-propagation-default.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagation-loss-model.cc.o
-../build/lib/libns3.36.1-propagation-default.so: src/propagation/CMakeFiles/libpropagation.dir/build.make
-../build/lib/libns3.36.1-propagation-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-propagation-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-propagation-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-propagation-default.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
-../build/lib/libns3.36.1-propagation-default.so: src/propagation/CMakeFiles/libpropagation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-propagation-default.so"
+../build/lib/libns3.36.1-propagation-debug.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/channel-condition-model.cc.o
+../build/lib/libns3.36.1-propagation-debug.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/cost231-propagation-loss-model.cc.o
+../build/lib/libns3.36.1-propagation-debug.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/itu-r-1411-los-propagation-loss-model.cc.o
+../build/lib/libns3.36.1-propagation-debug.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/itu-r-1411-nlos-over-rooftop-propagation-loss-model.cc.o
+../build/lib/libns3.36.1-propagation-debug.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/jakes-process.cc.o
+../build/lib/libns3.36.1-propagation-debug.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/jakes-propagation-loss-model.cc.o
+../build/lib/libns3.36.1-propagation-debug.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/kun-2600-mhz-propagation-loss-model.cc.o
+../build/lib/libns3.36.1-propagation-debug.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/okumura-hata-propagation-loss-model.cc.o
+../build/lib/libns3.36.1-propagation-debug.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/probabilistic-v2v-channel-condition-model.cc.o
+../build/lib/libns3.36.1-propagation-debug.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/propagation-delay-model.cc.o
+../build/lib/libns3.36.1-propagation-debug.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/propagation-loss-model.cc.o
+../build/lib/libns3.36.1-propagation-debug.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-propagation-loss-model.cc.o
+../build/lib/libns3.36.1-propagation-debug.so: src/propagation/CMakeFiles/libpropagation-obj.dir/model/three-gpp-v2v-propagation-loss-model.cc.o
+../build/lib/libns3.36.1-propagation-debug.so: src/propagation/CMakeFiles/libpropagation.dir/build.make
+../build/lib/libns3.36.1-propagation-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-propagation-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-propagation-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-propagation-debug.so: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../build/lib/libns3.36.1-propagation-debug.so: src/propagation/CMakeFiles/libpropagation.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library ../../../build/lib/libns3.36.1-propagation-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/propagation && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libpropagation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/propagation/CMakeFiles/libpropagation.dir/build: ../build/lib/libns3.36.1-propagation-default.so
+src/propagation/CMakeFiles/libpropagation.dir/build: ../build/lib/libns3.36.1-propagation-debug.so
 .PHONY : src/propagation/CMakeFiles/libpropagation.dir/build
 
 src/propagation/CMakeFiles/libpropagation.dir/clean:

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lr-wpan/examples/ns3.36.1-lr-wpan-error-model-plot-default"
-  "../../../../build/src/lr-wpan/examples/ns3.36.1-lr-wpan-error-model-plot-default.pdb"
+  "../../../../build/src/lr-wpan/examples/ns3.36.1-lr-wpan-error-model-plot-debug"
+  "../../../../build/src/lr-wpan/examples/ns3.36.1-lr-wpan-error-model-plot-debug.pdb"
   "CMakeFiles/lr-wpan-error-model-plot.dir/lr-wpan-error-model-plot.cc.o"
   "CMakeFiles/lr-wpan-error-model-plot.dir/lr-wpan-error-model-plot.cc.o.d"
 )

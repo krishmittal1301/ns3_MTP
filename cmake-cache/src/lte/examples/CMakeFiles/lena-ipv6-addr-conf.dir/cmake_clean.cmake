@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/lte/examples/ns3.36.1-lena-ipv6-addr-conf-default"
-  "../../../../build/src/lte/examples/ns3.36.1-lena-ipv6-addr-conf-default.pdb"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-ipv6-addr-conf-debug"
+  "../../../../build/src/lte/examples/ns3.36.1-lena-ipv6-addr-conf-debug.pdb"
   "CMakeFiles/lena-ipv6-addr-conf.dir/lena-ipv6-addr-conf.cc.o"
   "CMakeFiles/lena-ipv6-addr-conf.dir/lena-ipv6-addr-conf.cc.o.d"
 )

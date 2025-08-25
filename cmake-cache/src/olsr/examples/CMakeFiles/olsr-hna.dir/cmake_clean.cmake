@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/olsr/examples/ns3.36.1-olsr-hna-default"
-  "../../../../build/src/olsr/examples/ns3.36.1-olsr-hna-default.pdb"
+  "../../../../build/src/olsr/examples/ns3.36.1-olsr-hna-debug"
+  "../../../../build/src/olsr/examples/ns3.36.1-olsr-hna-debug.pdb"
   "CMakeFiles/olsr-hna.dir/olsr-hna.cc.o"
   "CMakeFiles/olsr-hna.dir/olsr-hna.cc.o.d"
 )

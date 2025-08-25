@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/traffic-control/examples/ns3.36.1-pie-example-default"
-  "../../../../build/src/traffic-control/examples/ns3.36.1-pie-example-default.pdb"
+  "../../../../build/src/traffic-control/examples/ns3.36.1-pie-example-debug"
+  "../../../../build/src/traffic-control/examples/ns3.36.1-pie-example-debug.pdb"
   "CMakeFiles/pie-example.dir/pie-example.cc.o"
   "CMakeFiles/pie-example.dir/pie-example.cc.o.d"
 )

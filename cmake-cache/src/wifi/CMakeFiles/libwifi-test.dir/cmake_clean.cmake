@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-wifi-test-default.pdb"
-  "../../../build/lib/libns3.36.1-wifi-test-default.so"
+  "../../../build/lib/libns3.36.1-wifi-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-wifi-test-debug.so"
   "CMakeFiles/libwifi-test.dir/test/block-ack-test-suite.cc.o"
   "CMakeFiles/libwifi-test.dir/test/block-ack-test-suite.cc.o.d"
   "CMakeFiles/libwifi-test.dir/test/channel-access-manager-test.cc.o"

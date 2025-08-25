@@ -540,47 +540,47 @@ libcore__test_OBJECTS = \
 # External object files for target libcore-test
 libcore__test_EXTERNAL_OBJECTS =
 
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/examples-as-tests-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/rng-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/random-variable-stream-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/attribute-container-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/attribute-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/build-profile-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/callback-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/command-line-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/config-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/event-garbage-collector-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/global-value-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/hash-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/int64x64-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/length-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/many-uniform-random-variables-one-get-value-call-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/names-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/object-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/one-uniform-random-variable-many-get-value-calls-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/pair-value-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/ptr-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/sample-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/simulator-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/threaded-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/time-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/timer-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/traced-callback-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/trickle-timer-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/tuple-value-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/type-id-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/type-traits-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/test/watchdog-test-suite.cc.o
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/build.make
-../build/lib/libns3.36.1-core-test-default.so: /usr/lib/x86_64-linux-gnu/libgsl.so
-../build/lib/libns3.36.1-core-test-default.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
-../build/lib/libns3.36.1-core-test-default.so: /usr/lib/x86_64-linux-gnu/librt.a
-../build/lib/libns3.36.1-core-test-default.so: src/core/CMakeFiles/libcore-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX shared library ../../../build/lib/libns3.36.1-core-test-default.so"
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/examples-as-tests-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/rng-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/random-variable-stream-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/attribute-container-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/attribute-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/build-profile-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/callback-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/command-line-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/config-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/event-garbage-collector-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/global-value-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/hash-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/int64x64-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/length-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/many-uniform-random-variables-one-get-value-call-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/names-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/object-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/one-uniform-random-variable-many-get-value-calls-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/pair-value-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/ptr-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/sample-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/simulator-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/threaded-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/time-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/timer-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/traced-callback-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/trickle-timer-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/tuple-value-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/type-id-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/type-traits-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/test/watchdog-test-suite.cc.o
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/build.make
+../build/lib/libns3.36.1-core-test-debug.so: /usr/lib/x86_64-linux-gnu/libgsl.so
+../build/lib/libns3.36.1-core-test-debug.so: /usr/lib/x86_64-linux-gnu/libgslcblas.so
+../build/lib/libns3.36.1-core-test-debug.so: /usr/lib/x86_64-linux-gnu/librt.a
+../build/lib/libns3.36.1-core-test-debug.so: src/core/CMakeFiles/libcore-test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX shared library ../../../build/lib/libns3.36.1-core-test-debug.so"
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libcore-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/core/CMakeFiles/libcore-test.dir/build: ../build/lib/libns3.36.1-core-test-default.so
+src/core/CMakeFiles/libcore-test.dir/build: ../build/lib/libns3.36.1-core-test-debug.so
 .PHONY : src/core/CMakeFiles/libcore-test.dir/build
 
 src/core/CMakeFiles/libcore-test.dir/clean:

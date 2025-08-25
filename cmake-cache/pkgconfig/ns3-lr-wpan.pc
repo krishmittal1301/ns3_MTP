@@ -9,5 +9,5 @@ Version: 3.36.1
 Requires:  ns3-network ns3-core ns3-mobility ns3-spectrum ns3-propagation
 Requires.private: 
 Cflags: -I"${includedir}" -I/usr/include -I/usr; -I/usr/include/libxml2 -I/usr/include/python3.10
-Libs: -L"${libdir}" -lns3.36.1-lr-wpan-default  -lns3.36.1-network-default -lns3.36.1-core-default -lns3.36.1-mobility-default -lns3.36.1-spectrum-default -lns3.36.1-propagation-default
+Libs: -L"${libdir}" -lns3.36.1-lr-wpan-debug  -lns3.36.1-network-debug -lns3.36.1-core-debug -lns3.36.1-mobility-debug -lns3.36.1-spectrum-debug -lns3.36.1-propagation-debug
 Libs.private: -L"${libdir}" 

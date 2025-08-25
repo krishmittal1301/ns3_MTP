@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/internet-apps/examples/ns3.36.1-traceroute-example-default"
-  "../../../../build/src/internet-apps/examples/ns3.36.1-traceroute-example-default.pdb"
+  "../../../../build/src/internet-apps/examples/ns3.36.1-traceroute-example-debug"
+  "../../../../build/src/internet-apps/examples/ns3.36.1-traceroute-example-debug.pdb"
   "CMakeFiles/traceroute-example.dir/traceroute-example.cc.o"
   "CMakeFiles/traceroute-example.dir/traceroute-example.cc.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/dsr/examples/ns3.36.1-dsr-default"
-  "../../../../build/src/dsr/examples/ns3.36.1-dsr-default.pdb"
+  "../../../../build/src/dsr/examples/ns3.36.1-dsr-debug"
+  "../../../../build/src/dsr/examples/ns3.36.1-dsr-debug.pdb"
   "CMakeFiles/dsr.dir/dsr.cc.o"
   "CMakeFiles/dsr.dir/dsr.cc.o.d"
 )

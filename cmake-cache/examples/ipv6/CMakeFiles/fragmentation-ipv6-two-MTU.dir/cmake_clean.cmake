@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/ipv6/ns3.36.1-fragmentation-ipv6-two-MTU-default"
-  "../../../build/examples/ipv6/ns3.36.1-fragmentation-ipv6-two-MTU-default.pdb"
+  "../../../build/examples/ipv6/ns3.36.1-fragmentation-ipv6-two-MTU-debug"
+  "../../../build/examples/ipv6/ns3.36.1-fragmentation-ipv6-two-MTU-debug.pdb"
   "CMakeFiles/fragmentation-ipv6-two-MTU.dir/fragmentation-ipv6-two-MTU.cc.o"
   "CMakeFiles/fragmentation-ipv6-two-MTU.dir/fragmentation-ipv6-two-MTU.cc.o.d"
 )

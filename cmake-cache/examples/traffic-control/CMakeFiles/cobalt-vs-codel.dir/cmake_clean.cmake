@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/examples/traffic-control/ns3.36.1-cobalt-vs-codel-default"
-  "../../../build/examples/traffic-control/ns3.36.1-cobalt-vs-codel-default.pdb"
+  "../../../build/examples/traffic-control/ns3.36.1-cobalt-vs-codel-debug"
+  "../../../build/examples/traffic-control/ns3.36.1-cobalt-vs-codel-debug.pdb"
   "CMakeFiles/cobalt-vs-codel.dir/cobalt-vs-codel.cc.o"
   "CMakeFiles/cobalt-vs-codel.dir/cobalt-vs-codel.cc.o.d"
 )

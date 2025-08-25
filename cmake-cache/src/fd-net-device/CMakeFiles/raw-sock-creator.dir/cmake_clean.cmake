@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/src/fd-net-device/ns3.36.1-raw-sock-creator-default"
-  "../../../build/src/fd-net-device/ns3.36.1-raw-sock-creator-default.pdb"
+  "../../../build/src/fd-net-device/ns3.36.1-raw-sock-creator-debug"
+  "../../../build/src/fd-net-device/ns3.36.1-raw-sock-creator-debug.pdb"
   "CMakeFiles/raw-sock-creator.dir/helper/creator-utils.cc.o"
   "CMakeFiles/raw-sock-creator.dir/helper/creator-utils.cc.o.d"
   "CMakeFiles/raw-sock-creator.dir/helper/encode-decode.cc.o"

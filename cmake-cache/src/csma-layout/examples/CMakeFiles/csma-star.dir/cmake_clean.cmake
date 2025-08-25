@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../../build/src/csma-layout/examples/ns3.36.1-csma-star-default"
-  "../../../../build/src/csma-layout/examples/ns3.36.1-csma-star-default.pdb"
+  "../../../../build/src/csma-layout/examples/ns3.36.1-csma-star-debug"
+  "../../../../build/src/csma-layout/examples/ns3.36.1-csma-star-debug.pdb"
   "CMakeFiles/csma-star.dir/csma-star.cc.o"
   "CMakeFiles/csma-star.dir/csma-star.cc.o.d"
 )

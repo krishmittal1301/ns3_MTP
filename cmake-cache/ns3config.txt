@@ -1,5 +1,5 @@
 ---- Summary of optional ns-3 features:
-Build profile                 : default
+Build profile                 : debug
 Build directory               : /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build
 BRITE Integration             : [31mOFF (missing dependency)[0m
 DES Metrics event collection  : OFF (not requested)

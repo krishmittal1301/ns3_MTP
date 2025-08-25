@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../build/lib/libns3.36.1-uan-test-default.pdb"
-  "../../../build/lib/libns3.36.1-uan-test-default.so"
+  "../../../build/lib/libns3.36.1-uan-test-debug.pdb"
+  "../../../build/lib/libns3.36.1-uan-test-debug.so"
   "CMakeFiles/libuan-test.dir/test/uan-energy-model-test.cc.o"
   "CMakeFiles/libuan-test.dir/test/uan-energy-model-test.cc.o.d"
   "CMakeFiles/libuan-test.dir/test/uan-test.cc.o"
