@@ -5,6 +5,7 @@ cmake_policy(SET CMP0009 NEW)
 # single_source_file_scratches at scratch/CMakeLists.txt:65 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/scratch/*.cc")
 set(OLD_GLOB
+  "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/scratch/alohasim.cc"
   "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/scratch/scratch-simulator.cc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -26,6 +27,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES true "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/scratch/**")
 set(OLD_GLOB
   "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/scratch/CMakeLists.txt"
+  "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/scratch/alohasim.cc"
   "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/scratch/scratch-simulator.cc"
   "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/scratch/subdir"
   "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/scratch/subdir/scratch-simulator-subdir.cc"

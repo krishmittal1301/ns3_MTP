@@ -33,6 +33,7 @@
 #include <ns3/mac48-address.h>
 #include <ns3/generic-phy.h>
 
+
 namespace ns3 {
 
 
@@ -182,13 +183,22 @@ public:
   virtual Address GetMulticast (Ipv6Address addr) const;
   virtual void SetPromiscReceiveCallback (PromiscReceiveCallback cb);
   virtual bool SupportsSendFrom (void) const;
-
-private:
+  virtual void LogStatistics (void);
+  uint64_t m_pktCounter;
+  uint64_t m_pktSent;
+  uint64_t m_pktReceived;
+  
+  
+  private:
   /**
    * Notification of Guard Interval end.
    */
   void NotifyGuardIntervalEnd ();
   virtual void DoDispose (void);
+  static std::ofstream m_delayLog;
+  static std::ofstream m_incomingLog;
+  static std::ofstream m_lossLog;
+
 
   /**
    * start the transmission of a packet by contacting the PHY layer

@@ -99,6 +99,19 @@ OnOffApplication::GetTypeId (void)
                    BooleanValue (false),
                    MakeBooleanAccessor (&OnOffApplication::m_enableSeqTsSizeHeader),
                    MakeBooleanChecker ())
+    // Added for MTP
+    .AddAttribute ("InterArrivalTime",
+                   "Random Variable Stream to set the interarrival time",
+                   StringValue ("ns3::ExponentialRandomVariable[Mean=0.01]"),  // Default value
+                   MakePointerAccessor (&OnOffApplication::m_interArrival),
+                   MakePointerChecker <RandomVariableStream>())
+    .AddAttribute ("DistributionType",
+                   "The type of distribution to be used for interarrival time. "
+                   "0 - Exponential, 1 - Uniform, 2 - Normal, 3 - Constant",
+                   UintegerValue (3), // Default value Constant
+                   MakeUintegerAccessor (&OnOffApplication::m_distributionType),
+                   MakeUintegerChecker<uint8_t> (0,3))
+    // End MTP
     .AddTraceSource ("Tx", "A new packet is created and is sent",
                      MakeTraceSourceAccessor (&OnOffApplication::m_txTrace),
                      "ns3::Packet::TracedCallback")
@@ -277,14 +290,21 @@ void OnOffApplication::StopSending ()
 void OnOffApplication::ScheduleNextTx ()
 {
   NS_LOG_FUNCTION (this);
-
+  Time nextTime;
   if (m_maxBytes == 0 || m_totBytes < m_maxBytes)
     {
-      NS_ABORT_MSG_IF (m_residualBits > m_pktSize * 8, "Calculation to compute next send time will overflow");
-      uint32_t bits = m_pktSize * 8 - m_residualBits;
-      NS_LOG_LOGIC ("bits = " << bits);
-      Time nextTime (Seconds (bits /
-                              static_cast<double>(m_cbrRate.GetBitRate ()))); // Time till next packet
+      if(!m_interArrival){
+        NS_ABORT_MSG_IF (m_residualBits > m_pktSize * 8, "Calculation to compute next send time will overflow");
+        uint32_t bits = m_pktSize * 8 - m_residualBits;
+        NS_LOG_LOGIC ("bits = " << bits);
+        nextTime = (Seconds (bits /
+                                static_cast<double>(m_cbrRate.GetBitRate ()))); // Time till next packet
+      }
+      else{
+        nextTime = ( Seconds (m_interArrival->GetValue ())); // MTP
+      }
+        
+
       NS_LOG_LOGIC ("nextTime = " << nextTime.As (Time::S));
       m_sendEvent = Simulator::Schedule (nextTime,
                                          &OnOffApplication::SendPacket, this);
@@ -337,11 +357,15 @@ void OnOffApplication::SendPacket ()
       packet = Create<Packet> (m_pktSize - header.GetSerializedSize ());
       // Trace before adding header, for consistency with PacketSink
       m_txTraceWithSeqTsSize (packet, from, to, header);
+      DistributionTag distTag  =  DistributionTag(static_cast<DistributionTag::DistType>(m_distributionType));
+      packet->AddPacketTag (distTag);
       packet->AddHeader (header);
     }
   else
     {
       packet = Create<Packet> (m_pktSize);
+      DistributionTag distTag  =  DistributionTag(static_cast<DistributionTag::DistType>(m_distributionType));
+      packet->AddPacketTag (distTag);
     }
 
   int actual = m_socket->Send (packet);

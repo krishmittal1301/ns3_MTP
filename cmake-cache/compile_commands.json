@@ -4996,6 +4996,11 @@
 },
 {
   "directory": "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/spectrum",
+  "command": "/usr/bin/c++ -DCMAKE_EXAMPLE_AS_TEST -DHAVE_GSL -DHAVE_LIBXML2 -DHAVE_SQLITE3 -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_ENABLE_EXAMPLES -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\\\"/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1\\\" -D__LINUX__ -I/usr -I/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include -I/usr/include/libxml2 -I/usr/include/python3.10 -g -fPIC   -fno-semantic-interposition -fdiagnostics-color=always -Wall -Werror -Wno-error=deprecated-declarations -std=gnu++17 -o CMakeFiles/libspectrum-obj.dir/model/timestamp-tag.cc.o -c /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/model/timestamp-tag.cc",
+  "file": "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/model/timestamp-tag.cc"
+},
+{
+  "directory": "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache/src/spectrum",
   "command": "/usr/bin/c++ -DCMAKE_EXAMPLE_AS_TEST -DHAVE_GSL -DHAVE_LIBXML2 -DHAVE_SQLITE3 -DNS3_ASSERT_ENABLE -DNS3_BUILD_PROFILE_DEBUG -DNS3_ENABLE_EXAMPLES -DNS3_LOG_ENABLE -DPROJECT_SOURCE_PATH=\\\"/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1\\\" -D__LINUX__ -I/usr -I/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include -I/usr/include/libxml2 -I/usr/include/python3.10 -g -fPIC   -fno-semantic-interposition -fdiagnostics-color=always -Wall -Werror -Wno-error=deprecated-declarations -std=gnu++17 -o CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o -c /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/helper/spectrum-analyzer-helper.cc",
   "file": "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/helper/spectrum-analyzer-helper.cc"
 },

@@ -38,6 +38,7 @@
 #include <ns3/spectrum-helper.h>
 #include <ns3/applications-module.h>
 #include <ns3/adhoc-aloha-noack-ideal-phy-helper.h>
+#include "ns3/aloha-noack-net-device.h"
 
 using namespace ns3;
 
@@ -169,29 +170,41 @@ int main (int argc, char** argv)
   socket.SetPhysicalAddress (devices.Get (1)->GetAddress ());
   socket.SetProtocol (1);
 
-  socket2.SetSingleDevice (devices.Get (2)->GetIfIndex ());
+  socket2.SetSingleDevice (devices.Get (0)->GetIfIndex ());
   socket2.SetPhysicalAddress (devices.Get (1)->GetAddress ());
   socket2.SetProtocol (1);
   
   OnOffHelper onoff ("ns3::PacketSocketFactory", Address (socket));
   OnOffHelper onoff2 ("ns3::PacketSocketFactory", Address (socket2));
-  onoff.SetConstantRate (DataRate ("0.5Mbps"));
-  onoff.SetAttribute ("PacketSize", UintegerValue (150));
+  onoff.SetConstantRate (DataRate ("5Mbps"));
+  onoff.SetAttribute("InterArrivalTime",StringValue("ns3::ExponentialRandomVariable[Mean=0.008]")); // MTP
+  onoff.SetAttribute ("PacketSize", UintegerValue (125));
+  onoff.SetAttribute("DistributionType",UintegerValue(0)); // MTP Exponential
 
-  onoff2.SetConstantRate (DataRate ("0.5Mbps"));
-  onoff2.SetAttribute ("PacketSize", UintegerValue (150));
+  // onoff.SetAttribute("OnTime", StringValue("ns3::ExponentialRandomVariable[Mean=0.01]"));
+  // onoff.SetAttribute("OffTime", StringValue("ns3::ExponentialRandomVariable[Mean=0.06]"));
+
+  onoff2.SetConstantRate (DataRate ("5Mbps"));
+  onoff2.SetAttribute("InterArrivalTime",StringValue("ns3::ConstantRandomVariable[Constant=0.008]")); // MTP
+  // onoff2.SetAttribute("InterArrivalTime",StringValue("ns3::UniformRandomVariable[Min=0.01|Max=0.05]")); // MTP
+  onoff2.SetAttribute ("PacketSize", UintegerValue (125));
+  onoff2.SetAttribute("DistributionType",UintegerValue(3)); // MTP Constant
+
+  // onoff2.SetAttribute("OnTime", StringValue("ns3::ExponentialRandomVariable[Mean=0.01]"));
+  // onoff2.SetAttribute("OffTime", StringValue("ns3::ExponentialRandomVariable[Mean=0.06]"));
+
 
   ApplicationContainer apps = onoff.Install (c.Get (0));
-  ApplicationContainer apps2 = onoff2.Install (c.Get (2));
-  apps.Start (Seconds (0.1));
-  apps.Stop (Seconds (0.11));
+  ApplicationContainer apps2 = onoff2.Install (c.Get (0));
+  // apps.Start (Seconds (0));
+  // apps.Stop (Seconds (1));
 
-  apps2.Start (Seconds (0.11));
-  apps2.Stop (Seconds (0.120));
+  // apps2.Start (Seconds (0));
+  // apps2.Stop (Seconds (1));
 
   Ptr<Socket> recvSink = SetupPacketReceive (c.Get (1));
 
-  Simulator::Stop (Seconds (10.0));
+  Simulator::Stop (Seconds (20.0));
 
   Config::Connect ("/NodeList/*/DeviceList/*/Phy/TxStart", MakeCallback (&PhyTxStartTrace));
   Config::Connect ("/NodeList/*/DeviceList/*/Phy/TxEnd", MakeCallback (&PhyTxEndTrace));
@@ -201,6 +214,13 @@ int main (int argc, char** argv)
 
   deviceHelper.EnablePcapAll("adhoc-aloha-ideal-phy", true);
   Simulator::Run ();
+
+  for (uint32_t i=0; i<devices.GetN(); ++i)
+  {
+    Ptr<AlohaNoackNetDevice> dev = DynamicCast<AlohaNoackNetDevice>(devices.Get(i));
+    if (dev) dev->LogStatistics();
+  }
+
 
   Simulator::Destroy ();
 

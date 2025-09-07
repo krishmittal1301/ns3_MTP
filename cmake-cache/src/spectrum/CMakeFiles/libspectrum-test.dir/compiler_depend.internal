@@ -1484,6 +1484,8 @@ src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-waveform-generator-te
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/mac64-address.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/mac48-address.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/mac16-address.h
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/timestamp-tag.h
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/tag.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/aloha-noack-net-device.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/generic-phy.h
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/constant-spectrum-propagation-loss.h

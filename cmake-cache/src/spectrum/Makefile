@@ -958,6 +958,30 @@ model/three-gpp-spectrum-propagation-loss-model.cc.s:
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/three-gpp-spectrum-propagation-loss-model.cc.s
 .PHONY : model/three-gpp-spectrum-propagation-loss-model.cc.s
 
+model/timestamp-tag.o: model/timestamp-tag.cc.o
+.PHONY : model/timestamp-tag.o
+
+# target to build an object file
+model/timestamp-tag.cc.o:
+	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/timestamp-tag.cc.o
+.PHONY : model/timestamp-tag.cc.o
+
+model/timestamp-tag.i: model/timestamp-tag.cc.i
+.PHONY : model/timestamp-tag.i
+
+# target to preprocess a source file
+model/timestamp-tag.cc.i:
+	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/timestamp-tag.cc.i
+.PHONY : model/timestamp-tag.cc.i
+
+model/timestamp-tag.s: model/timestamp-tag.cc.s
+.PHONY : model/timestamp-tag.s
+
+# target to generate assembly for a file
+model/timestamp-tag.cc.s:
+	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/cmake-cache && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/timestamp-tag.cc.s
+.PHONY : model/timestamp-tag.cc.s
+
 model/trace-fading-loss-model.o: model/trace-fading-loss-model.cc.o
 .PHONY : model/trace-fading-loss-model.o
 
@@ -1331,6 +1355,9 @@ help:
 	@echo "... model/three-gpp-spectrum-propagation-loss-model.o"
 	@echo "... model/three-gpp-spectrum-propagation-loss-model.i"
 	@echo "... model/three-gpp-spectrum-propagation-loss-model.s"
+	@echo "... model/timestamp-tag.o"
+	@echo "... model/timestamp-tag.i"
+	@echo "... model/timestamp-tag.s"
 	@echo "... model/trace-fading-loss-model.o"
 	@echo "... model/trace-fading-loss-model.i"
 	@echo "... model/trace-fading-loss-model.s"

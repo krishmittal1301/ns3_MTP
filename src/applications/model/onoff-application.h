@@ -32,6 +32,7 @@
 #include "ns3/data-rate.h"
 #include "ns3/traced-callback.h"
 #include "ns3/seq-ts-size-header.h"
+#include "ns3/distribution-tag.h"
 
 namespace ns3 {
 
@@ -120,6 +121,24 @@ public:
    * \return pointer to associated socket
    */
   Ptr<Socket> GetSocket (void) const;
+
+
+  /**
+   * Added for MTP projext - to set the interarrival time according to the different distributions
+   * Added by Krish Mittal - B22214, Siddharth Amlavad - B22177
+   */
+  Ptr<RandomVariableStream> m_interArrival;
+
+  /**
+   * \brief Set the type of distribution to be used for interarrival time
+   * \param dist The type of distribution to be used
+   * 0 - Exponential
+   * 1 - Uniform
+   * 2 - Normal
+   * 3 - Constant
+   */
+  uint8_t m_distributionType;
+
 
  /**
   * \brief Assign a fixed random variable stream number to the random variables

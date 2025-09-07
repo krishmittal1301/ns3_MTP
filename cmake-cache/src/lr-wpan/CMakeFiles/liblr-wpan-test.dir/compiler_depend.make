@@ -1464,6 +1464,7 @@ src/lr-wpan/CMakeFiles/liblr-wpan-test.dir/test/lr-wpan-collision-test.cc.o: ../
   ../build/include/ns3/mac64-address.h \
   ../build/include/ns3/mac48-address.h \
   ../build/include/ns3/mac16-address.h \
+  ../build/include/ns3/timestamp-tag.h \
   ../build/include/ns3/aloha-noack-net-device.h \
   ../build/include/ns3/generic-phy.h \
   ../build/include/ns3/constant-spectrum-propagation-loss.h \
@@ -4658,6 +4659,8 @@ src/lr-wpan/CMakeFiles/liblr-wpan-test.dir/test/lr-wpan-spectrum-value-helper-te
 /usr/include/c++/11/bits/std_mutex.h:
 
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+../build/include/ns3/timestamp-tag.h:
 
 ../build/include/ns3/lr-wpan-mac-header.h:
 

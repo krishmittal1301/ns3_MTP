@@ -26,4 +26,5 @@
     #include <ns3/udp-echo-server.h>
     #include <ns3/udp-server.h>
     #include <ns3/udp-trace-client.h>
+    #include <ns3/distribution-tag.h>
 #endif 

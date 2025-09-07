@@ -293,4 +293,10 @@ src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.o: \
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/address.h \
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/ipv6-address.h \
  /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/generic-phy.h \
- /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/llc-snap-header.h
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/llc-snap-header.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/model/timestamp-tag.h \
+ /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/include/ns3/tag.h \
+ /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc

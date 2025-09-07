@@ -519,6 +519,7 @@ src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-pi
   ../build/include/ns3/mac64-address.h \
   ../build/include/ns3/mac48-address.h \
   ../build/include/ns3/mac16-address.h \
+  ../build/include/ns3/timestamp-tag.h \
   ../build/include/ns3/aloha-noack-net-device.h \
   ../build/include/ns3/generic-phy.h \
   ../build/include/ns3/constant-spectrum-propagation-loss.h \
@@ -608,8 +609,6 @@ src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-pi
 
 ../build/include/ns3/lr-wpan-mac-trailer.h:
 
-../build/include/ns3/lr-wpan-mac-header.h:
-
 ../build/include/ns3/lr-wpan-error-model.h:
 
 ../build/include/ns3/lr-wpan-csmaca.h:
@@ -663,6 +662,10 @@ src/sixlowpan/examples/CMakeFiles/example-ping-lr-wpan-mesh-under.dir/example-pi
 /usr/include/x86_64-linux-gnu/bits/mathdef.h:
 
 /usr/include/features.h:
+
+../build/include/ns3/lr-wpan-mac-header.h:
+
+../build/include/ns3/timestamp-tag.h:
 
 ../build/include/ns3/mac16-address.h:
 

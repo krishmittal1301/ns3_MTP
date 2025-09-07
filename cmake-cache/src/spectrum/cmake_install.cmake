@@ -73,6 +73,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/helper/tv-spectrum-transmitter-helper.h"
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/helper/waveform-generator-helper.h"
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/model/aloha-noack-mac-header.h"
+    "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/model/timestamp-tag.h"
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/model/aloha-noack-net-device.h"
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/model/constant-spectrum-propagation-loss.h"
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/model/friis-spectrum-propagation-loss.h"

@@ -30,6 +30,9 @@
 #include "aloha-noack-mac-header.h"
 #include "aloha-noack-net-device.h"
 #include "ns3/llc-snap-header.h"
+#include "timestamp-tag.h"
+#include "fstream"
+#include "ns3/distribution-tag.h"
 
 namespace ns3 {
 
@@ -116,9 +119,19 @@ AlohaNoackNetDevice::GetTypeId (void)
   return tid;
 }
 
+//Added for MTP
+std::ofstream AlohaNoackNetDevice::m_delayLog("delayLog.txt");
+std::ofstream AlohaNoackNetDevice::m_incomingLog("incomingLog.txt");
+std::ofstream AlohaNoackNetDevice::m_lossLog("lossLog.txt");
+
+
+
 AlohaNoackNetDevice::AlohaNoackNetDevice ()
   : m_state (IDLE)
 {
+  m_pktCounter = 0;
+  m_pktSent = 0;
+  m_pktReceived = 0;
   NS_LOG_FUNCTION (this);
 }
 
@@ -348,15 +361,27 @@ bool
 AlohaNoackNetDevice::SendFrom (Ptr<Packet> packet, const Address& src, const Address& dest, uint16_t protocolNumber)
 {
   NS_LOG_FUNCTION (packet << src << dest << protocolNumber);
-  std::cout<<"send from called"<<Simulator::Now()<<std::endl;
+  // std::cout<<"send from called"<<Simulator::Now()<<std::endl;
+  Ptr<Packet> packetCopy = packet->Copy();  // work on a copy
   LlcSnapHeader llc;
   llc.SetType (protocolNumber);
-  packet->AddHeader (llc);
+  packetCopy->AddHeader (llc);
 
   AlohaNoackMacHeader header;
   header.SetSource (Mac48Address::ConvertFrom (src));
   header.SetDestination (Mac48Address::ConvertFrom (dest));
-  packet->AddHeader (header);
+  packetCopy->AddHeader (header);
+  
+  uint8_t distType;
+  DistributionTag distTag;
+  if(packet->PeekPacketTag(distTag))
+  {
+    distType = distTag.GetDistribution();
+    // std::cout << "Distribution Type = " << distType << std::endl;
+
+  }
+  m_incomingLog << "DistributionType: " << static_cast<DistributionTag::DistType>(distType) << "\t" << "Time: " << Simulator::Now() << "\t" << "queue-length: " <<m_queue->GetCurrentSize()<<std::endl;
+
 
   m_macTxTrace (packet);
 
@@ -404,16 +429,19 @@ AlohaNoackNetDevice::SendFrom (Ptr<Packet> packet, const Address& src, const Add
       Time nextSlot = Seconds (std::ceil (now.GetSeconds() / slotDuration.GetSeconds()) * slotDuration.GetSeconds());
       if(nextSlot == now && m_state != IDLE){
           nextSlot += slotDuration;
-          std::cout<<"Scheduled for"<<nextSlot<<std::endl;
+          // std::cout<<"Scheduled for"<<nextSlot<<std::endl;
       }
       else{
         Simulator::Schedule (nextSlot - now, &AlohaNoackNetDevice::StartTransmission, this);
-        std::cout<<"scheduled for"<<nextSlot<<std::endl;
+        // std::cout<<"scheduled for"<<nextSlot<<std::endl;
       }
   }
-  if (m_queue->Enqueue (packet) == false)
+  TimestampTag ts (Simulator::Now());
+  packetCopy->AddPacketTag(ts);
+  m_pktSent++;
+  if (m_queue->Enqueue (packetCopy) == false)
     {
-      m_macTxDropTrace (packet);
+      m_macTxDropTrace (packetCopy);
       sendOk = false;
     }
   return sendOk;
@@ -429,7 +457,8 @@ AlohaNoackNetDevice::SetGenericPhyTxStartCallback (GenericPhyTxStartCallback c)
 void
 AlohaNoackNetDevice::StartTransmission ()
 {
-  std::cout<<"starting ttansmission at"<<Simulator::Now()<<std::endl;
+  // std::cout<<"packet left: "<<m_queue->GetNPackets()<<std::endl;
+  // std::cout<<"starting tansmission at"<<Simulator::Now()<<std::endl;
   NS_LOG_FUNCTION (this);
 
   // NS_ASSERT (m_currentPkt == 0);
@@ -440,6 +469,7 @@ AlohaNoackNetDevice::StartTransmission ()
       Ptr<Packet> p = m_queue->Dequeue ();
       NS_ASSERT (p);
       m_currentPkt = p;
+      // std::cout<<"transmitting packet of size: "<<m_currentPkt->GetSize()<<std::endl;
       NS_LOG_LOGIC ("scheduling transmission now");
       if (m_phyMacTxStartCallback (m_currentPkt))
         {
@@ -454,7 +484,7 @@ AlohaNoackNetDevice::StartTransmission ()
         Time slotDuration =  MilliSeconds(4); // Slot Time
         Time nextSlot = Seconds (std::ceil (now.GetSeconds() / slotDuration.GetSeconds()+NanoSeconds(1).GetSeconds()) * slotDuration.GetSeconds());
         Simulator::Schedule (nextSlot - now, &AlohaNoackNetDevice::StartTransmission, this);
-        std::cout<<"scheduled for"<<nextSlot<<std::endl;
+        // std::cout<<"scheduled for"<<nextSlot<<std::endl;
       }
     }
 
@@ -465,7 +495,8 @@ AlohaNoackNetDevice::StartTransmission ()
 void
 AlohaNoackNetDevice::NotifyTransmissionEnd (Ptr<const Packet>)
 {
-  std::cout<<"notify trans end"<<std::endl;
+  // std::cout<<"packet left: "<<m_queue->GetNPackets()<<std::endl;
+  // std::cout<<"notify trans end: "<<Simulator::Now()<<std::endl;
   NS_LOG_FUNCTION (this);
   NS_ASSERT_MSG (m_state == TX, "TX end notified while state != TX");
   m_state = IDLE;
@@ -484,6 +515,7 @@ AlohaNoackNetDevice::NotifyTransmissionEnd (Ptr<const Packet>)
 void
 AlohaNoackNetDevice::NotifyReceptionStart ()
 {
+  // std::cout<<"notify reception start: "<<Simulator::Now()<<std::endl;
   NS_LOG_FUNCTION (this);
 }
 
@@ -505,8 +537,30 @@ AlohaNoackNetDevice::NotifyReceptionEndOk (Ptr<Packet> packet)
   NS_LOG_FUNCTION (this << packet);
   AlohaNoackMacHeader header;
   Ptr<Packet> originalPacket = packet->Copy();
+  TimestampTag ts;
+  DistributionTag distTag;
+  Time delay;
+  uint8_t distType;
+  uint32_t packetSize = packet->GetSize ();
+  // std::cout<<"notify reception end ok: "<<Simulator::Now()<<" Packet Size: "<<packetSize<<std::endl;
+  if (packet->PeekPacketTag (ts))
+  {
+    delay = Simulator::Now() - ts.GetTimestamp();
+    // std::cout << "End-to-end delay = " << delay.GetSeconds() << " s" << std::endl;
+  }
+  if(packet->PeekPacketTag(distTag))
+  {
+    distType = distTag.GetDistribution();
+    // std::cout << "Distribution Type = " << distType << std::endl;
+
+  }
+  
   packet->RemoveHeader (header);
   NS_LOG_LOGIC ("packet " << header.GetSource () << " --> " << header.GetDestination () << " (here: " << m_address << ")");
+  
+  //Added By for MTP
+  Mac48Address src = header.GetSource();
+  Mac48Address dst = header.GetDestination();
 
   LlcSnapHeader llc;
   packet->RemoveHeader (llc);
@@ -539,11 +593,23 @@ AlohaNoackNetDevice::NotifyReceptionEndOk (Ptr<Packet> packet)
 
   if (packetType != PACKET_OTHERHOST)
     {
+      // std::cout<<"notify reception end: "<<Simulator::Now()<<std::endl;
+      //Added By for MTP
+      m_pktReceived++;
+      m_pktCounter++;
+      m_delayLog << m_pktCounter << "\t" << "Src: " << src << "\t" << "Dst: "<< dst << "\t" <<"Delay: "<< delay.GetSeconds() <<"\t"<<"PacketSize: "<< packetSize << "\t" << "DistributionType: " << static_cast<DistributionTag::DistType>(distType) << "\t" << "Time: " << Simulator::Now() <<std::endl;
+      // NS_LOG_LOGIC ( m_pktCounter << "\t" << "Src: " << src << "\t" << "Dst: "<< dst << "\t" <<"Delay: "<< delay.GetSeconds() <<"\t"<<"PacketSize: "<< packetSize << "\t" << "DistributionType: " << static_cast<DistributionTag::DistType>(distType) << "\t" << "Time: " << Simulator::Now() <<std::endl);
+
       m_macRxTrace (originalPacket);
       m_rxCallback (this, packet, llc.GetType (), header.GetSource () );
     }
 }
 
-
+void
+AlohaNoackNetDevice::LogStatistics ()
+{
+  m_lossLog << "Sent: " << m_pktSent
+            << " Received: " << m_pktReceived << std::endl;
+}
 
 } // namespace ns3

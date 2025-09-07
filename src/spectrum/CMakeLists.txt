@@ -1,5 +1,6 @@
 set(source_files
     helper/adhoc-aloha-noack-ideal-phy-helper.cc
+    model/timestamp-tag.cc
     helper/spectrum-analyzer-helper.cc
     helper/spectrum-helper.cc
     helper/tv-spectrum-transmitter-helper.cc
@@ -43,6 +44,7 @@ set(header_files
     helper/tv-spectrum-transmitter-helper.h
     helper/waveform-generator-helper.h
     model/aloha-noack-mac-header.h
+    model/timestamp-tag.h
     model/aloha-noack-net-device.h
     model/constant-spectrum-propagation-loss.h
     model/friis-spectrum-propagation-loss.h

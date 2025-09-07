@@ -9,6 +9,7 @@
     #include <ns3/tv-spectrum-transmitter-helper.h>
     #include <ns3/waveform-generator-helper.h>
     #include <ns3/aloha-noack-mac-header.h>
+    #include <ns3/timestamp-tag.h>
     #include <ns3/aloha-noack-net-device.h>
     #include <ns3/constant-spectrum-propagation-loss.h>
     #include <ns3/friis-spectrum-propagation-loss.h>

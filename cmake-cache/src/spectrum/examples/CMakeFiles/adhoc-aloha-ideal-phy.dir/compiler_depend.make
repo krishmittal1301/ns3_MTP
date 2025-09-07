@@ -437,7 +437,8 @@ src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy
   ../build/include/ns3/udp-echo-client.h \
   ../build/include/ns3/udp-echo-server.h \
   ../build/include/ns3/udp-trace-client.h \
-  ../build/include/ns3/adhoc-aloha-noack-ideal-phy-helper.h
+  ../build/include/ns3/adhoc-aloha-noack-ideal-phy-helper.h \
+  ../build/include/ns3/aloha-noack-net-device.h
 
 
 ../build/include/ns3/udp-trace-client.h:
@@ -735,6 +736,8 @@ src/spectrum/examples/CMakeFiles/adhoc-aloha-ideal-phy.dir/adhoc-aloha-ideal-phy
 /usr/include/c++/11/string:
 
 ../build/include/ns3/nstime.h:
+
+../build/include/ns3/aloha-noack-net-device.h:
 
 ../build/include/ns3/waveform-generator.h:
 

@@ -5977,6 +5977,7 @@ src/test/CMakeFiles/libtest.dir/traced/traced-callback-typedef-test-suite.cc.o: 
   ../build/include/ns3/tv-spectrum-transmitter.h \
   ../build/include/ns3/waveform-generator-helper.h \
   ../build/include/ns3/aloha-noack-mac-header.h \
+  ../build/include/ns3/timestamp-tag.h \
   ../build/include/ns3/aloha-noack-net-device.h \
   ../build/include/ns3/constant-spectrum-propagation-loss.h \
   ../build/include/ns3/friis-spectrum-propagation-loss.h \
@@ -6688,6 +6689,8 @@ src/test/CMakeFiles/libtest.dir/traced/traced-value-callback-typedef-test-suite.
 ../build/include/ns3/friis-spectrum-propagation-loss.h:
 
 ../build/include/ns3/constant-spectrum-propagation-loss.h:
+
+../build/include/ns3/timestamp-tag.h:
 
 ../build/include/ns3/spectrum-helper.h:
 

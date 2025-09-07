@@ -561,6 +561,7 @@ src/lte/examples/CMakeFiles/lena-frequency-reuse.dir/lena-frequency-reuse.cc.o: 
   ../build/include/ns3/tv-spectrum-transmitter.h \
   ../build/include/ns3/waveform-generator-helper.h \
   ../build/include/ns3/aloha-noack-mac-header.h \
+  ../build/include/ns3/timestamp-tag.h \
   ../build/include/ns3/aloha-noack-net-device.h \
   ../build/include/ns3/constant-spectrum-propagation-loss.h \
   ../build/include/ns3/friis-spectrum-propagation-loss.h \
@@ -603,6 +604,8 @@ src/lte/examples/CMakeFiles/lena-frequency-reuse.dir/lena-frequency-reuse.cc.o: 
 /usr/include/x86_64-linux-gnu/bits/mathdef.h:
 
 ../build/include/ns3/half-duplex-ideal-phy.h:
+
+../build/include/ns3/timestamp-tag.h:
 
 ../build/include/ns3/non-communicating-net-device.h:
 

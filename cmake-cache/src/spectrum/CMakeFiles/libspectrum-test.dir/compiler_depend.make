@@ -1480,6 +1480,8 @@ src/spectrum/CMakeFiles/libspectrum-test.dir/test/spectrum-waveform-generator-te
   ../build/include/ns3/mac64-address.h \
   ../build/include/ns3/mac48-address.h \
   ../build/include/ns3/mac16-address.h \
+  ../build/include/ns3/timestamp-tag.h \
+  ../build/include/ns3/tag.h \
   ../build/include/ns3/aloha-noack-net-device.h \
   ../build/include/ns3/generic-phy.h \
   ../build/include/ns3/constant-spectrum-propagation-loss.h \
@@ -2864,6 +2866,8 @@ src/spectrum/CMakeFiles/libspectrum-test.dir/test/tv-spectrum-transmitter-test.c
 /usr/include/c++/11/cstdlib:
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
+
+../build/include/ns3/timestamp-tag.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
