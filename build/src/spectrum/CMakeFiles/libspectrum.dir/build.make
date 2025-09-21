@@ -75,12 +75,15 @@ libspectrum_OBJECTS =
 # External object files for target libspectrum
 libspectrum_EXTERNAL_OBJECTS = \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-helper.cc.o" \
+"/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-slotted-aloha-noack-ideal-phy-helper.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/src/spectrum/CMakeFiles/libspectrum-obj.dir/model/timestamp-tag.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helper.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.o" \
+"/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/src/spectrum/CMakeFiles/libspectrum-obj.dir/model/slotted-aloha-noack-mac-header.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.o" \
+"/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/src/spectrum/CMakeFiles/libspectrum-obj.dir/model/slotted-aloha-noack-net-device.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-loss.cc.o" \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-loss.cc.o" \
@@ -112,12 +115,15 @@ libspectrum_EXTERNAL_OBJECTS = \
 "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build/src/spectrum/CMakeFiles/libspectrum-obj.dir/model/wifi-spectrum-value-helper.cc.o"
 
 lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-helper.cc.o
+lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-slotted-aloha-noack-ideal-phy-helper.cc.o
 lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/timestamp-tag.cc.o
 lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-analyzer-helper.cc.o
 lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/spectrum-helper.cc.o
 lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/tv-spectrum-transmitter-helper.cc.o
 lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/waveform-generator-helper.cc.o
+lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/slotted-aloha-noack-mac-header.cc.o
 lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-mac-header.cc.o
+lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/slotted-aloha-noack-net-device.cc.o
 lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/aloha-noack-net-device.cc.o
 lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/constant-spectrum-propagation-loss.cc.o
 lib/libns3.36.1-spectrum-debug.so: src/spectrum/CMakeFiles/libspectrum-obj.dir/model/friis-spectrum-propagation-loss.cc.o

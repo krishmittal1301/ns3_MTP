@@ -37,8 +37,10 @@
 #include <ns3/mobility-module.h>
 #include <ns3/spectrum-helper.h>
 #include <ns3/applications-module.h>
-#include <ns3/adhoc-aloha-noack-ideal-phy-helper.h>
-#include "ns3/aloha-noack-net-device.h"
+// #include <ns3/adhoc-aloha-noack-ideal-phy-helper.h>
+#include <ns3/adhoc-slotted-aloha-noack-ideal-phy-helper.h>
+// #include "ns3/aloha-noack-net-device.h"
+#include <ns3/slotted-aloha-noack-net-device.h>
 
 using namespace ns3;
 
@@ -154,7 +156,7 @@ int main (int argc, char** argv)
   double noisePsdValue = k * T; // watts per hertz
   Ptr<SpectrumValue> noisePsd = sf.CreateConstant (noisePsdValue);
 
-  AdhocAlohaNoackIdealPhyHelper deviceHelper;
+  AdhocSlottedAlohaNoackIdealPhyHelper deviceHelper;
   deviceHelper.SetChannel (channel);
   deviceHelper.SetTxPowerSpectralDensity (txPsd);
   deviceHelper.SetNoisePowerSpectralDensity (noisePsd);
@@ -164,8 +166,12 @@ int main (int argc, char** argv)
   PacketSocketHelper packetSocket;
   packetSocket.Install (c);
 
+  // 4 sockets such that for each sender 2 sockets one for generation of packet from poisson distribution and other for generation of packet from constant rate
   PacketSocketAddress socket;
   PacketSocketAddress socket2;
+  PacketSocketAddress socket3;
+  PacketSocketAddress socket4;
+
   socket.SetSingleDevice (devices.Get (0)->GetIfIndex ());
   socket.SetPhysicalAddress (devices.Get (1)->GetAddress ());
   socket.SetProtocol (1);
@@ -174,33 +180,59 @@ int main (int argc, char** argv)
   socket2.SetPhysicalAddress (devices.Get (1)->GetAddress ());
   socket2.SetProtocol (1);
   
+  socket3.SetSingleDevice (devices.Get (2)->GetIfIndex ());
+  socket3.SetPhysicalAddress (devices.Get (1)->GetAddress ());
+  socket3.SetProtocol (1);
+
+  socket4.SetSingleDevice (devices.Get (2)->GetIfIndex ());
+  socket4.SetPhysicalAddress (devices.Get (1)->GetAddress ());
+  socket4.SetProtocol (1);
+
+  
   OnOffHelper onoff ("ns3::PacketSocketFactory", Address (socket));
   OnOffHelper onoff2 ("ns3::PacketSocketFactory", Address (socket2));
+  OnOffHelper onoff3 ("ns3::PacketSocketFactory", Address (socket3));
+  OnOffHelper onoff4 ("ns3::PacketSocketFactory", Address (socket4));
+
+  
   onoff.SetConstantRate (DataRate ("5Mbps"));
-  onoff.SetAttribute("InterArrivalTime",StringValue("ns3::ExponentialRandomVariable[Mean=0.008]")); // MTP
+  onoff.SetAttribute("InterArrivalTime",StringValue("ns3::ExponentialRandomVariable[Mean=0.02]")); // MTP
   onoff.SetAttribute ("PacketSize", UintegerValue (125));
   onoff.SetAttribute("DistributionType",UintegerValue(0)); // MTP Exponential
 
-  // onoff.SetAttribute("OnTime", StringValue("ns3::ExponentialRandomVariable[Mean=0.01]"));
-  // onoff.SetAttribute("OffTime", StringValue("ns3::ExponentialRandomVariable[Mean=0.06]"));
-
   onoff2.SetConstantRate (DataRate ("5Mbps"));
-  onoff2.SetAttribute("InterArrivalTime",StringValue("ns3::ConstantRandomVariable[Constant=0.008]")); // MTP
-  // onoff2.SetAttribute("InterArrivalTime",StringValue("ns3::UniformRandomVariable[Min=0.01|Max=0.05]")); // MTP
+  onoff2.SetAttribute("InterArrivalTime",StringValue("ns3::ConstantRandomVariable[Constant=0.02]")); // MTP
+  // onoff2.SetAttribute("InterArrivalTime",StringValue("ns3::UniformRandomVariable[Min=0.008|Max=0.05]")); // MTP
   onoff2.SetAttribute ("PacketSize", UintegerValue (125));
   onoff2.SetAttribute("DistributionType",UintegerValue(3)); // MTP Constant
 
-  // onoff2.SetAttribute("OnTime", StringValue("ns3::ExponentialRandomVariable[Mean=0.01]"));
-  // onoff2.SetAttribute("OffTime", StringValue("ns3::ExponentialRandomVariable[Mean=0.06]"));
+  onoff3.SetConstantRate (DataRate ("5Mbps"));
+  onoff3.SetAttribute("InterArrivalTime",StringValue("ns3::ExponentialRandomVariable[Mean=0.02]")); // MTP
+  onoff3.SetAttribute ("PacketSize", UintegerValue (125));
+  onoff3.SetAttribute("DistributionType",UintegerValue(0)); // MTP Exponential
+
+  onoff4.SetConstantRate (DataRate ("5Mbps"));
+  onoff4.SetAttribute("InterArrivalTime",StringValue("ns3::ConstantRandomVariable[Constant=0.02]")); // MTP
+  onoff4.SetAttribute ("PacketSize", UintegerValue (125));
+  onoff4.SetAttribute("DistributionType",UintegerValue(3)); // MTP Constant
 
 
   ApplicationContainer apps = onoff.Install (c.Get (0));
   ApplicationContainer apps2 = onoff2.Install (c.Get (0));
-  // apps.Start (Seconds (0));
-  // apps.Stop (Seconds (1));
+  ApplicationContainer apps3 = onoff3.Install (c.Get (2));
+  ApplicationContainer apps4 = onoff4.Install (c.Get (2));
+  apps.Start (Seconds (0));
+  apps.Stop (Seconds (10));
 
-  // apps2.Start (Seconds (0));
-  // apps2.Stop (Seconds (1));
+  apps2.Start (Seconds (0));
+  apps2.Stop (Seconds (10));
+
+  apps3.Start (Seconds (0));
+  apps3.Stop (Seconds (10));
+
+  apps4.Start (Seconds (0));
+  apps4.Stop (Seconds (10));
+
 
   Ptr<Socket> recvSink = SetupPacketReceive (c.Get (1));
 
@@ -217,7 +249,7 @@ int main (int argc, char** argv)
 
   for (uint32_t i=0; i<devices.GetN(); ++i)
   {
-    Ptr<AlohaNoackNetDevice> dev = DynamicCast<AlohaNoackNetDevice>(devices.Get(i));
+    Ptr<SlottedAlohaNoackNetDevice> dev = DynamicCast<SlottedAlohaNoackNetDevice>(devices.Get(i));
     if (dev) dev->LogStatistics();
   }
 

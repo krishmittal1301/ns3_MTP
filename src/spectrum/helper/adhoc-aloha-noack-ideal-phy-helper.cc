@@ -44,6 +44,7 @@ AdhocAlohaNoackIdealPhyHelper::AdhocAlohaNoackIdealPhyHelper ()
   m_phy.SetTypeId ("ns3::HalfDuplexIdealPhy");
   m_device.SetTypeId ("ns3::AlohaNoackNetDevice");
   m_queue.SetTypeId ("ns3::DropTailQueue<Packet>");
+  m_queue.Set ("MaxSize", QueueSizeValue (QueueSize ("2000p")));
   m_antenna.SetTypeId ("ns3::IsotropicAntennaModel");
 }
 

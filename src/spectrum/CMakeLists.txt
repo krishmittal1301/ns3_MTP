@@ -1,11 +1,14 @@
 set(source_files
     helper/adhoc-aloha-noack-ideal-phy-helper.cc
+    helper/adhoc-slotted-aloha-noack-ideal-phy-helper.cc
     model/timestamp-tag.cc
     helper/spectrum-analyzer-helper.cc
     helper/spectrum-helper.cc
     helper/tv-spectrum-transmitter-helper.cc
     helper/waveform-generator-helper.cc
+    model/slotted-aloha-noack-mac-header.cc
     model/aloha-noack-mac-header.cc
+    model/slotted-aloha-noack-net-device.cc
     model/aloha-noack-net-device.cc
     model/constant-spectrum-propagation-loss.cc
     model/friis-spectrum-propagation-loss.cc
@@ -39,13 +42,16 @@ set(source_files
 
 set(header_files
     helper/adhoc-aloha-noack-ideal-phy-helper.h
+    helper/adhoc-slotted-aloha-noack-ideal-phy-helper.h
     helper/spectrum-analyzer-helper.h
     helper/spectrum-helper.h
     helper/tv-spectrum-transmitter-helper.h
     helper/waveform-generator-helper.h
     model/aloha-noack-mac-header.h
+    model/slotted-aloha-noack-mac-header.h
     model/timestamp-tag.h
     model/aloha-noack-net-device.h
+    model/slotted-aloha-noack-net-device.h
     model/constant-spectrum-propagation-loss.h
     model/friis-spectrum-propagation-loss.h
     model/half-duplex-ideal-phy-signal-parameters.h

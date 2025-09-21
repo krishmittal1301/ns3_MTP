@@ -198,6 +198,7 @@ public:
   static std::ofstream m_delayLog;
   static std::ofstream m_incomingLog;
   static std::ofstream m_lossLog;
+  static std::ofstream m_macDelayLog;
 
 
   /**

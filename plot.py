@@ -37,17 +37,6 @@ print(avg_delay)
 
 # Step 4: Plot Delay over Time
 plt.figure(figsize=(10, 5))
-# for dtype in df['DistributionType'].unique():
-#     subset = df[df['DistributionType'] == dtype]
-#     plt.plot(subset['Time'], subset['Delay'], label=f'DistributionType {dtype}', marker='o')
-
-# plt.xlabel('Time (ns)')
-# plt.ylabel('Delay (s)')
-# plt.title('Packet Delay vs Time by Distribution Type')
-# plt.legend()
-# plt.grid(True)
-# plt.savefig("plot.png")
-
 
 dtypes = df['DistributionType'].unique()
 num_types = len(dtypes)

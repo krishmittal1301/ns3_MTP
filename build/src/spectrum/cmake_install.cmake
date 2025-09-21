@@ -68,13 +68,16 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/ns3" TYPE FILE FILES
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/helper/adhoc-aloha-noack-ideal-phy-helper.h"
+    "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/helper/adhoc-slotted-aloha-noack-ideal-phy-helper.h"
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/helper/spectrum-analyzer-helper.h"
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/helper/spectrum-helper.h"
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/helper/tv-spectrum-transmitter-helper.h"
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/helper/waveform-generator-helper.h"
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/model/aloha-noack-mac-header.h"
+    "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/model/slotted-aloha-noack-mac-header.h"
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/model/timestamp-tag.h"
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/model/aloha-noack-net-device.h"
+    "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/model/slotted-aloha-noack-net-device.h"
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/model/constant-spectrum-propagation-loss.h"
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/model/friis-spectrum-propagation-loss.h"
     "/home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/src/spectrum/model/half-duplex-ideal-phy-signal-parameters.h"

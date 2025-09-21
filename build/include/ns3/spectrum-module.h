@@ -4,13 +4,16 @@
 #ifndef NS3_MODULE_SPECTRUM
     // Module headers: 
     #include <ns3/adhoc-aloha-noack-ideal-phy-helper.h>
+    #include <ns3/adhoc-slotted-aloha-noack-ideal-phy-helper.h>
     #include <ns3/spectrum-analyzer-helper.h>
     #include <ns3/spectrum-helper.h>
     #include <ns3/tv-spectrum-transmitter-helper.h>
     #include <ns3/waveform-generator-helper.h>
     #include <ns3/aloha-noack-mac-header.h>
+    #include <ns3/slotted-aloha-noack-mac-header.h>
     #include <ns3/timestamp-tag.h>
     #include <ns3/aloha-noack-net-device.h>
+    #include <ns3/slotted-aloha-noack-net-device.h>
     #include <ns3/constant-spectrum-propagation-loss.h>
     #include <ns3/friis-spectrum-propagation-loss.h>
     #include <ns3/half-duplex-ideal-phy-signal-parameters.h>

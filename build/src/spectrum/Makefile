@@ -238,6 +238,30 @@ helper/adhoc-aloha-noack-ideal-phy-helper.cc.s:
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-aloha-noack-ideal-phy-helper.cc.s
 .PHONY : helper/adhoc-aloha-noack-ideal-phy-helper.cc.s
 
+helper/adhoc-slotted-aloha-noack-ideal-phy-helper.o: helper/adhoc-slotted-aloha-noack-ideal-phy-helper.cc.o
+.PHONY : helper/adhoc-slotted-aloha-noack-ideal-phy-helper.o
+
+# target to build an object file
+helper/adhoc-slotted-aloha-noack-ideal-phy-helper.cc.o:
+	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-slotted-aloha-noack-ideal-phy-helper.cc.o
+.PHONY : helper/adhoc-slotted-aloha-noack-ideal-phy-helper.cc.o
+
+helper/adhoc-slotted-aloha-noack-ideal-phy-helper.i: helper/adhoc-slotted-aloha-noack-ideal-phy-helper.cc.i
+.PHONY : helper/adhoc-slotted-aloha-noack-ideal-phy-helper.i
+
+# target to preprocess a source file
+helper/adhoc-slotted-aloha-noack-ideal-phy-helper.cc.i:
+	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-slotted-aloha-noack-ideal-phy-helper.cc.i
+.PHONY : helper/adhoc-slotted-aloha-noack-ideal-phy-helper.cc.i
+
+helper/adhoc-slotted-aloha-noack-ideal-phy-helper.s: helper/adhoc-slotted-aloha-noack-ideal-phy-helper.cc.s
+.PHONY : helper/adhoc-slotted-aloha-noack-ideal-phy-helper.s
+
+# target to generate assembly for a file
+helper/adhoc-slotted-aloha-noack-ideal-phy-helper.cc.s:
+	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/helper/adhoc-slotted-aloha-noack-ideal-phy-helper.cc.s
+.PHONY : helper/adhoc-slotted-aloha-noack-ideal-phy-helper.cc.s
+
 helper/spectrum-analyzer-helper.o: helper/spectrum-analyzer-helper.cc.o
 .PHONY : helper/spectrum-analyzer-helper.o
 
@@ -621,6 +645,54 @@ model/single-model-spectrum-channel.s: model/single-model-spectrum-channel.cc.s
 model/single-model-spectrum-channel.cc.s:
 	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/single-model-spectrum-channel.cc.s
 .PHONY : model/single-model-spectrum-channel.cc.s
+
+model/slotted-aloha-noack-mac-header.o: model/slotted-aloha-noack-mac-header.cc.o
+.PHONY : model/slotted-aloha-noack-mac-header.o
+
+# target to build an object file
+model/slotted-aloha-noack-mac-header.cc.o:
+	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/slotted-aloha-noack-mac-header.cc.o
+.PHONY : model/slotted-aloha-noack-mac-header.cc.o
+
+model/slotted-aloha-noack-mac-header.i: model/slotted-aloha-noack-mac-header.cc.i
+.PHONY : model/slotted-aloha-noack-mac-header.i
+
+# target to preprocess a source file
+model/slotted-aloha-noack-mac-header.cc.i:
+	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/slotted-aloha-noack-mac-header.cc.i
+.PHONY : model/slotted-aloha-noack-mac-header.cc.i
+
+model/slotted-aloha-noack-mac-header.s: model/slotted-aloha-noack-mac-header.cc.s
+.PHONY : model/slotted-aloha-noack-mac-header.s
+
+# target to generate assembly for a file
+model/slotted-aloha-noack-mac-header.cc.s:
+	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/slotted-aloha-noack-mac-header.cc.s
+.PHONY : model/slotted-aloha-noack-mac-header.cc.s
+
+model/slotted-aloha-noack-net-device.o: model/slotted-aloha-noack-net-device.cc.o
+.PHONY : model/slotted-aloha-noack-net-device.o
+
+# target to build an object file
+model/slotted-aloha-noack-net-device.cc.o:
+	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/slotted-aloha-noack-net-device.cc.o
+.PHONY : model/slotted-aloha-noack-net-device.cc.o
+
+model/slotted-aloha-noack-net-device.i: model/slotted-aloha-noack-net-device.cc.i
+.PHONY : model/slotted-aloha-noack-net-device.i
+
+# target to preprocess a source file
+model/slotted-aloha-noack-net-device.cc.i:
+	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/slotted-aloha-noack-net-device.cc.i
+.PHONY : model/slotted-aloha-noack-net-device.cc.i
+
+model/slotted-aloha-noack-net-device.s: model/slotted-aloha-noack-net-device.cc.s
+.PHONY : model/slotted-aloha-noack-net-device.s
+
+# target to generate assembly for a file
+model/slotted-aloha-noack-net-device.cc.s:
+	cd /home/krish/MTP/ns3/ns-allinone-3.36.1/ns-3.36.1/build && $(MAKE) $(MAKESILENT) -f src/spectrum/CMakeFiles/libspectrum-obj.dir/build.make src/spectrum/CMakeFiles/libspectrum-obj.dir/model/slotted-aloha-noack-net-device.cc.s
+.PHONY : model/slotted-aloha-noack-net-device.cc.s
 
 model/spectrum-analyzer.o: model/spectrum-analyzer.cc.o
 .PHONY : model/spectrum-analyzer.o
@@ -1265,6 +1337,9 @@ help:
 	@echo "... helper/adhoc-aloha-noack-ideal-phy-helper.o"
 	@echo "... helper/adhoc-aloha-noack-ideal-phy-helper.i"
 	@echo "... helper/adhoc-aloha-noack-ideal-phy-helper.s"
+	@echo "... helper/adhoc-slotted-aloha-noack-ideal-phy-helper.o"
+	@echo "... helper/adhoc-slotted-aloha-noack-ideal-phy-helper.i"
+	@echo "... helper/adhoc-slotted-aloha-noack-ideal-phy-helper.s"
 	@echo "... helper/spectrum-analyzer-helper.o"
 	@echo "... helper/spectrum-analyzer-helper.i"
 	@echo "... helper/spectrum-analyzer-helper.s"
@@ -1313,6 +1388,12 @@ help:
 	@echo "... model/single-model-spectrum-channel.o"
 	@echo "... model/single-model-spectrum-channel.i"
 	@echo "... model/single-model-spectrum-channel.s"
+	@echo "... model/slotted-aloha-noack-mac-header.o"
+	@echo "... model/slotted-aloha-noack-mac-header.i"
+	@echo "... model/slotted-aloha-noack-mac-header.s"
+	@echo "... model/slotted-aloha-noack-net-device.o"
+	@echo "... model/slotted-aloha-noack-net-device.i"
+	@echo "... model/slotted-aloha-noack-net-device.s"
 	@echo "... model/spectrum-analyzer.o"
 	@echo "... model/spectrum-analyzer.i"
 	@echo "... model/spectrum-analyzer.s"
